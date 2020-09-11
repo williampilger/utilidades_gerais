@@ -3,27 +3,27 @@ call conf.bat
 color %color%
 set versao=012
 	set Edition=
-REM celecione como "X" a "Edition" caso queira criar uma edição especial.
+REM selecione como "X" a "Edition" caso queira criar uma ediÃ§Ã£o especial.
 	set IDXE=
-REM caso a "Edition" seja expecial, DEVEM ser preenchidos os campos "IDXE" e "locdirXE", onde a primeira é o ID que o usuario deve assumir, e o segundo é o local do servidor.
+REM caso a "Edition" seja expecial, DEVEM ser preenchidos os campos "IDXE" e "locdirXE", onde a primeira Ã© o ID que o usuario deve assumir, e o segundo Ã© o local do servidor.
 	set locdirXE=
 REM [14/06/2015]
 set TCARRE=2
-REM tempo entre as atalizações de tala do "carrega".
+REM tempo entre as atalizaÃ§Ãµes de tala do "carrega".
 set TCARREC=1
-REM tempo que o programa espera, para reescrever as configurações do arquivo "config", entre uma configuração e outra.
+REM tempo que o programa espera, para reescrever as configuraÃ§Ãµes do arquivo "config", entre uma configuraÃ§Ã£o e outra.
 set TLER=5
-REM tempo que o programa espera para atualizar as mensagens da converça no modo SAVA.
+REM tempo que o programa espera para atualizar as mensagens da converÃ§a no modo SAVA.
 set TLER=2
-REM tempo que o programa espera para atualizar as mensagens da converça no modo SBMAVA.
+REM tempo que o programa espera para atualizar as mensagens da converÃ§a no modo SBMAVA.
 set TESPENT=1
 REM tempo que o programa espera para atualizar mensagens na hora de atualizar totalmente a lista, no modo SBMAVA
 set TLOK=5
-REM tempo que o programa dá para que algum ID sej banido.
+REM tempo que o programa dÃ¡ para que algum ID sej banido.
 set napp=Mega
 REM Nome como o programa deve ser salvo.
 set ex=bat
-REM extensão do programa (no servidor?)
+REM extensÃ£o do programa (no servidor?)
 set exdoser=bat
 REM extensao do servico
 set senha=21232426
@@ -31,7 +31,7 @@ REM senha de administrador
 set DEVE_OCULTAR_SERV=N
 REM Deve ocultar arquivos no servidor?(S ou N)
 set DEVE_OCULTAR_LOCA=S
-REM Deve ocultar arquivos de configuração no diretorio do programa?(S ou N)
+REM Deve ocultar arquivos de configuraÃ§Ã£o no diretorio do programa?(S ou N)
 set opcao=0
 :ini
 if not exist conf.bat goto inib
@@ -98,7 +98,7 @@ echo   00000001  00001  000000000  0000000 0000000 0     0
 echo  0011111100  110   0111111100 
 echo.
 echo.
-echo.          Will Corporation®
+echo.          Will CorporationÂ®
 echo.
 echo Para comecar, e conectar diretamente no servidor, tecle enter
 set number=0
@@ -140,7 +140,7 @@ echo.
 goto edx2
 :crisennovuser
 cls
-echo estamos configurando sua edição especial...
+echo estamos configurando sua ediÃ§Ã£o especial...
 mkdir %locdir%\edx
 copy NUL %locdir%\edx\%senho%%IDXE%.key
 echo set locdir=%locdirXE%> conf.bat
@@ -334,7 +334,7 @@ if %TSERV% equ SAVA goto TSLMSAVA
 if %M% equ 0 cls
 if %TSERV% equ SBMAVA goto TSLMSBMAVA
 cls
-echo Algo falhou! por favor, verifique as suas configurações!
+echo Algo falhou! por favor, verifique as suas configuraÃ§Ãµes!
 pause
 exit
 :TSLMSAVA
@@ -568,7 +568,7 @@ if %TSERV% equ SAVA goto TSLMSAVAA
 if %M% equ 0 cls
 if %TSERV% equ SBMAVA goto TSLMSBMAVAA
 cls
-echo Algo falhou! por favor, verifique as suas configurações!
+echo Algo falhou! por favor, verifique as suas configuraÃ§Ãµes!
 pause
 exit
 :TSLMSAVAA
@@ -648,7 +648,7 @@ call nom.bat
 if %TSERV% equ SAVA goto EEMSAVA
 if %TSERV% equ SBMAVA goto EEMSBMAVA
 cls
-echo Algo falhou! verifique suas configurações!
+echo Algo falhou! verifique suas configuraÃ§Ãµes!
 pause
 exit
 :EEMSAVA
@@ -693,7 +693,7 @@ if %TSERV% equ SAVA goto EMSAVA
 set N=0
 if %TSERV% equ SBMAVA goto EMSBMAVA
 cls
-echo Algo falhou! verifique suas configurações!
+echo Algo falhou! verifique suas configuraÃ§Ãµes!
 pause
 exit
 :EMSAVA
@@ -745,7 +745,7 @@ call nom.bat
 if %TSERV% equ SAVA goto EEMSAVA2
 if %TSERV% equ SBMAVA goto EEMSBMAVA2
 cls
-echo Algo falhou! verifique suas configurações!
+echo Algo falhou! verifique suas configuraÃ§Ãµes!
 pause
 exit
 :EEMSAVA2
@@ -794,7 +794,7 @@ if %TSERV% equ SAVA goto EMSAVA2
 set N=0
 if %TSERV% equ SBMAVA goto EMSBMAVA2
 cls
-echo Algo falhou! verifique suas configurações!
+echo Algo falhou! verifique suas configuraÃ§Ãµes!
 pause
 exit
 :EMSAVA2
@@ -1018,9 +1018,9 @@ echo.
 echo    0 = Preto        8 = Cinza
 echo    1 = Azul         9 = Azul claro
 echo    2 = Verde        A = Verde claro
-echo    3 = Verde-água   B = Verde-água claro
+echo    3 = Verde-Ã¡gua   B = Verde-Ã¡gua claro
 echo    4 = Vermelho     C = Vermelho claro
-echo    5 = Roxo         D = Lilás
+echo    5 = Roxo         D = LilÃ¡s
 echo    6 = Amarelo      E = Amarelo claro
 echo    7 = Branco       F = Branco brilhante
 echo.
@@ -1045,11 +1045,11 @@ goto MAXOPICA
 \\@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 :MAXOPICASBMAVC
 cls
-echo este menu não esta disponivel para este tipo de servidor!
+echo este menu nÃ£o esta disponivel para este tipo de servidor!
 echo.
 echo.
 echo.  Menu em desenvolvimento!
-echo	Provavelmente em alguma das proximas atualizações estas
+echo	Provavelmente em alguma das proximas atualizaÃ§Ãµes estas
 echo	Opcoes adicionais ja estarao disponiveis
 echo.
 pause
