@@ -9,10 +9,15 @@ void teste_matematica_avancada(void){
 	int tempo;
 	tempo = clock();
 	int i, j, k, z=0;
+	double float var1 = 9871528;
+	double float var2 = 52525;
+	double float var3 = 9871527;
+	double float var4 = 52523;
+	double float traa;
 	for(i=0;i<n;i++){
 	    for(j=0;j<n;j++){
 	        for(k=0;k<n;k++){
-	            pow(sqrt(pow(x,100)), 1/100)+9871528*52525-9871527*52523;
+	            traa = pow(sqrt(pow(x,100)), 1/100)+var1*var2-var3*var4;
 	            z ++;
 	        }
 	    }
