@@ -30,7 +30,11 @@ def sair(code):
 
 def obtem_nome_janela():
     if(eh_windows):
-        return GetWindowText(GetForegroundWindow())
+        try:
+            return GetWindowText(GetForegroundWindow())
+        except:
+            return "NULL"
+            
 
 def limpar_terminal():
     if(eh_windows):
