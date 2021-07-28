@@ -36,9 +36,10 @@ Caso prefira, pode baixar o codigo fonte original [aqui](https://raw.githubuserc
 Durante a primeira execução serão instaladas as bibliotecas necessárias.
 
 
-## Licença públic geral
+## Licença
 
 ```
+LICENÇA PÚBLICA GERAL
 Versão 1, Julho de 2021.
 
 Copyright (C) 1991 Free Software Foundation, Inc.
