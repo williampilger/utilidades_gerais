@@ -45,7 +45,9 @@ Copyright (C) 1991 Free Software Foundation, Inc.
 Harmonia, Rio Grande do Sul, Brasil.
 William Pilger
 
-Todos têm permissão para copiar, e distribuir cópias textuais deste documento de licença, mas não é permitido alterá-lo.
+Todos têm permissão para copiar, e distribuir cópias textuais
+deste documento de licença, mas não é permitido alterá-lo.
 
-A utilização, alteração, e distribuição (remunerada ou não) deste software é permitida desde que seu termo de licença seja mantido.
+A utilização, alteração, e distribuição (remunerada ou não) deste
+software é permitida desde que seu termo de licença seja mantido.
 ```
