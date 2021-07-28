@@ -157,15 +157,3 @@ def inicio():
 if (__name__ == "__main__"):
     inicio()
     print("FIM DA EXECUÇÃO!")
-
-
-def ler_projetos():
-    with open("projetos.txt", "r") as arquivo:
-        projetos = []
-        chaves = []
-        for linha in arquivo:
-            parcial = linha.split('\t')
-            projetos.append(parcial[0])
-            chaves.append(parcial[1])
-    print(f'Leitura dos projetos concluída.')
-    return
