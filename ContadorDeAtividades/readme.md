@@ -7,12 +7,14 @@ Este script tem o intuito de monitorar e contabilizar o tempo utilizado para cad
 Para executar esta aplicação basta instalar o Python, então siga:
 
 **Para Windows**
+
 - Baixe o instalador do Python do [site oficial](python.org);
 - Execute o instalador **como administrador**;
 - Marque a opção `Adicionar python ao PATH do windows`;
 - Conclua a instalação com Next-next-finish;
 
-**Para Linux**
+**Para Linux - AINDA INDISPONÌVEL**
+
 Abra o terminal e instale o python3, com os seguintes comandos:
 
 > sudo apt-get install python3
