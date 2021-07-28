@@ -48,6 +48,8 @@ def registra_log_geral(texto):
         with open("log_geral.txt", "a") as arquivo:
             instante = datetime.now().strftime('%d/%m/%Y\t%H:%M:%S')
             arquivo.writelines(f"\n{instante}\t{texto}")
+    except:
+        print("Ocorreu um erro")
     return
 
 def monitoracao():
