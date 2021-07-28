@@ -35,10 +35,17 @@ Caso prefira, pode baixar o codigo fonte original [aqui](https://raw.githubuserc
 
 Durante a primeira execução serão instaladas as bibliotecas necessárias.
 
-## Licença
+
+## Licença públic geral
 
 ```
-Software desenvolvido e distribuido por William Pilger.
+Versão 1, Julho de 2021.
 
-A cópia e utilização é liberada, desde que este termo de licença seja mantido
+Copyright (C) 1991 Free Software Foundation, Inc.
+Harmonia, Rio Grande do Sul, Brasil.
+William Pilger
+
+Todos têm permissão para copiar, e distribuir cópias textuais deste documento de licença, mas não é permitido alterá-lo.
+
+A utilização, alteração, e distribuição (remunerada ou não) deste software é permitida desde que seu termo de licença seja mantido.
 ```
