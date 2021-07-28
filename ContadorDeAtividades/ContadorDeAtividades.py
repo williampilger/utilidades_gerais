@@ -30,10 +30,7 @@ def sair(code):
 
 def obtem_nome_janela():
     if(eh_windows):
-        try:
-            return GetWindowText(GetForegroundWindow())
-        except:
-            return "NULL"
+        return GetWindowText(GetForegroundWindow())
             
 
 def limpar_terminal():
@@ -49,7 +46,7 @@ def registra_log_geral(texto):
             instante = datetime.now().strftime('%d/%m/%Y\t%H:%M:%S')
             arquivo.writelines(f"\n{instante}\t{texto}")
     except:
-        print("Ocorreu um erro")
+        pass
     return
 
 def monitoracao():
