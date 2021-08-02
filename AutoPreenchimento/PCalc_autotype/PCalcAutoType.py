@@ -42,7 +42,7 @@ def preenchimento_tab_simples(nome_janela_deve_conter):
         if (nome_desta_janela  in GetWindowText(GetForegroundWindow())):
             break
         time.sleep(dela_entre_varredura_de_tela)
-    os.system(f"echo. >> {nome_arquivo}")#adiciona linha em branco, pra garantir que tenha. ##VER## isso pode ser melhorado
+    os.system(f"echo.>> {nome_arquivo}")#adiciona linha em branco, pra garantir que tenha. ##VER## isso pode ser melhorado
     print(f'Buscando janela do {nome_janela_deve_conter}')
     if(busca_janela(nome_janela_deve_conter, 10)):
         print(f"Janela do {nome_janela_deve_conter} encontrada!")
@@ -78,7 +78,7 @@ def preenchimento_tab_simples(nome_janela_deve_conter):
                 else:
                     linha_util = True
                     temp_string += letra
-            if(linha_util):
+            if(linha_util == True):
                 for celula in celulas:
                     pyautogui.write(f"{celula}\t")
                 pyautogui.press('tab')
