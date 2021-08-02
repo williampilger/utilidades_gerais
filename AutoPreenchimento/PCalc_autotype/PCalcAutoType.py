@@ -70,15 +70,18 @@ def preenchimento_tab_simples(nome_janela_deve_conter):
             print("{:.100s}".format(linha[:len(linha)-1]))
             temp_string = ""
             celulas = []
+            linha_util = False
             for letra in linha:
                 if(letra == '\t' or letra == '\n'):
                     celulas.append(temp_string)
                     temp_string = ""
                 else:
+                    linha_util = True
                     temp_string += letra
-            for celula in celulas:
-                pyautogui.write(f"{celula}\t")
-            pyautogui.press('tab')
+            if(linha_util):
+                for celula in celulas:
+                    pyautogui.write(f"{celula}\t")
+                pyautogui.press('tab')
         
     os.system(f"del /q {nome_arquivo}")
 
