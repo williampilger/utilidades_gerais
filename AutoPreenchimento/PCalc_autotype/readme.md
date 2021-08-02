@@ -2,6 +2,9 @@
 
 Para utilizar esta aplicação, tenha instalado o [Python](python.org).
 
+Use o codigo-fonte abaixo para executar a aplicação:
+[Codigo-Fonte](PCalcAutoType.py). 
+
 ## Utilização
 - Abra o PCalc, preencha os dados iniciais, e na guia `Entrada de dados` crie as linhas necessárias, e deixe o cursor no primeiro campo;
 - Abra a aplicação python;
