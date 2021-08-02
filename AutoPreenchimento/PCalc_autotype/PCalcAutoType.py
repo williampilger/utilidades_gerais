@@ -42,6 +42,7 @@ def preenchimento_tab_simples(nome_janela_deve_conter):
         if (nome_desta_janela  in GetWindowText(GetForegroundWindow())):
             break
         time.sleep(dela_entre_varredura_de_tela)
+    os.system(f"echo. >> {nome_arquivo}")#adiciona linha em branco, pra garantir que tenha. ##VER## isso pode ser melhorado
     print(f'Buscando janela do {nome_janela_deve_conter}')
     if(busca_janela(nome_janela_deve_conter, 10)):
         print(f"Janela do {nome_janela_deve_conter} encontrada!")
@@ -54,16 +55,6 @@ def preenchimento_tab_simples(nome_janela_deve_conter):
                 print(f'Você não está mais na janela do {nome_janela_deve_conter}')
                 return
             print("{:.100s}".format(linha[:len(linha)-1]))
-            celulas = linha.split('\t')
-            for string in celulas:
-                pyautogui.write(f"{string}\t")
-                time.sleep(delay_entre_preenchimento)
-            pyautogui.press('tab')'''
-        for linha in arquivo:
-            if not nome_janela_deve_conter in GetWindowText(GetForegroundWindow()):
-                print(f'Você não está mais na janela do {nome_janela_deve_conter}')
-                return
-            print("{:.100s}".format(linha[:len(linha)-1]))
             for letra in linha:
                 if(letra == '\t'):
                     pyautogui.press('tab')
@@ -71,7 +62,24 @@ def preenchimento_tab_simples(nome_janela_deve_conter):
                     pyautogui.press('tab')
                     pyautogui.press('tab')
                 else:
-                    pyautogui.write(letra)
+                    pyautogui.write(letra)'''
+        for linha in arquivo:
+            if not nome_janela_deve_conter in GetWindowText(GetForegroundWindow()):
+                print(f'Você não está mais na janela do {nome_janela_deve_conter}')
+                return
+            print("{:.100s}".format(linha[:len(linha)-1]))
+            temp_string = ""
+            celulas = []
+            for letra in linha:
+                if(letra == '\t' or letra == '\n'):
+                    celulas.append(temp_string)
+                    temp_string = ""
+                else:
+                    temp_string += letra
+            for celula in celulas:
+                pyautogui.write(f"{celula}\t")
+            pyautogui.press('tab')
+        
     os.system(f"del /q {nome_arquivo}")
 
 
