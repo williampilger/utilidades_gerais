@@ -8,7 +8,7 @@ Você baixar os três arquivos na pasta `scr` contendo o código fonte e executa
 
 Caso não queira instalar o interpretador python:
 
-- [Download Executável - Winwos10x64](dist/)
+- [Download Executável - Winwos10x64](https://github.com/williampilger/utilidades_gerais/raw/master/NCM_finder/dist/BuscadorNCM-windows10x64.exe)
 
 # Sobre
 
