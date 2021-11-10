@@ -9,7 +9,7 @@ Você baixar os três arquivos na pasta `scr` contendo o código fonte e executa
 Caso não queira instalar o interpretador python:
 
 - [Download Executável - Windows10x64](https://github.com/williampilger/utilidades_gerais/raw/master/NCM_finder/dist/BuscadorNCM-windows10x64.exe)
-- [Download Executável - Uubuntu 20.04 x64](https://github.com/williampilger/utilidades_gerais/raw/master/NCM_finder/dist/BuscadorNCM-Ubuntux64)
+- [Download Executável - Ubuntu 20.04 x64](https://github.com/williampilger/utilidades_gerais/raw/master/NCM_finder/dist/BuscadorNCM-Ubuntux64)
 
 # Executando no Linux
 
