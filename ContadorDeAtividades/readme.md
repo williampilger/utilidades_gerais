@@ -1,4 +1,4 @@
-# Contador de Atividades
+# Contador de Atividades (inacabado, e atualmente abandonado)
 
 Este script tem o intuito de monitorar e contabilizar o tempo utilizado para cada atividade.
 
