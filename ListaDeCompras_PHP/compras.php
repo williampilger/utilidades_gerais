@@ -76,23 +76,31 @@ array_pop($listaCompras);
 <html>
 <head>
     <title>Lista de Compras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
+        html, body {
             font-family: Arial, sans-serif;
-            width: 100%;
+            width: fit-content;
+            margin: 0;
+            padding: 10px;
         }
 
         a{
             text-decoration: none;
         }
 
-        h1 {
+        .titles-area{
+            padding: 15px 0;
+        }
+
+        h1,h5 {
             color: #333;
+            margin: 1px;
         }
 
         form {
             margin-bottom: 20px;
-            width: 100%;
+            width: fit-content;
         }
 
         input[type="text"] {
@@ -129,7 +137,10 @@ array_pop($listaCompras);
 </head>
 <body>
     <a href="index.php">&#8592; Voltar</a>
-    <h1>Lista de Compras: <?=$lista?></h1>
+    <div class="titles-area">
+        <h5>Lista de Compras:</h5>
+        <h1><?=$lista?></h1>
+    </div>
     <!-- Formulário para adicionar itens -->
     <form method="POST" action="">
         <input type="text" name="item" placeholder="Digite um item" required>
