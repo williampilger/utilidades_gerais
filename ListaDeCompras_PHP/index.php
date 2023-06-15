@@ -30,6 +30,12 @@ $listaArquivos = glob('*.txt');
         
         a{
             text-decoration: none;
+            padding: 7px 14px;
+            background-color:  #CCC;
+            border-radius: 10px;
+            margin: 4px;
+            display: inline-block;
+            font-size: 18px;
         }
 
         h1 {
