@@ -62,12 +62,6 @@ $listaArquivos = glob('*.txt');
 <body>
     <h1>Listas de Compras</h1>
 
-    <!-- Formulário para criar uma nova lista -->
-    <form method="POST" action="">
-        <input type="text" name="nome_lista" placeholder="Nome da Lista" required>
-        <button type="submit">Criar Lista</button>
-    </form>
-
     <!-- Lista de listas existentes -->
     <?php if (empty($listaArquivos)) : ?>
         <p>Nenhuma lista encontrada.</p>
@@ -82,5 +76,11 @@ $listaArquivos = glob('*.txt');
             <?php endforeach; ?>
         </ul>
     <?php endif; ?>
+
+    <!-- Formulário para criar uma nova lista -->
+    <form method="POST" action="">
+        <input type="text" name="nome_lista" placeholder="Nome da Nova Lista" required>
+        <button type="submit">Criar Lista</button>
+    </form>
 </body>
 </html>
