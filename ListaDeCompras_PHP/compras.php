@@ -1,6 +1,14 @@
 <?php
 // Define o caminho completo do arquivo .txt
-$caminhoArquivo = __DIR__ . '/lista_compras.txt';
+if( isset($_GET['lista']) )
+{
+    $lista = $_GET['lista'] ;
+}
+else
+{
+    header('Location: index.php');
+}
+$caminhoArquivo = __DIR__ ."/$lista";
 
 // Verifica se o formulário foi enviado
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -74,6 +82,10 @@ array_pop($listaCompras);
             width: 100%;
         }
 
+        a{
+            text-decoration: none;
+        }
+
         h1 {
             color: #333;
         }
@@ -116,8 +128,8 @@ array_pop($listaCompras);
     </style>
 </head>
 <body>
-    <h1>Lista de Compras</h1>
-
+    <a href="index.php">&#8592; Voltar</a>
+    <h1>Lista de Compras: <?=$lista?></h1>
     <!-- Formulário para adicionar itens -->
     <form method="POST" action="">
         <input type="text" name="item" placeholder="Digite um item" required>

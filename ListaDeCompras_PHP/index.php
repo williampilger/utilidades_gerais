@@ -1,0 +1,86 @@
+<?php
+// Verifica se o formulário foi enviado para criar uma nova lista
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Obtém o nome da nova lista enviado pelo formulário
+    $nomeLista = $_POST['nome_lista'];
+
+    // Cria um novo arquivo para a lista
+    $nomeArquivo = "$nomeLista.txt";
+    $caminhoArquivo = __DIR__ . "/$nomeArquivo";
+    file_put_contents($caminhoArquivo, '');
+
+    // Redireciona para a página da nova lista
+    header('Location: compras.php?lista=' . urlencode($nomeArquivo));
+    exit;
+}
+
+// Obtém a lista de arquivos de listas existentes
+$listaArquivos = glob('*.txt');
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listas de Compras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Listas de Compras</h1>
+
+    <!-- Formulário para criar uma nova lista -->
+    <form method="POST" action="">
+        <input type="text" name="nome_lista" placeholder="Nome da Lista" required>
+        <button type="submit">Criar Lista</button>
+    </form>
+
+    <!-- Lista de listas existentes -->
+    <?php if (empty($listaArquivos)) : ?>
+        <p>Nenhuma lista encontrada.</p>
+    <?php else : ?>
+        <ul>
+            <?php foreach ($listaArquivos as $arquivo) : ?>
+                <?php
+                    $nomeLista = pathinfo($arquivo, PATHINFO_FILENAME);
+                    $linkLista = 'compras.php?lista=' . urlencode($arquivo);
+                ?>
+                <li><a href="<?php echo $linkLista; ?>"><?php echo $nomeLista; ?></a></li>
+            <?php endforeach; ?>
+        </ul>
+    <?php endif; ?>
+</body>
+</html>
