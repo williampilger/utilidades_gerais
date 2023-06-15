@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     fclose($arquivo);
 
     // Redireciona para a mesma página para evitar o reenvio do formulário
-    header('Location: ' . $_SERVER['PHP_SELF']);
+    header('Location: ' . $_SERVER['PHP_SELF']."?lista=$lista");
     exit;
 }
 
@@ -59,7 +59,7 @@ if (isset($_GET['remove'])) {
     fclose($arquivo);
 
     // Redireciona para a mesma página para evitar o reenvio do formulário
-    header('Location: ' . $_SERVER['PHP_SELF']);
+    header('Location: ' . $_SERVER['PHP_SELF']."?lista=$lista");
     exit;
 }
 
@@ -149,7 +149,7 @@ array_pop($listaCompras);
     <script>
         function removerItem(indice) {
             if (confirm('Tem certeza de que deseja remover este item?')) {
-                window.location.href = '?remove=' + indice;
+                window.location.href = '?lista=<?=$lista?>&remove=' + indice;
             }
         }
     </script>
