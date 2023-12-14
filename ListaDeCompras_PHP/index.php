@@ -30,6 +30,17 @@ $listaArquivos = glob('*.txt');
         
         a{
             text-decoration: none;
+            padding: 7px 14px;
+            background-color:  #CCC;
+            border-radius: 10px;
+            margin: 4px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        a.simp{
+            background-color: #333;
+            color: white;
+            font-weight: bold;
         }
 
         h1 {
@@ -75,6 +86,7 @@ $listaArquivos = glob('*.txt');
                 ?>
                 <li><a href="<?php echo $linkLista; ?>"><?php echo $nomeLista; ?></a></li>
             <?php endforeach; ?>
+            <li><a href="resume.php" class="simp">RESUMO</a></li>
         </ul>
     <?php endif; ?>
 
