@@ -140,14 +140,14 @@ array_pop($listaCompras);
             border-radius: 5px;
             margin-right: 10px;
         }
-
-        .delete-list{
+        .delete-list {
             color: #ffff;
-            background-color: #AA2222AA;
             cursor: pointer;
+            background-color: #AA2222AA;
             padding: 5px 10px;
             border-radius: 5px;
-            margin-right: 10px;
+            margin: 20px 10px;
+            display: inline-block;
         }
     </style>
 </head>
