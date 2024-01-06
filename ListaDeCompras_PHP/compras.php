@@ -35,32 +35,39 @@ if (isset($_GET['remove'])) {
     // Obtém o índice do item a ser removido
     $indice = $_GET['remove'];
 
-    // Lê o conteúdo do arquivo
-    $conteudo = file_get_contents($caminhoArquivo);
+    if($indice=='*'){
+        rename($caminhoArquivo, str_replace('.txt','.trash', $caminhoArquivo));
+        header('Location: index.php');
+        exit;
+    } else {
 
-    // Converte o conteúdo em um array
-    $listaCompras = explode(PHP_EOL, $conteudo);
-
-    // Remove o item correspondente ao índice
-    if (isset($listaCompras[$indice])) {
-        unset($listaCompras[$indice]);
+        // Lê o conteúdo do arquivo
+        $conteudo = file_get_contents($caminhoArquivo);
+    
+        // Converte o conteúdo em um array
+        $listaCompras = explode(PHP_EOL, $conteudo);
+    
+        // Remove o item correspondente ao índice
+        if (isset($listaCompras[$indice])) {
+            unset($listaCompras[$indice]);
+        }
+    
+        // Reindexa o array
+        $listaCompras = array_values($listaCompras);
+    
+        // Abre o arquivo no modo de escrita
+        $arquivo = fopen($caminhoArquivo, 'w');
+    
+        // Escreve o novo conteúdo no arquivo
+        fwrite($arquivo, implode(PHP_EOL, $listaCompras));
+    
+        // Fecha o arquivo
+        fclose($arquivo);
+    
+        // Redireciona para a mesma página para evitar o reenvio do formulário
+        header('Location: ' . $_SERVER['PHP_SELF']."?lista=$lista");
+        exit;
     }
-
-    // Reindexa o array
-    $listaCompras = array_values($listaCompras);
-
-    // Abre o arquivo no modo de escrita
-    $arquivo = fopen($caminhoArquivo, 'w');
-
-    // Escreve o novo conteúdo no arquivo
-    fwrite($arquivo, implode(PHP_EOL, $listaCompras));
-
-    // Fecha o arquivo
-    fclose($arquivo);
-
-    // Redireciona para a mesma página para evitar o reenvio do formulário
-    header('Location: ' . $_SERVER['PHP_SELF']."?lista=$lista");
-    exit;
 }
 
 // Lê o conteúdo do arquivo
@@ -75,7 +82,7 @@ array_pop($listaCompras);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lista de Compras</title>
+    <title>Lista</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         html, body {
@@ -133,12 +140,21 @@ array_pop($listaCompras);
             border-radius: 5px;
             margin-right: 10px;
         }
+
+        .delete-list{
+            color: #ffff;
+            background-color: #AA2222AA;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <a href="index.php">&#8592; Voltar</a>
     <div class="titles-area">
-        <h5>Lista de Compras:</h5>
+        <h5>Lista:</h5>
         <h1><?=$lista?></h1>
     </div>
     <!-- Formulário para adicionar itens -->
@@ -155,11 +171,12 @@ array_pop($listaCompras);
                 <span><?php echo $item; ?></span>
             </li>
         <?php endforeach; ?>
+        <span class="delete-list" onclick="removerItem('*')">Excluir esta lista</span>
     </ul>
 
     <script>
         function removerItem(indice) {
-            if (confirm('Tem certeza de que deseja remover este item?')) {
+            if ( indice!='*' || confirm('Tem certeza de que deseja remover este item?')) {
                 window.location.href = '?lista=<?=$lista?>&remove=' + indice;
             }
         }

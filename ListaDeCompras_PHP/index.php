@@ -21,7 +21,7 @@ $listaArquivos = glob('*.txt');
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Listas de Compras</title>
+    <title>Listas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -72,7 +72,7 @@ $listaArquivos = glob('*.txt');
     </style>
 </head>
 <body>
-    <h1>Listas de Compras</h1>
+    <h1>Listas</h1>
 
     <!-- Lista de listas existentes -->
     <?php if (empty($listaArquivos)) : ?>
