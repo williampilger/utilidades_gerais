@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox
-import threading
 import os
 import shutil
 
