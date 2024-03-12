@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
+import threading
 import os
 import shutil
 
@@ -28,23 +29,9 @@ def search_directories():
     return found_items
 
 def search_and_warn():
-    found_items = search_directories()
+    while search_directories()!=[]:
+        messagebox.showinfo("Aviso", "Foram encontrados arquivos e pastas nas pastas Downloads e Desktop.\nPor favor, exclua-os manualmente.")
 
-    # Se encontrou algum item, mostrar aviso
-    if found_items:
-        messagebox.showinfo("Aviso", "Foram encontrados arquivos e pastas nas pastas Downloads e Desktop. "
-                                     "Por favor, exclua-os manualmente.")
-        # Verificar novamente após o usuário clicar em OK
-        found_items_after = search_directories()
-        if found_items_after:
-            # Se ainda houver itens, mostrar o aviso novamente
-            search_and_warn()
-        else:
-            # Se todos os itens foram excluídos, encerrar o aplicativo
-            root.destroy()
-    else:
-        # Se nenhum item foi encontrado, encerrar o aplicativo
-        root.destroy()
 
 def limpa_diretorio(diretorio):
     if os.path.exists(diretorio):
@@ -59,18 +46,13 @@ def limpa_diretorio(diretorio):
         print(f'O diretório {diretorio} não existe')
 
 
-
 def main():
-    global root
-    root = tk.Tk()
-    root.withdraw()  # Esconde a janela principal
 
     limpa_diretorio(os.path.expandvars(r'%userprofile%\ESA22.1\Temp'))
     limpa_diretorio(os.path.expandvars(r'%userprofile%\Documents\ESA22.1\Autosave'))
     
     search_and_warn()
 
-    root.mainloop()
 
 if __name__ == "__main__":
     main()
