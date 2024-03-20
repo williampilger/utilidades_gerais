@@ -1,0 +1,29 @@
+{
+  "Eventos": {
+    "Agenda 1": [
+      {
+        "titulo": "Academia",
+        "dataInicio": "2024-03-20T19:30:00.000Z",
+        "dataFim": "2024-03-20T20:30:00.000Z",
+        "descricao": ""
+      }
+    ],
+    "Aniversários": [
+      {
+        "titulo": "Aniversário de Norman Luis Junges Reichert",
+        "dataInicio": "2024-03-25T03:00:00.000Z",
+        "dataFim": "2024-03-26T03:00:00.000Z",
+        "descricao": "Hoje é o aniversário de Norman Luis Junges Reichert!"
+      }
+    ],
+    "Agenda Teste": [
+      {
+        "titulo": "Reunião: Grupo PI-1A ",
+        "dataInicio": "2024-03-21T20:30:00.000Z",
+        "dataFim": "2024-03-22T00:00:00.000Z",
+        "descricao": ""
+      }
+    ]
+  },
+  "Tarefas": {}
+}
