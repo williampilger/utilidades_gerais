@@ -1,9 +1,0 @@
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\bin\Debug\cs.exe.config
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\bin\Debug\cs.exe
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\bin\Debug\cs.pdb
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\obj\Debug\cs.csproj.AssemblyReference.cache
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\obj\Debug\cs.Properties.Resources.resources
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\obj\Debug\cs.csproj.GenerateResource.cache
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\obj\Debug\cs.csproj.CoreCompileInputs.cache
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\obj\Debug\cs.exe
-E:\Perfil\Documents\GitHub\utilidades_gerais\TesteDeDesempenho\cs\obj\Debug\cs.pdb
