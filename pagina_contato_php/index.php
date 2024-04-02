@@ -22,11 +22,15 @@
                     property="og:description"
                     content="<?=$employeeData['position'] ?>"
                 />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link rel="stylesheet" href="style.css">
             </head>
             <body>
                 <div id="main">
-                    <img class="profile-photo" src="<?=$employeeData['photo'] ?>" alt="Foto de <?=htmlspecialchars($employeeData['name'])?>">
+                    <div class="profile-full">
+                        <img class="profile-photo" src="<?=$employeeData['photo'] ?>" alt="Foto de <?=htmlspecialchars($employeeData['name'])?>">
+                        <img class="corporation-photo" src="resources/logo.png" alt="Foto da corporação">
+                    </div>
                     <div class="data">
                         <h1><?=htmlspecialchars($employeeData['name']) ?></h1>
                         <span><?=htmlspecialchars($employeeData['position']) ?></span>

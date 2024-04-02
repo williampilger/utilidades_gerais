@@ -38,11 +38,23 @@ body{
     width: 100%;
     margin: 20px 0;
 }
-#main .profile-photo{
+#main .profile-full{
+    position: relative;
     width: 80%;
+}
+#main .profile-full .profile-photo{
+    width: 100%;
     /* border: 1px solid green; */
     border-radius: 50%;
-    box-shadow: 0 0 12px 6px #3f3f3f;
+    box-shadow: 0 0 12px 6px #3f3f3f81;
+}
+#main .profile-full .corporation-photo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0 0 12px 6px #3f3f3f81;
 }
 #main .data{
     width: 100%;
