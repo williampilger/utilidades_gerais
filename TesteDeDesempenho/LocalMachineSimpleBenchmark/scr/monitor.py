@@ -2,15 +2,30 @@ import subprocess
 import sys
 import os
 
+from class_EnvLoader import EnvLoader
+
 try:
     import psutil
     import json
     import time
-    from class_EnvLoader import EnvLoader
-    from win32gui import GetWindowText, GetForegroundWindow
-except:
-    subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
-    os.system(f"python \"{__file__}\"")
+    import pygetwindow as gw
+except Exception as e:
+    if not getattr(sys, 'frozen', False):
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
+        os.system(f"python \"{__file__}\"")
+    else:
+        print(f'''
+            {e}
+***********************************************************************************************
+            Esta versão do aplicativo não funciona no seu computador.
+              
+              - Você está usando uma versão compilada deste aplicativo;
+              - Seus sistema operacional não encontrou uma ou mais bibliotecas necessárias;
+
+            Execução interrompida.
+***********************************************************************************************
+            ''')
+        input('Pressione enter para sair...')
     quit()
 
 
@@ -40,7 +55,7 @@ def coletar_dados( previousDump=None, interval=1 ):
             'recv_Bps': ((psutil.net_io_counters().bytes_recv - previousDump['network']['recv_B']) / interval) if previousDump else 0
         },
         'other': {
-            'ForegroundWindowTitle': GetWindowText(GetForegroundWindow()),
+            'ForegroundWindowTitle': gw.getActiveWindow().title, #GetWindowText(GetForegroundWindow()),
             'timestamp': time.time()
         }
     }
