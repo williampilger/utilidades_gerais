@@ -1,0 +1,3642 @@
+[
+    {
+        "cpu": {
+            "usage_percent": 2.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12309053440,
+            "free_GB": 4544425984
+        },
+        "disc": {
+            "read_B": 228994891776,
+            "write_B": 222301526016,
+            "read_Bps": 0,
+            "write_Bps": 0
+        },
+        "network": {
+            "send_B": 2028110446,
+            "recv_B": 2646960782,
+            "send_Bps": 0,
+            "recv_Bps": 0
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\William Pilger\\Downloads\\SimpleBenchmark_windows10_v2aaa\\monitor.exe",
+            "timestamp": 1713547844.914322
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12281155584,
+            "free_GB": 4572323840
+        },
+        "disc": {
+            "read_B": 228995028480,
+            "write_B": 222302646272,
+            "read_Bps": 27340.8,
+            "write_Bps": 224051.2
+        },
+        "network": {
+            "send_B": 2028188034,
+            "recv_B": 2646988892,
+            "send_Bps": 15517.6,
+            "recv_Bps": 5622.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\William Pilger\\Downloads\\SimpleBenchmark_windows10_v2aaa\\monitor.exe",
+            "timestamp": 1713547854.9382758
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12280537088,
+            "free_GB": 4572942336
+        },
+        "disc": {
+            "read_B": 228996920832,
+            "write_B": 222304447488,
+            "read_Bps": 405811.2,
+            "write_Bps": 584294.4
+        },
+        "network": {
+            "send_B": 2028199678,
+            "recv_B": 2647006600,
+            "send_Bps": 17846.4,
+            "recv_Bps": 9163.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\William Pilger\\Downloads\\SimpleBenchmark_windows10_v2aaa\\monitor.exe",
+            "timestamp": 1713547864.982389
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12279640064,
+            "free_GB": 4574453760
+        },
+        "disc": {
+            "read_B": 228996920832,
+            "write_B": 222305620992,
+            "read_Bps": 405811.2,
+            "write_Bps": 818995.2
+        },
+        "network": {
+            "send_B": 2028228940,
+            "recv_B": 2647025127,
+            "send_Bps": 23698.8,
+            "recv_Bps": 12869.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\William Pilger\\Downloads\\SimpleBenchmark_windows10_v2aaa\\monitor.exe",
+            "timestamp": 1713547875.0127819
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12270141440,
+            "free_GB": 4583337984
+        },
+        "disc": {
+            "read_B": 228997113344,
+            "write_B": 222306956800,
+            "read_Bps": 444313.6,
+            "write_Bps": 1086156.8
+        },
+        "network": {
+            "send_B": 2028241714,
+            "recv_B": 2647038275,
+            "send_Bps": 26253.6,
+            "recv_Bps": 15498.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713547885.0432885
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12279275520,
+            "free_GB": 4574203904
+        },
+        "disc": {
+            "read_B": 228997311488,
+            "write_B": 222308051456,
+            "read_Bps": 483942.4,
+            "write_Bps": 1305088.0
+        },
+        "network": {
+            "send_B": 2028254666,
+            "recv_B": 2647056113,
+            "send_Bps": 29728.2,
+            "recv_Bps": 19066.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713547895.0812113
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12264038400,
+            "free_GB": 4593377280
+        },
+        "disc": {
+            "read_B": 228999298048,
+            "write_B": 222309235712,
+            "read_Bps": 881254.4,
+            "write_Bps": 1541939.2
+        },
+        "network": {
+            "send_B": 2028311520,
+            "recv_B": 2647083804,
+            "send_Bps": 40214.8,
+            "recv_Bps": 24604.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713547905.1172726
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12281655296,
+            "free_GB": 4571824128
+        },
+        "disc": {
+            "read_B": 228999674880,
+            "write_B": 222312478720,
+            "read_Bps": 956620.8,
+            "write_Bps": 2190540.8
+        },
+        "network": {
+            "send_B": 2028331294,
+            "recv_B": 2647094091,
+            "send_Bps": 44169.6,
+            "recv_Bps": 26661.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\William Pilger\\Downloads\\SimpleBenchmark_windows10_v2aaa\\monitor.exe",
+            "timestamp": 1713547915.1400712
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12694851584,
+            "free_GB": 4158775296
+        },
+        "disc": {
+            "read_B": 229031858176,
+            "write_B": 222315474944,
+            "read_Bps": 7393280.0,
+            "write_Bps": 2789785.6
+        },
+        "network": {
+            "send_B": 2028372273,
+            "recv_B": 2647126686,
+            "send_Bps": 52383.2,
+            "recv_Bps": 33211.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\William Pilger\\Downloads\\SimpleBenchmark_windows10_v2aaa\\monitor.exe",
+            "timestamp": 1713547925.180292
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12496994304,
+            "free_GB": 4356485120
+        },
+        "disc": {
+            "read_B": 229036794368,
+            "write_B": 222318630400,
+            "read_Bps": 8380518.4,
+            "write_Bps": 3420876.8
+        },
+        "network": {
+            "send_B": 2028407563,
+            "recv_B": 2647176157,
+            "send_Bps": 59423.4,
+            "recv_Bps": 43075.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713547935.210205
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12498698240,
+            "free_GB": 4354781184
+        },
+        "disc": {
+            "read_B": 229038822400,
+            "write_B": 222326905856,
+            "read_Bps": 8786124.8,
+            "write_Bps": 5075968.0
+        },
+        "network": {
+            "send_B": 2028451426,
+            "recv_B": 2647196132,
+            "send_Bps": 68196.0,
+            "recv_Bps": 47070.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713547945.24948
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12390801408,
+            "free_GB": 4462678016
+        },
+        "disc": {
+            "read_B": 229039175680,
+            "write_B": 222328945664,
+            "read_Bps": 8856780.8,
+            "write_Bps": 5483929.6
+        },
+        "network": {
+            "send_B": 2028466597,
+            "recv_B": 2647219243,
+            "send_Bps": 71230.2,
+            "recv_Bps": 51692.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713547955.2956798
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12376117248,
+            "free_GB": 4477947904
+        },
+        "disc": {
+            "read_B": 229042456576,
+            "write_B": 222331148288,
+            "read_Bps": 9512960.0,
+            "write_Bps": 5924454.4
+        },
+        "network": {
+            "send_B": 2028490823,
+            "recv_B": 2647243165,
+            "send_Bps": 76075.4,
+            "recv_Bps": 56476.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713547965.337473
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12393332736,
+            "free_GB": 4460765184
+        },
+        "disc": {
+            "read_B": 229043039744,
+            "write_B": 222336660992,
+            "read_Bps": 9629593.6,
+            "write_Bps": 7026995.2
+        },
+        "network": {
+            "send_B": 2028584594,
+            "recv_B": 2647294854,
+            "send_Bps": 94844.8,
+            "recv_Bps": 66828.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713547975.3758414
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12406448128,
+            "free_GB": 4447031296
+        },
+        "disc": {
+            "read_B": 229071550464,
+            "write_B": 222339093504,
+            "read_Bps": 15331737.6,
+            "write_Bps": 7513497.6
+        },
+        "network": {
+            "send_B": 2028667769,
+            "recv_B": 2647372744,
+            "send_Bps": 111464.6,
+            "recv_Bps": 82392.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713547985.4073825
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12571406336,
+            "free_GB": 4282073088
+        },
+        "disc": {
+            "read_B": 229087797248,
+            "write_B": 222341459968,
+            "read_Bps": 18581094.4,
+            "write_Bps": 7986790.4
+        },
+        "network": {
+            "send_B": 2028699716,
+            "recv_B": 2647435515,
+            "send_Bps": 117854.0,
+            "recv_Bps": 94946.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713547995.4476721
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12585971712,
+            "free_GB": 4268339200
+        },
+        "disc": {
+            "read_B": 229087977472,
+            "write_B": 222344133120,
+            "read_Bps": 18617139.2,
+            "write_Bps": 8521420.8
+        },
+        "network": {
+            "send_B": 2028734292,
+            "recv_B": 2647463091,
+            "send_Bps": 124769.2,
+            "recv_Bps": 100548.2
+        },
+        "other": {
+            "ForegroundWindowTitle": ".env - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548005.5055714
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12330782720,
+            "free_GB": 4522684416
+        },
+        "disc": {
+            "read_B": 229088079872,
+            "write_B": 222391783936,
+            "read_Bps": 18637619.2,
+            "write_Bps": 18051584.0
+        },
+        "network": {
+            "send_B": 2028744280,
+            "recv_B": 2647474856,
+            "send_Bps": 126766.8,
+            "recv_Bps": 102814.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "scr",
+            "timestamp": 1713548015.5505161
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12112515072,
+            "free_GB": 4740694016
+        },
+        "disc": {
+            "read_B": 229088282624,
+            "write_B": 222392892416,
+            "read_Bps": 18678169.6,
+            "write_Bps": 18273280.0
+        },
+        "network": {
+            "send_B": 2028760745,
+            "recv_B": 2647483870,
+            "send_Bps": 130059.8,
+            "recv_Bps": 104617.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "scr",
+            "timestamp": 1713548025.5779002
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12127739904,
+            "free_GB": 4725739520
+        },
+        "disc": {
+            "read_B": 229089696256,
+            "write_B": 222394903040,
+            "read_Bps": 18960896.0,
+            "write_Bps": 18675404.8
+        },
+        "network": {
+            "send_B": 2028780967,
+            "recv_B": 2647500226,
+            "send_Bps": 134104.2,
+            "recv_Bps": 107888.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548035.6247504
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12112302080,
+            "free_GB": 4741177344
+        },
+        "disc": {
+            "read_B": 229089876480,
+            "write_B": 222396976128,
+            "read_Bps": 18996940.8,
+            "write_Bps": 19090022.4
+        },
+        "network": {
+            "send_B": 2028803080,
+            "recv_B": 2647530960,
+            "send_Bps": 138526.8,
+            "recv_Bps": 114035.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548045.6596088
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12097417216,
+            "free_GB": 4756062208
+        },
+        "disc": {
+            "read_B": 229089978880,
+            "write_B": 222398914048,
+            "read_Bps": 19017420.8,
+            "write_Bps": 19477606.4
+        },
+        "network": {
+            "send_B": 2028826252,
+            "recv_B": 2647554335,
+            "send_Bps": 143161.2,
+            "recv_Bps": 118710.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548055.7024267
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12049268736,
+            "free_GB": 4804816896
+        },
+        "disc": {
+            "read_B": 229090019840,
+            "write_B": 222401008640,
+            "read_Bps": 19025612.8,
+            "write_Bps": 19896524.8
+        },
+        "network": {
+            "send_B": 2028857534,
+            "recv_B": 2647581377,
+            "send_Bps": 149417.6,
+            "recv_Bps": 124119.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548065.7318037
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12054405120,
+            "free_GB": 4799643648
+        },
+        "disc": {
+            "read_B": 229090191872,
+            "write_B": 222402386944,
+            "read_Bps": 19060019.2,
+            "write_Bps": 20172185.6
+        },
+        "network": {
+            "send_B": 2028869402,
+            "recv_B": 2647593911,
+            "send_Bps": 151791.2,
+            "recv_Bps": 126625.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548075.7655842
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12042706944,
+            "free_GB": 4811378688
+        },
+        "disc": {
+            "read_B": 229090191872,
+            "write_B": 222403435008,
+            "read_Bps": 19060019.2,
+            "write_Bps": 20381798.4
+        },
+        "network": {
+            "send_B": 2028885765,
+            "recv_B": 2647602457,
+            "send_Bps": 155063.8,
+            "recv_Bps": 128335.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548085.7933388
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12039561216,
+            "free_GB": 4814450688
+        },
+        "disc": {
+            "read_B": 229090290176,
+            "write_B": 222404384256,
+            "read_Bps": 19079680.0,
+            "write_Bps": 20571648.0
+        },
+        "network": {
+            "send_B": 2028940159,
+            "recv_B": 2647635244,
+            "send_Bps": 165942.6,
+            "recv_Bps": 134892.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548095.842447
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12041859072,
+            "free_GB": 4812222464
+        },
+        "disc": {
+            "read_B": 229090357760,
+            "write_B": 222406415360,
+            "read_Bps": 19093196.8,
+            "write_Bps": 20977868.8
+        },
+        "network": {
+            "send_B": 2028964423,
+            "recv_B": 2647659261,
+            "send_Bps": 170795.4,
+            "recv_Bps": 139695.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548105.8800843
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12040187904,
+            "free_GB": 4813291520
+        },
+        "disc": {
+            "read_B": 229090923008,
+            "write_B": 222407173632,
+            "read_Bps": 19206246.4,
+            "write_Bps": 21129523.2
+        },
+        "network": {
+            "send_B": 2028983970,
+            "recv_B": 2647687633,
+            "send_Bps": 174704.8,
+            "recv_Bps": 145370.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548115.9151373
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12031332352,
+            "free_GB": 4822716416
+        },
+        "disc": {
+            "read_B": 229091168768,
+            "write_B": 222409357824,
+            "read_Bps": 19255398.4,
+            "write_Bps": 21566361.6
+        },
+        "network": {
+            "send_B": 2028997991,
+            "recv_B": 2647697537,
+            "send_Bps": 177509.0,
+            "recv_Bps": 147363.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548125.954058
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12032098304,
+            "free_GB": 4821381120
+        },
+        "disc": {
+            "read_B": 229091303936,
+            "write_B": 222410840064,
+            "read_Bps": 19282432.0,
+            "write_Bps": 21862809.6
+        },
+        "network": {
+            "send_B": 2029026418,
+            "recv_B": 2647733616,
+            "send_Bps": 183194.4,
+            "recv_Bps": 154566.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548135.9896474
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12025835520,
+            "free_GB": 4827643904
+        },
+        "disc": {
+            "read_B": 229091406336,
+            "write_B": 222411834368,
+            "read_Bps": 19302912.0,
+            "write_Bps": 22061670.4
+        },
+        "network": {
+            "send_B": 2029069306,
+            "recv_B": 2647744015,
+            "send_Bps": 191772.0,
+            "recv_Bps": 156646.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548146.0321908
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12019970048,
+            "free_GB": 4833509376
+        },
+        "disc": {
+            "read_B": 229091498496,
+            "write_B": 222413806080,
+            "read_Bps": 19321344.0,
+            "write_Bps": 22456012.8
+        },
+        "network": {
+            "send_B": 2029085785,
+            "recv_B": 2647757920,
+            "send_Bps": 195067.8,
+            "recv_Bps": 159427.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548156.0680947
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12033171456,
+            "free_GB": 4820877312
+        },
+        "disc": {
+            "read_B": 229091580416,
+            "write_B": 222415631360,
+            "read_Bps": 19337728.0,
+            "write_Bps": 22821068.8
+        },
+        "network": {
+            "send_B": 2029102759,
+            "recv_B": 2647775871,
+            "send_Bps": 198462.6,
+            "recv_Bps": 163017.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548166.1087718
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12125220864,
+            "free_GB": 4724359168
+        },
+        "disc": {
+            "read_B": 229095060992,
+            "write_B": 222417556480,
+            "read_Bps": 20033843.2,
+            "write_Bps": 23206092.8
+        },
+        "network": {
+            "send_B": 2029215955,
+            "recv_B": 2648447967,
+            "send_Bps": 221278.6,
+            "recv_Bps": 299053.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Nova guia - Google Chrome",
+            "timestamp": 1713548176.1519482
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12365762560,
+            "free_GB": 4487716864
+        },
+        "disc": {
+            "read_B": 229108161536,
+            "write_B": 222441109504,
+            "read_Bps": 22653952.0,
+            "write_Bps": 27916697.6
+        },
+        "network": {
+            "send_B": 2029547415,
+            "recv_B": 2652840005,
+            "send_Bps": 287393.8,
+            "recv_Bps": 1175844.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548186.1871035
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12278710272,
+            "free_GB": 4575375360
+        },
+        "disc": {
+            "read_B": 229108927488,
+            "write_B": 222444996608,
+            "read_Bps": 22807142.4,
+            "write_Bps": 28694118.4
+        },
+        "network": {
+            "send_B": 2029581862,
+            "recv_B": 2652881593,
+            "send_Bps": 294283.2,
+            "recv_Bps": 1184162.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548196.2252991
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12295553024,
+            "free_GB": 4558495744
+        },
+        "disc": {
+            "read_B": 229109603328,
+            "write_B": 222447574016,
+            "read_Bps": 22942310.4,
+            "write_Bps": 29209600.0
+        },
+        "network": {
+            "send_B": 2029643981,
+            "recv_B": 2653139205,
+            "send_Bps": 306707.0,
+            "recv_Bps": 1235684.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548206.2617016
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12232511488,
+            "free_GB": 4621561856
+        },
+        "disc": {
+            "read_B": 229109693440,
+            "write_B": 222449667584,
+            "read_Bps": 22960332.8,
+            "write_Bps": 29628313.6
+        },
+        "network": {
+            "send_B": 2029700975,
+            "recv_B": 2653175578,
+            "send_Bps": 318105.8,
+            "recv_Bps": 1242959.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548216.295359
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12224618496,
+            "free_GB": 4628860928
+        },
+        "disc": {
+            "read_B": 229109726208,
+            "write_B": 222451267584,
+            "read_Bps": 22966886.4,
+            "write_Bps": 29948313.6
+        },
+        "network": {
+            "send_B": 2029722328,
+            "recv_B": 2653190500,
+            "send_Bps": 322376.4,
+            "recv_Bps": 1245943.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548226.3294582
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12232757248,
+            "free_GB": 4621434880
+        },
+        "disc": {
+            "read_B": 229109742592,
+            "write_B": 222452601344,
+            "read_Bps": 22970163.2,
+            "write_Bps": 30215065.6
+        },
+        "network": {
+            "send_B": 2029764263,
+            "recv_B": 2653234639,
+            "send_Bps": 330789.4,
+            "recv_Bps": 1254771.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548236.3683553
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12204154880,
+            "free_GB": 4649316352
+        },
+        "disc": {
+            "read_B": 229109779456,
+            "write_B": 222460702208,
+            "read_Bps": 22977536.0,
+            "write_Bps": 31835238.4
+        },
+        "network": {
+            "send_B": 2029787312,
+            "recv_B": 2653261865,
+            "send_Bps": 335373.2,
+            "recv_Bps": 1260216.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548246.417643
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12251181056,
+            "free_GB": 4602101760
+        },
+        "disc": {
+            "read_B": 229110946816,
+            "write_B": 222462753280,
+            "read_Bps": 23211008.0,
+            "write_Bps": 32245452.8
+        },
+        "network": {
+            "send_B": 2029798903,
+            "recv_B": 2653270416,
+            "send_Bps": 337691.4,
+            "recv_Bps": 1261926.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548256.4440234
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 6.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12379021312,
+            "free_GB": 4474392576
+        },
+        "disc": {
+            "read_B": 229118192640,
+            "write_B": 222469326336,
+            "read_Bps": 24660172.8,
+            "write_Bps": 33560064.0
+        },
+        "network": {
+            "send_B": 2029986394,
+            "recv_B": 2654694832,
+            "send_Bps": 378142.2,
+            "recv_Bps": 1549133.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548266.5241663
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 6.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12417609728,
+            "free_GB": 4435652608
+        },
+        "disc": {
+            "read_B": 229125405696,
+            "write_B": 222482236928,
+            "read_Bps": 26102784.0,
+            "write_Bps": 36142182.4
+        },
+        "network": {
+            "send_B": 2030355813,
+            "recv_B": 2656526722,
+            "send_Bps": 449073.4,
+            "recv_Bps": 1913201.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "R. Mal. Deodoro, 238 - Sala 02 e 04 - Centro, Bento Gon\u00e7alves - RS, 95700-010 - Google Maps - Google Chrome",
+            "timestamp": 1713548276.5689294
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12419674112,
+            "free_GB": 4434382848
+        },
+        "disc": {
+            "read_B": 229127793664,
+            "write_B": 222492145152,
+            "read_Bps": 26580377.6,
+            "write_Bps": 38123827.2
+        },
+        "network": {
+            "send_B": 2030521331,
+            "recv_B": 2657494077,
+            "send_Bps": 482177.0,
+            "recv_Bps": 2106659.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548286.5982966
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12383391744,
+            "free_GB": 4470673408
+        },
+        "disc": {
+            "read_B": 229128189952,
+            "write_B": 222495290880,
+            "read_Bps": 26659635.2,
+            "write_Bps": 38752972.8
+        },
+        "network": {
+            "send_B": 2030561650,
+            "recv_B": 2658111464,
+            "send_Bps": 490240.8,
+            "recv_Bps": 2230136.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548296.6351385
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12333092864,
+            "free_GB": 4520902656
+        },
+        "disc": {
+            "read_B": 229128673280,
+            "write_B": 222497382912,
+            "read_Bps": 26756300.8,
+            "write_Bps": 39171379.2
+        },
+        "network": {
+            "send_B": 2030624652,
+            "recv_B": 2658216277,
+            "send_Bps": 502841.2,
+            "recv_Bps": 2251099.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548306.6734915
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12337078272,
+            "free_GB": 4516380672
+        },
+        "disc": {
+            "read_B": 229129079808,
+            "write_B": 222501238784,
+            "read_Bps": 26837606.4,
+            "write_Bps": 39942553.6
+        },
+        "network": {
+            "send_B": 2030695313,
+            "recv_B": 2658779672,
+            "send_Bps": 516989.6,
+            "recv_Bps": 2363972.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548316.7085867
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12215808000,
+            "free_GB": 4638318592
+        },
+        "disc": {
+            "read_B": 229129112576,
+            "write_B": 222505127424,
+            "read_Bps": 26844160.0,
+            "write_Bps": 40720281.6
+        },
+        "network": {
+            "send_B": 2030791529,
+            "recv_B": 2658853297,
+            "send_Bps": 536399.8,
+            "recv_Bps": 2378651.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548326.7695544
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12204806144,
+            "free_GB": 4648673280
+        },
+        "disc": {
+            "read_B": 229129186304,
+            "write_B": 222507273216,
+            "read_Bps": 26858905.6,
+            "write_Bps": 41149440.0
+        },
+        "network": {
+            "send_B": 2030898692,
+            "recv_B": 2658936398,
+            "send_Bps": 557649.2,
+            "recv_Bps": 2395123.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548336.8118596
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12192694272,
+            "free_GB": 4660785152
+        },
+        "disc": {
+            "read_B": 229129251840,
+            "write_B": 222509384704,
+            "read_Bps": 26872012.8,
+            "write_Bps": 41571737.6
+        },
+        "network": {
+            "send_B": 2031064197,
+            "recv_B": 2659034792,
+            "send_Bps": 590750.2,
+            "recv_Bps": 2414802.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548346.846991
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12213313536,
+            "free_GB": 4640497664
+        },
+        "disc": {
+            "read_B": 229129382912,
+            "write_B": 222510294016,
+            "read_Bps": 26898227.2,
+            "write_Bps": 41753600.0
+        },
+        "network": {
+            "send_B": 2031101373,
+            "recv_B": 2659067796,
+            "send_Bps": 598185.4,
+            "recv_Bps": 2421402.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548356.8917782
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12215439360,
+            "free_GB": 4638040064
+        },
+        "disc": {
+            "read_B": 229129448448,
+            "write_B": 222511632384,
+            "read_Bps": 26911334.4,
+            "write_Bps": 42021273.6
+        },
+        "network": {
+            "send_B": 2031137240,
+            "recv_B": 2659092696,
+            "send_Bps": 605358.8,
+            "recv_Bps": 2426382.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548366.9261527
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12222103552,
+            "free_GB": 4631654400
+        },
+        "disc": {
+            "read_B": 229129518080,
+            "write_B": 222513020416,
+            "read_Bps": 26925260.8,
+            "write_Bps": 42298880.0
+        },
+        "network": {
+            "send_B": 2031159954,
+            "recv_B": 2659107189,
+            "send_Bps": 609901.6,
+            "recv_Bps": 2429281.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548376.9691238
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12288421888,
+            "free_GB": 4565504000
+        },
+        "disc": {
+            "read_B": 229132538368,
+            "write_B": 222516637184,
+            "read_Bps": 27529318.4,
+            "write_Bps": 43022233.6
+        },
+        "network": {
+            "send_B": 2031261203,
+            "recv_B": 2659255106,
+            "send_Bps": 630151.4,
+            "recv_Bps": 2458864.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Loja Vivo - Google Maps - Google Chrome",
+            "timestamp": 1713548387.0044494
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12240318464,
+            "free_GB": 4613763072
+        },
+        "disc": {
+            "read_B": 229133341184,
+            "write_B": 222521894400,
+            "read_Bps": 27689881.6,
+            "write_Bps": 44073676.8
+        },
+        "network": {
+            "send_B": 2031387765,
+            "recv_B": 2659420288,
+            "send_Bps": 655463.8,
+            "recv_Bps": 2491901.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548397.0288515
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12120006656,
+            "free_GB": 4733472768
+        },
+        "disc": {
+            "read_B": 229134121984,
+            "write_B": 222524535296,
+            "read_Bps": 27846041.6,
+            "write_Bps": 44601856.0
+        },
+        "network": {
+            "send_B": 2031411601,
+            "recv_B": 2659429790,
+            "send_Bps": 660231.0,
+            "recv_Bps": 2493801.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548407.0843825
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12122652672,
+            "free_GB": 4731404288
+        },
+        "disc": {
+            "read_B": 229134257152,
+            "write_B": 222525962752,
+            "read_Bps": 27873075.2,
+            "write_Bps": 44887347.2
+        },
+        "network": {
+            "send_B": 2031445703,
+            "recv_B": 2659450817,
+            "send_Bps": 667051.4,
+            "recv_Bps": 2498007.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548417.1162262
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11941982208,
+            "free_GB": 4912037888
+        },
+        "disc": {
+            "read_B": 229134584832,
+            "write_B": 222527298048,
+            "read_Bps": 27938611.2,
+            "write_Bps": 45154406.4
+        },
+        "network": {
+            "send_B": 2031462252,
+            "recv_B": 2659468867,
+            "send_Bps": 670361.2,
+            "recv_Bps": 2501617.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548427.1545806
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11922468864,
+            "free_GB": 4931010560
+        },
+        "disc": {
+            "read_B": 229134650368,
+            "write_B": 222529268224,
+            "read_Bps": 27951718.4,
+            "write_Bps": 45548441.6
+        },
+        "network": {
+            "send_B": 2031491065,
+            "recv_B": 2659493359,
+            "send_Bps": 676382.2,
+            "recv_Bps": 2506515.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548437.1818087
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11919601664,
+            "free_GB": 4935012352
+        },
+        "disc": {
+            "read_B": 229134720000,
+            "write_B": 222531970560,
+            "read_Bps": 27965644.8,
+            "write_Bps": 46088908.8
+        },
+        "network": {
+            "send_B": 2031534163,
+            "recv_B": 2659517037,
+            "send_Bps": 684743.4,
+            "recv_Bps": 2511251.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548447.224414
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11890933760,
+            "free_GB": 4962545664
+        },
+        "disc": {
+            "read_B": 229134756864,
+            "write_B": 222532985344,
+            "read_Bps": 27973017.6,
+            "write_Bps": 46291865.6
+        },
+        "network": {
+            "send_B": 2031573270,
+            "recv_B": 2659535258,
+            "send_Bps": 692564.8,
+            "recv_Bps": 2514895.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548457.2585003
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11889451008,
+            "free_GB": 4964028416
+        },
+        "disc": {
+            "read_B": 229138663424,
+            "write_B": 222535540224,
+            "read_Bps": 28754329.6,
+            "write_Bps": 46802841.6
+        },
+        "network": {
+            "send_B": 2031599744,
+            "recv_B": 2659566665,
+            "send_Bps": 697859.6,
+            "recv_Bps": 2521176.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548467.300298
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11880112128,
+            "free_GB": 4973907968
+        },
+        "disc": {
+            "read_B": 229138728960,
+            "write_B": 222537908224,
+            "read_Bps": 28767436.8,
+            "write_Bps": 47276441.6
+        },
+        "network": {
+            "send_B": 2031669999,
+            "recv_B": 2659603772,
+            "send_Bps": 711910.6,
+            "recv_Bps": 2528598.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548477.3583808
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11889319936,
+            "free_GB": 4964765696
+        },
+        "disc": {
+            "read_B": 229139011584,
+            "write_B": 222539461120,
+            "read_Bps": 28823961.6,
+            "write_Bps": 47587020.8
+        },
+        "network": {
+            "send_B": 2031695611,
+            "recv_B": 2659632101,
+            "send_Bps": 717033.0,
+            "recv_Bps": 2534263.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548487.399716
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11879653376,
+            "free_GB": 4974288896
+        },
+        "disc": {
+            "read_B": 229139015680,
+            "write_B": 222540921344,
+            "read_Bps": 28824780.8,
+            "write_Bps": 47879065.6
+        },
+        "network": {
+            "send_B": 2031721507,
+            "recv_B": 2659649400,
+            "send_Bps": 722212.2,
+            "recv_Bps": 2537723.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548497.4342835
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11876732928,
+            "free_GB": 4976746496
+        },
+        "disc": {
+            "read_B": 229139048448,
+            "write_B": 222541819392,
+            "read_Bps": 28831334.4,
+            "write_Bps": 48058675.2
+        },
+        "network": {
+            "send_B": 2031730765,
+            "recv_B": 2659655733,
+            "send_Bps": 724063.8,
+            "recv_Bps": 2538990.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548507.4703
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11871059968,
+            "free_GB": 4982419456
+        },
+        "disc": {
+            "read_B": 229139388416,
+            "write_B": 222545201664,
+            "read_Bps": 28899328.0,
+            "write_Bps": 48735129.6
+        },
+        "network": {
+            "send_B": 2031776910,
+            "recv_B": 2659679769,
+            "send_Bps": 733292.8,
+            "recv_Bps": 2543797.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548517.5110433
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11880390656,
+            "free_GB": 4973088768
+        },
+        "disc": {
+            "read_B": 229139593216,
+            "write_B": 222547146240,
+            "read_Bps": 28940288.0,
+            "write_Bps": 49124044.8
+        },
+        "network": {
+            "send_B": 2031796297,
+            "recv_B": 2659694259,
+            "send_Bps": 737170.2,
+            "recv_Bps": 2546695.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548527.5464234
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11892469760,
+            "free_GB": 4961009664
+        },
+        "disc": {
+            "read_B": 229139928576,
+            "write_B": 222548912640,
+            "read_Bps": 29007360.0,
+            "write_Bps": 49477324.8
+        },
+        "network": {
+            "send_B": 2031815255,
+            "recv_B": 2659706339,
+            "send_Bps": 740961.8,
+            "recv_Bps": 2549111.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548537.5782816
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11888926720,
+            "free_GB": 4964552704
+        },
+        "disc": {
+            "read_B": 229140059648,
+            "write_B": 222553820672,
+            "read_Bps": 29033574.4,
+            "write_Bps": 50458931.2
+        },
+        "network": {
+            "send_B": 2031835615,
+            "recv_B": 2659725270,
+            "send_Bps": 745033.8,
+            "recv_Bps": 2552897.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548547.6194885
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11961741312,
+            "free_GB": 4891901952
+        },
+        "disc": {
+            "read_B": 229141415424,
+            "write_B": 222555871232,
+            "read_Bps": 29304729.6,
+            "write_Bps": 50869043.2
+        },
+        "network": {
+            "send_B": 2031840611,
+            "recv_B": 2659731734,
+            "send_Bps": 746033.0,
+            "recv_Bps": 2554190.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp",
+            "timestamp": 1713548557.6661696
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11890438144,
+            "free_GB": 4963041280
+        },
+        "disc": {
+            "read_B": 229141448192,
+            "write_B": 222558232064,
+            "read_Bps": 29311283.2,
+            "write_Bps": 51341209.6
+        },
+        "network": {
+            "send_B": 2031858474,
+            "recv_B": 2659742005,
+            "send_Bps": 749605.6,
+            "recv_Bps": 2556244.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "build",
+            "timestamp": 1713548567.7006307
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 11909246976,
+            "free_GB": 4944232448
+        },
+        "disc": {
+            "read_B": 229141632512,
+            "write_B": 222561758208,
+            "read_Bps": 29348147.2,
+            "write_Bps": 52046438.4
+        },
+        "network": {
+            "send_B": 2031894702,
+            "recv_B": 2659773951,
+            "send_Bps": 756851.2,
+            "recv_Bps": 2562633.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "scr",
+            "timestamp": 1713548577.7427387
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 4.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12157378560,
+            "free_GB": 4696735744
+        },
+        "disc": {
+            "read_B": 229151384064,
+            "write_B": 222573901312,
+            "read_Bps": 31298457.6,
+            "write_Bps": 54475059.2
+        },
+        "network": {
+            "send_B": 2032023198,
+            "recv_B": 2659889959,
+            "send_Bps": 782550.4,
+            "recv_Bps": 2585835.4
+        },
+        "other": {
+            "ForegroundWindowTitle": ".env - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548587.8012462
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12114427904,
+            "free_GB": 4739399680
+        },
+        "disc": {
+            "read_B": 229176359424,
+            "write_B": 222576021504,
+            "read_Bps": 36293529.6,
+            "write_Bps": 54899097.6
+        },
+        "network": {
+            "send_B": 2032087624,
+            "recv_B": 2659928605,
+            "send_Bps": 795435.6,
+            "recv_Bps": 2593564.6
+        },
+        "other": {
+            "ForegroundWindowTitle": ".env - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548597.8675735
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12102086656,
+            "free_GB": 4751925248
+        },
+        "disc": {
+            "read_B": 229176671232,
+            "write_B": 222577227264,
+            "read_Bps": 36355891.2,
+            "write_Bps": 55140249.6
+        },
+        "network": {
+            "send_B": 2041766763,
+            "recv_B": 2660183882,
+            "send_Bps": 2731263.4,
+            "recv_Bps": 2644620.0
+        },
+        "other": {
+            "ForegroundWindowTitle": ".env - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548607.9321358
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12052549632,
+            "free_GB": 4801654784
+        },
+        "disc": {
+            "read_B": 229176830976,
+            "write_B": 222579630080,
+            "read_Bps": 36387840.0,
+            "write_Bps": 55620812.8
+        },
+        "network": {
+            "send_B": 2041775445,
+            "recv_B": 2660197337,
+            "send_Bps": 2732999.8,
+            "recv_Bps": 2647311.0
+        },
+        "other": {
+            "ForegroundWindowTitle": ".env - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548617.9957714
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12164300800,
+            "free_GB": 4689149952
+        },
+        "disc": {
+            "read_B": 229177056256,
+            "write_B": 222587461120,
+            "read_Bps": 36432896.0,
+            "write_Bps": 57187020.8
+        },
+        "network": {
+            "send_B": 2041808280,
+            "recv_B": 2660222721,
+            "send_Bps": 2739566.8,
+            "recv_Bps": 2652428.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548628.0640678
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12299730944,
+            "free_GB": 4553912320
+        },
+        "disc": {
+            "read_B": 229177110528,
+            "write_B": 222589644288,
+            "read_Bps": 36443750.4,
+            "write_Bps": 57623654.4
+        },
+        "network": {
+            "send_B": 2041850278,
+            "recv_B": 2660262481,
+            "send_Bps": 2747966.4,
+            "recv_Bps": 2660339.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "\u25cf README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548638.1355872
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12400066560,
+            "free_GB": 4454096896
+        },
+        "disc": {
+            "read_B": 229182198272,
+            "write_B": 222592516096,
+            "read_Bps": 37461299.2,
+            "write_Bps": 58198016.0
+        },
+        "network": {
+            "send_B": 2041873699,
+            "recv_B": 2660298739,
+            "send_Bps": 2752650.6,
+            "recv_Bps": 2667591.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\William Pilger\\Downloads\\SimpleBenchmark_windows10_v2aaa\\monitor.exe",
+            "timestamp": 1713548648.218036
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12411232256,
+            "free_GB": 4442382336
+        },
+        "disc": {
+            "read_B": 229182370304,
+            "write_B": 222594189312,
+            "read_Bps": 37495705.6,
+            "write_Bps": 58532659.2
+        },
+        "network": {
+            "send_B": 2041895427,
+            "recv_B": 2660322027,
+            "send_Bps": 2756996.2,
+            "recv_Bps": 2672249.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "\u25cf README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548658.2948713
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12137398272,
+            "free_GB": 4716081152
+        },
+        "disc": {
+            "read_B": 229182693888,
+            "write_B": 222597353472,
+            "read_Bps": 37560422.4,
+            "write_Bps": 59165491.2
+        },
+        "network": {
+            "send_B": 2041934419,
+            "recv_B": 2660342862,
+            "send_Bps": 2764794.6,
+            "recv_Bps": 2676429.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "\u25cf README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548668.343467
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12193665024,
+            "free_GB": 4659814400
+        },
+        "disc": {
+            "read_B": 229182693888,
+            "write_B": 222601383936,
+            "read_Bps": 37560422.4,
+            "write_Bps": 59971584.0
+        },
+        "network": {
+            "send_B": 2041944529,
+            "recv_B": 2660349465,
+            "send_Bps": 2766816.6,
+            "recv_Bps": 2677736.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548678.3815687
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12139433984,
+            "free_GB": 4714045440
+        },
+        "disc": {
+            "read_B": 229182800384,
+            "write_B": 222603355648,
+            "read_Bps": 37581721.6,
+            "write_Bps": 60365926.4
+        },
+        "network": {
+            "send_B": 2041999946,
+            "recv_B": 2660383979,
+            "send_Bps": 2777900.0,
+            "recv_Bps": 2684639.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548688.4408562
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12096270336,
+            "free_GB": 4757209088
+        },
+        "disc": {
+            "read_B": 229182849536,
+            "write_B": 222604312576,
+            "read_Bps": 37591552.0,
+            "write_Bps": 60557312.0
+        },
+        "network": {
+            "send_B": 2042016852,
+            "recv_B": 2660395256,
+            "send_Bps": 2781281.2,
+            "recv_Bps": 2686894.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548698.4898372
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12096024576,
+            "free_GB": 4758011904
+        },
+        "disc": {
+            "read_B": 229183110144,
+            "write_B": 222606230528,
+            "read_Bps": 37643673.6,
+            "write_Bps": 60940902.4
+        },
+        "network": {
+            "send_B": 2042081935,
+            "recv_B": 2660434564,
+            "send_Bps": 2794297.8,
+            "recv_Bps": 2694756.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548708.5115213
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12104421376,
+            "free_GB": 4749643776
+        },
+        "disc": {
+            "read_B": 229183110144,
+            "write_B": 222608129024,
+            "read_Bps": 37643673.6,
+            "write_Bps": 61320601.6
+        },
+        "network": {
+            "send_B": 2042144037,
+            "recv_B": 2660484257,
+            "send_Bps": 2806718.2,
+            "recv_Bps": 2704695.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548718.561874
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12098375680,
+            "free_GB": 4755394560
+        },
+        "disc": {
+            "read_B": 229183142912,
+            "write_B": 222608945664,
+            "read_Bps": 37650227.2,
+            "write_Bps": 61483929.6
+        },
+        "network": {
+            "send_B": 2042163775,
+            "recv_B": 2660503397,
+            "send_Bps": 2810750.6,
+            "recv_Bps": 2708523.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548728.6318166
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12137197568,
+            "free_GB": 4716347392
+        },
+        "disc": {
+            "read_B": 229218126848,
+            "write_B": 222612179456,
+            "read_Bps": 44647014.4,
+            "write_Bps": 62130688.0
+        },
+        "network": {
+            "send_B": 2042186233,
+            "recv_B": 2660538450,
+            "send_Bps": 2815157.4,
+            "recv_Bps": 2715533.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548738.6834817
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12157231104,
+            "free_GB": 4696260608
+        },
+        "disc": {
+            "read_B": 229236475392,
+            "write_B": 222614888448,
+            "read_Bps": 48316723.2,
+            "write_Bps": 62672486.4
+        },
+        "network": {
+            "send_B": 2042338635,
+            "recv_B": 2660569376,
+            "send_Bps": 2845637.8,
+            "recv_Bps": 2721730.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548748.7594543
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12164608000,
+            "free_GB": 4688871424
+        },
+        "disc": {
+            "read_B": 229250818048,
+            "write_B": 222617057792,
+            "read_Bps": 51185254.4,
+            "write_Bps": 63106355.2
+        },
+        "network": {
+            "send_B": 2042366019,
+            "recv_B": 2660603884,
+            "send_Bps": 2851114.6,
+            "recv_Bps": 2728653.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548758.8290837
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 4.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12171792384,
+            "free_GB": 4683882496
+        },
+        "disc": {
+            "read_B": 229251737600,
+            "write_B": 222619069952,
+            "read_Bps": 51369164.8,
+            "write_Bps": 63508787.2
+        },
+        "network": {
+            "send_B": 2042383952,
+            "recv_B": 2660621938,
+            "send_Bps": 2854701.2,
+            "recv_Bps": 2732231.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548768.8969421
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12161130496,
+            "free_GB": 4692914176
+        },
+        "disc": {
+            "read_B": 229252004864,
+            "write_B": 222620903936,
+            "read_Bps": 51422617.6,
+            "write_Bps": 63875584.0
+        },
+        "network": {
+            "send_B": 2042415100,
+            "recv_B": 2660654380,
+            "send_Bps": 2860930.8,
+            "recv_Bps": 2738719.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548778.9476376
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12161032192,
+            "free_GB": 4693118976
+        },
+        "disc": {
+            "read_B": 229252078080,
+            "write_B": 222623354368,
+            "read_Bps": 51437260.8,
+            "write_Bps": 64365670.4
+        },
+        "network": {
+            "send_B": 2042438372,
+            "recv_B": 2660677659,
+            "send_Bps": 2865585.2,
+            "recv_Bps": 2743375.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548789.0132234
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12187648000,
+            "free_GB": 4666105856
+        },
+        "disc": {
+            "read_B": 229257055744,
+            "write_B": 222626338304,
+            "read_Bps": 52432793.6,
+            "write_Bps": 64962457.6
+        },
+        "network": {
+            "send_B": 2042459935,
+            "recv_B": 2660725686,
+            "send_Bps": 2869897.8,
+            "recv_Bps": 2752980.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548799.0821524
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12273389568,
+            "free_GB": 4580089856
+        },
+        "disc": {
+            "read_B": 229290975744,
+            "write_B": 222637606400,
+            "read_Bps": 59216793.6,
+            "write_Bps": 67216076.8
+        },
+        "network": {
+            "send_B": 2042690948,
+            "recv_B": 2666338639,
+            "send_Bps": 2916130.4,
+            "recv_Bps": 3875657.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548809.1507268
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12272001024,
+            "free_GB": 4581478400
+        },
+        "disc": {
+            "read_B": 229291332096,
+            "write_B": 222639127040,
+            "read_Bps": 59288064.0,
+            "write_Bps": 67520204.8
+        },
+        "network": {
+            "send_B": 2042714744,
+            "recv_B": 2666362387,
+            "send_Bps": 2920875.0,
+            "recv_Bps": 3880321.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548819.2133865
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12266790912,
+            "free_GB": 4587073536
+        },
+        "disc": {
+            "read_B": 229291618816,
+            "write_B": 222640640512,
+            "read_Bps": 59345408.0,
+            "write_Bps": 67822899.2
+        },
+        "network": {
+            "send_B": 2042742080,
+            "recv_B": 2666388758,
+            "send_Bps": 2926337.6,
+            "recv_Bps": 3885595.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548829.2989016
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12162764800,
+            "free_GB": 4690714624
+        },
+        "disc": {
+            "read_B": 229292216832,
+            "write_B": 222642711040,
+            "read_Bps": 59465011.2,
+            "write_Bps": 68237004.8
+        },
+        "network": {
+            "send_B": 2042817871,
+            "recv_B": 2666434897,
+            "send_Bps": 2941517.4,
+            "recv_Bps": 3894836.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548839.3644085
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12145328128,
+            "free_GB": 4708352000
+        },
+        "disc": {
+            "read_B": 229292220928,
+            "write_B": 222652802048,
+            "read_Bps": 59465830.4,
+            "write_Bps": 70255206.4
+        },
+        "network": {
+            "send_B": 2042830103,
+            "recv_B": 2666445976,
+            "send_Bps": 2943931.4,
+            "recv_Bps": 3897082.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548849.4134688
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12169191424,
+            "free_GB": 4684726272
+        },
+        "disc": {
+            "read_B": 229292413440,
+            "write_B": 222654429696,
+            "read_Bps": 59504332.8,
+            "write_Bps": 70580736.0
+        },
+        "network": {
+            "send_B": 2042844945,
+            "recv_B": 2666462582,
+            "send_Bps": 2946899.8,
+            "recv_Bps": 3900360.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548859.465995
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12157788160,
+            "free_GB": 4694749184
+        },
+        "disc": {
+            "read_B": 229292492288,
+            "write_B": 222655966720,
+            "read_Bps": 59520102.4,
+            "write_Bps": 70888140.8
+        },
+        "network": {
+            "send_B": 2042887565,
+            "recv_B": 2666474189,
+            "send_Bps": 2955423.8,
+            "recv_Bps": 3902681.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548869.5095863
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12148256768,
+            "free_GB": 4705828864
+        },
+        "disc": {
+            "read_B": 229292529152,
+            "write_B": 222656939008,
+            "read_Bps": 59527475.2,
+            "write_Bps": 71082598.4
+        },
+        "network": {
+            "send_B": 2042897128,
+            "recv_B": 2666480624,
+            "send_Bps": 2957336.4,
+            "recv_Bps": 3903968.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548879.5812416
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12150820864,
+            "free_GB": 4702658560
+        },
+        "disc": {
+            "read_B": 229292692992,
+            "write_B": 222659503104,
+            "read_Bps": 59560243.2,
+            "write_Bps": 71595417.6
+        },
+        "network": {
+            "send_B": 2042926802,
+            "recv_B": 2666503306,
+            "send_Bps": 2963271.2,
+            "recv_Bps": 3908504.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713548889.6425903
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12386238464,
+            "free_GB": 4467228672
+        },
+        "disc": {
+            "read_B": 229292852736,
+            "write_B": 222661447680,
+            "read_Bps": 59592192.0,
+            "write_Bps": 71984332.8
+        },
+        "network": {
+            "send_B": 2042954036,
+            "recv_B": 2666544686,
+            "send_Bps": 2968718.0,
+            "recv_Bps": 3916780.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\William Pilger\\Downloads\\SimpleBenchmark_windows10_v2aaa\\monitor.exe",
+            "timestamp": 1713548899.7011316
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12291702784,
+            "free_GB": 4561768448
+        },
+        "disc": {
+            "read_B": 229292901888,
+            "write_B": 222663888896,
+            "read_Bps": 59602022.4,
+            "write_Bps": 72472576.0
+        },
+        "network": {
+            "send_B": 2043039955,
+            "recv_B": 2666604213,
+            "send_Bps": 2985901.8,
+            "recv_Bps": 3928686.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548909.7461138
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12263698432,
+            "free_GB": 4589780992
+        },
+        "disc": {
+            "read_B": 229293155840,
+            "write_B": 222665387008,
+            "read_Bps": 59652812.8,
+            "write_Bps": 72772198.4
+        },
+        "network": {
+            "send_B": 2043062707,
+            "recv_B": 2666620531,
+            "send_Bps": 2990452.2,
+            "recv_Bps": 3931949.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548919.7762046
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12232433664,
+            "free_GB": 4621078528
+        },
+        "disc": {
+            "read_B": 229297641984,
+            "write_B": 222669933056,
+            "read_Bps": 60550041.6,
+            "write_Bps": 73681408.0
+        },
+        "network": {
+            "send_B": 2043093193,
+            "recv_B": 2666649124,
+            "send_Bps": 2996549.4,
+            "recv_Bps": 3937668.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548929.8329523
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12231614464,
+            "free_GB": 4622041088
+        },
+        "disc": {
+            "read_B": 229297687040,
+            "write_B": 222671867392,
+            "read_Bps": 60559052.8,
+            "write_Bps": 74068275.2
+        },
+        "network": {
+            "send_B": 2043149111,
+            "recv_B": 2666706634,
+            "send_Bps": 3007750.4,
+            "recv_Bps": 3949170.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548939.8747377
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12239048704,
+            "free_GB": 4614909952
+        },
+        "disc": {
+            "read_B": 229297737216,
+            "write_B": 222674424320,
+            "read_Bps": 60569088.0,
+            "write_Bps": 74579660.8
+        },
+        "network": {
+            "send_B": 2043267064,
+            "recv_B": 2666769481,
+            "send_Bps": 3031346.0,
+            "recv_Bps": 3961751.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548949.9111557
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12236746752,
+            "free_GB": 4616732672
+        },
+        "disc": {
+            "read_B": 229297794560,
+            "write_B": 222675892736,
+            "read_Bps": 60580556.8,
+            "write_Bps": 74873344.0
+        },
+        "network": {
+            "send_B": 2043298290,
+            "recv_B": 2666799001,
+            "send_Bps": 3037568.8,
+            "recv_Bps": 3967643.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548959.9453628
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12218523648,
+            "free_GB": 4634955776
+        },
+        "disc": {
+            "read_B": 229297868288,
+            "write_B": 222677455872,
+            "read_Bps": 60595302.4,
+            "write_Bps": 75185971.2
+        },
+        "network": {
+            "send_B": 2043370052,
+            "recv_B": 2666833915,
+            "send_Bps": 3051921.2,
+            "recv_Bps": 3974626.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548969.9855747
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12221026304,
+            "free_GB": 4632899584
+        },
+        "disc": {
+            "read_B": 229297868288,
+            "write_B": 222679025664,
+            "read_Bps": 60595302.4,
+            "write_Bps": 75499929.6
+        },
+        "network": {
+            "send_B": 2043383113,
+            "recv_B": 2666842349,
+            "send_Bps": 3054533.4,
+            "recv_Bps": 3976313.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548980.0246043
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12231823360,
+            "free_GB": 4621959168
+        },
+        "disc": {
+            "read_B": 229298036224,
+            "write_B": 222680743424,
+            "read_Bps": 60628889.6,
+            "write_Bps": 75843481.6
+        },
+        "network": {
+            "send_B": 2043561485,
+            "recv_B": 2666897644,
+            "send_Bps": 3090207.8,
+            "recv_Bps": 3987385.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713548990.0712426
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12224495616,
+            "free_GB": 4629590016
+        },
+        "disc": {
+            "read_B": 229298167296,
+            "write_B": 222682607616,
+            "read_Bps": 60655104.0,
+            "write_Bps": 76216320.0
+        },
+        "network": {
+            "send_B": 2043605390,
+            "recv_B": 2666923000,
+            "send_Bps": 3098988.8,
+            "recv_Bps": 3992443.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549000.0955489
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12214243328,
+            "free_GB": 4639510528
+        },
+        "disc": {
+            "read_B": 229298217472,
+            "write_B": 222684641792,
+            "read_Bps": 60665139.2,
+            "write_Bps": 76623155.2
+        },
+        "network": {
+            "send_B": 2043638152,
+            "recv_B": 2666938162,
+            "send_Bps": 3105541.2,
+            "recv_Bps": 3995476.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549010.147225
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12206821376,
+            "free_GB": 4646658048
+        },
+        "disc": {
+            "read_B": 229300098048,
+            "write_B": 222685748736,
+            "read_Bps": 61041254.4,
+            "write_Bps": 76844544.0
+        },
+        "network": {
+            "send_B": 2043673918,
+            "recv_B": 2666972602,
+            "send_Bps": 3112694.4,
+            "recv_Bps": 4002364.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549020.1709788
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12237664256,
+            "free_GB": 4615815168
+        },
+        "disc": {
+            "read_B": 229300163584,
+            "write_B": 222687123456,
+            "read_Bps": 61054361.6,
+            "write_Bps": 77119488.0
+        },
+        "network": {
+            "send_B": 2043742581,
+            "recv_B": 2667098232,
+            "send_Bps": 3126427.0,
+            "recv_Bps": 4027490.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549030.223125
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12219088896,
+            "free_GB": 4634390528
+        },
+        "disc": {
+            "read_B": 229300163584,
+            "write_B": 222688386560,
+            "read_Bps": 61054361.6,
+            "write_Bps": 77372108.8
+        },
+        "network": {
+            "send_B": 2043775394,
+            "recv_B": 2667295826,
+            "send_Bps": 3132989.6,
+            "recv_Bps": 4067008.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549040.2511032
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12242157568,
+            "free_GB": 4611321856
+        },
+        "disc": {
+            "read_B": 229300196352,
+            "write_B": 222690148864,
+            "read_Bps": 61060915.2,
+            "write_Bps": 77724569.6
+        },
+        "network": {
+            "send_B": 2043856872,
+            "recv_B": 2667705737,
+            "send_Bps": 3149389.0,
+            "recv_Bps": 4148991.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549050.3076544
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12258058240,
+            "free_GB": 4595421184
+        },
+        "disc": {
+            "read_B": 229300229120,
+            "write_B": 222691462144,
+            "read_Bps": 61067468.8,
+            "write_Bps": 77987225.6
+        },
+        "network": {
+            "send_B": 2043919795,
+            "recv_B": 2668263581,
+            "send_Bps": 3161869.8,
+            "recv_Bps": 4261198.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549060.3456323
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12318187520,
+            "free_GB": 4535291904
+        },
+        "disc": {
+            "read_B": 229300261888,
+            "write_B": 222692763648,
+            "read_Bps": 61074022.4,
+            "write_Bps": 78247526.4
+        },
+        "network": {
+            "send_B": 2043968333,
+            "recv_B": 2668746276,
+            "send_Bps": 3171577.4,
+            "recv_Bps": 4357098.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549070.3817477
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12245905408,
+            "free_GB": 4608331776
+        },
+        "disc": {
+            "read_B": 229300261888,
+            "write_B": 222693471744,
+            "read_Bps": 61074022.4,
+            "write_Bps": 78389145.6
+        },
+        "network": {
+            "send_B": 2044013989,
+            "recv_B": 2669465785,
+            "send_Bps": 3180708.6,
+            "recv_Bps": 4501000.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549080.4194705
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12260179968,
+            "free_GB": 4593881088
+        },
+        "disc": {
+            "read_B": 229300298752,
+            "write_B": 222720259584,
+            "read_Bps": 61081395.2,
+            "write_Bps": 83746713.6
+        },
+        "network": {
+            "send_B": 2044122856,
+            "recv_B": 2669865682,
+            "send_Bps": 3202482.0,
+            "recv_Bps": 4580980.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549090.4588592
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12237197312,
+            "free_GB": 4616282112
+        },
+        "disc": {
+            "read_B": 229300458496,
+            "write_B": 222721699328,
+            "read_Bps": 61113344.0,
+            "write_Bps": 84034662.4
+        },
+        "network": {
+            "send_B": 2044143579,
+            "recv_B": 2669885171,
+            "send_Bps": 3206626.6,
+            "recv_Bps": 4584877.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549100.4817688
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12131545088,
+            "free_GB": 4721479680
+        },
+        "disc": {
+            "read_B": 229300891648,
+            "write_B": 222722734080,
+            "read_Bps": 61199974.4,
+            "write_Bps": 84241612.8
+        },
+        "network": {
+            "send_B": 2044181991,
+            "recv_B": 2669921131,
+            "send_Bps": 3214309.0,
+            "recv_Bps": 4592069.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549110.5394323
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12122984448,
+            "free_GB": 4730494976
+        },
+        "disc": {
+            "read_B": 229300928512,
+            "write_B": 222724192256,
+            "read_Bps": 61207347.2,
+            "write_Bps": 84533248.0
+        },
+        "network": {
+            "send_B": 2044210770,
+            "recv_B": 2669936245,
+            "send_Bps": 3220064.8,
+            "recv_Bps": 4595092.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549120.56977
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.4
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12155613184,
+            "free_GB": 4697866240
+        },
+        "disc": {
+            "read_B": 229300961280,
+            "write_B": 222725807616,
+            "read_Bps": 61213900.8,
+            "write_Bps": 84856320.0
+        },
+        "network": {
+            "send_B": 2044229731,
+            "recv_B": 2669953684,
+            "send_Bps": 3223857.0,
+            "recv_Bps": 4598580.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "ChatGPT - Google Chrome",
+            "timestamp": 1713549130.6226096
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.5
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12191662080,
+            "free_GB": 4661817344
+        },
+        "disc": {
+            "read_B": 229301186560,
+            "write_B": 222730925568,
+            "read_Bps": 61258956.8,
+            "write_Bps": 85879910.4
+        },
+        "network": {
+            "send_B": 2044279988,
+            "recv_B": 2670005259,
+            "send_Bps": 3233908.4,
+            "recv_Bps": 4608895.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "README.md - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713549140.6513886
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12406181888,
+            "free_GB": 4447297536
+        },
+        "disc": {
+            "read_B": 229302436864,
+            "write_B": 222734048256,
+            "read_Bps": 61509017.6,
+            "write_Bps": 86504448.0
+        },
+        "network": {
+            "send_B": 2044322177,
+            "recv_B": 2670020763,
+            "send_Bps": 3242346.2,
+            "recv_Bps": 4611996.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "\u25cf plot_result.py - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713549150.7263627
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12351315968,
+            "free_GB": 4502687744
+        },
+        "disc": {
+            "read_B": 229302456832,
+            "write_B": 222736311808,
+            "read_Bps": 61513011.2,
+            "write_Bps": 86957158.4
+        },
+        "network": {
+            "send_B": 2044366069,
+            "recv_B": 2670044918,
+            "send_Bps": 3251124.6,
+            "recv_Bps": 4616880.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "\u25cf plot_result.py - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713549160.7845669
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.9
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12234354688,
+            "free_GB": 4618629120
+        },
+        "disc": {
+            "read_B": 229302530560,
+            "write_B": 222737654784,
+            "read_Bps": 61527756.8,
+            "write_Bps": 87225753.6
+        },
+        "network": {
+            "send_B": 2044418156,
+            "recv_B": 2670080390,
+            "send_Bps": 3261542.0,
+            "recv_Bps": 4623959.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "\u25cf plot_result.py - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713549170.8526165
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12120870912,
+            "free_GB": 4733132800
+        },
+        "disc": {
+            "read_B": 229302575616,
+            "write_B": 222742028800,
+            "read_Bps": 61536768.0,
+            "write_Bps": 88100556.8
+        },
+        "network": {
+            "send_B": 2044458685,
+            "recv_B": 2670092422,
+            "send_Bps": 3269647.8,
+            "recv_Bps": 4626328.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "\u25cf plot_result.py - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713549180.9326558
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.1
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12351918080,
+            "free_GB": 4502159360
+        },
+        "disc": {
+            "read_B": 229302673920,
+            "write_B": 222743256064,
+            "read_Bps": 61556428.8,
+            "write_Bps": 88346009.6
+        },
+        "network": {
+            "send_B": 2044498191,
+            "recv_B": 2670122726,
+            "send_Bps": 3277563.2,
+            "recv_Bps": 4632402.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "\u25cf plot_result.py - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713549191.010525
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12158603264,
+            "free_GB": 4695445504
+        },
+        "disc": {
+            "read_B": 229302862336,
+            "write_B": 222744508416,
+            "read_Bps": 61594112.0,
+            "write_Bps": 88596480.0
+        },
+        "network": {
+            "send_B": 2044525475,
+            "recv_B": 2670152048,
+            "send_Bps": 3283005.8,
+            "recv_Bps": 4638253.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "plot_result.py - LocalMachineSimpleBenchmark - Visual Studio Code",
+            "timestamp": 1713549201.0748131
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12135391232,
+            "free_GB": 4718088192
+        },
+        "disc": {
+            "read_B": 229302923776,
+            "write_B": 222745822208,
+            "read_Bps": 61606400.0,
+            "write_Bps": 88859238.4
+        },
+        "network": {
+            "send_B": 2044586575,
+            "recv_B": 2670188249,
+            "send_Bps": 3295225.8,
+            "recv_Bps": 4645493.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Downloads",
+            "timestamp": 1713549211.1104004
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12140699648,
+            "free_GB": 4722507776
+        },
+        "disc": {
+            "read_B": 229303153152,
+            "write_B": 222748741120,
+            "read_Bps": 61652275.2,
+            "write_Bps": 89443020.8
+        },
+        "network": {
+            "send_B": 2044598461,
+            "recv_B": 2670198313,
+            "send_Bps": 3297603.0,
+            "recv_Bps": 4647541.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "SimpleBenchmark_windows10_v2aaa",
+            "timestamp": 1713549221.1881385
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12094054400,
+            "free_GB": 4759404544
+        },
+        "disc": {
+            "read_B": 229303415296,
+            "write_B": 222750019584,
+            "read_Bps": 61704704.0,
+            "write_Bps": 89698713.6
+        },
+        "network": {
+            "send_B": 2044625952,
+            "recv_B": 2670217630,
+            "send_Bps": 3303101.2,
+            "recv_Bps": 4651369.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "GitHub",
+            "timestamp": 1713549231.261326
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.2
+        },
+        "memory": {
+            "available_GB": 16853479424,
+            "inUse_GB": 12104736768,
+            "free_GB": 4749312000
+        },
+        "disc": {
+            "read_B": 229303476736,
+            "write_B": 222751355392,
+            "read_Bps": 61716992.0,
+            "write_Bps": 89965875.2
+        },
+        "network": {
+            "send_B": 2044643235,
+            "recv_B": 2670251815,
+            "send_Bps": 3306557.8,
+            "recv_Bps": 4658206.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "LocalMachineSimpleBenchmark",
+            "timestamp": 1713549241.3053381
+        }
+    }
+]

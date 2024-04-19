@@ -80,7 +80,7 @@ def monitor(interval_seconds=1, save_freq=1, print_data=False):
     count = 0
     print(f'\n\nMONITORAMENTO EM ANDAMENTO')
     while True:
-        data.append(coletar_dados(data[0] if len(data)>0 else None, interval_seconds))
+        data.append(coletar_dados(data[-1] if len(data)>0 else None, interval_seconds))
         count += 1
         if count > save_freq:
             count = 0
