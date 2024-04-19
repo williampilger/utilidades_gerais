@@ -45,11 +45,22 @@ def coletar_dados( previousDump=None ):
         }
     }
 
-def save_json(dados):
-    with open(ENV.get_var('OUTPUT_FILE','out.json',str), "w") as arquivo:
+def save_json(dados, outfile):
+    with open(outfile, "w") as arquivo:
         json.dump(dados, arquivo, indent=4)
 
 def monitor(interval_seconds=1, save_freq=1):
+
+    outfile = ENV.get_var('OUTPUT_FILE','out.json',str)
+    fv = 0
+    while os.path.exists(outfile):
+        if '_' in outfile:
+            parts = outfile.split('_',1)
+            fv = int(parts[0])
+            outfile = parts[1]
+        fv += 1
+        outfile = f'{fv}_{outfile}'
+
     data = []
     count = 0
     while True:
@@ -57,7 +68,7 @@ def monitor(interval_seconds=1, save_freq=1):
         count += 1
         if count > save_freq:
             count = 0
-            save_json(data)
+            save_json(data, outfile)
         print(f"Dados salvos: {data}")
         time.sleep(interval_seconds)
 
