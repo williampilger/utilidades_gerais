@@ -32,6 +32,9 @@ Os dados são coletados enquanto o software está em execução, podendo ter abr
             "recv_B": 270226470,
             "send_Bps": 0,
             "recv_Bps": 0
+        },
+        "other":{
+            "ForegroundWindowTitle":"Visual Studio Code"
         }
     },
     {
@@ -54,6 +57,9 @@ Os dados são coletados enquanto o software está em execução, podendo ter abr
             "recv_B": 270228055,
             "send_Bps": 1717.0,
             "recv_Bps": 1585.0
+        },
+        "other":{
+            "ForegroundWindowTitle":"Visual Studio Code"
         }
     }
 ]

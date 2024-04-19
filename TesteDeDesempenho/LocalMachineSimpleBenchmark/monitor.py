@@ -2,6 +2,7 @@ import psutil
 import json
 import time
 from class_EnvLoader import EnvLoader
+from win32gui import GetWindowText, GetForegroundWindow
 
 ENV = EnvLoader('.env')
 
@@ -28,6 +29,9 @@ def coletar_dados( previousDump=None ):
             'recv_B': psutil.net_io_counters().bytes_recv,
             'send_Bps': ((psutil.net_io_counters().bytes_sent - previousDump['network']['send_B']) / interval) if previousDump else 0,
             'recv_Bps': ((psutil.net_io_counters().bytes_recv - previousDump['network']['recv_B']) / interval) if previousDump else 0
+        },
+        'other': {
+            'ForegroundWindowTitle': GetWindowText(GetForegroundWindow())
         }
     }
 
