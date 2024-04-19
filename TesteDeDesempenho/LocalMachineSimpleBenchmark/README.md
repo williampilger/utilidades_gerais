@@ -64,3 +64,8 @@ Os dados são coletados enquanto o software está em execução, podendo ter abr
     }
 ]
 ```
+
+
+## Compilando versão Python (pyinstaller)
+
+> pyinstaller --onefile monitor.py
