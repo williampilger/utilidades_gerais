@@ -16,8 +16,7 @@ except:
 
 ENV = EnvLoader('.env')
 
-def coletar_dados( previousDump=None ):
-    interval = ENV.get_var('DUMP_INTERVAL_SECONDS', 1, int)
+def coletar_dados( previousDump=None, interval=1 ):
 
     return {
         'cpu': {
@@ -41,7 +40,8 @@ def coletar_dados( previousDump=None ):
             'recv_Bps': ((psutil.net_io_counters().bytes_recv - previousDump['network']['recv_B']) / interval) if previousDump else 0
         },
         'other': {
-            'ForegroundWindowTitle': GetWindowText(GetForegroundWindow())
+            'ForegroundWindowTitle': GetWindowText(GetForegroundWindow()),
+            'timestamp': time.time()
         }
     }
 
@@ -64,7 +64,7 @@ def monitor(interval_seconds=1, save_freq=1):
     data = []
     count = 0
     while True:
-        data.append(coletar_dados(data[0] if len(data)>0 else None))
+        data.append(coletar_dados(data[0] if len(data)>0 else None, interval_seconds))
         count += 1
         if count > save_freq:
             count = 0
@@ -74,6 +74,6 @@ def monitor(interval_seconds=1, save_freq=1):
 
 if __name__ == "__main__":
     monitor(
-        ENV.get_var('DUMP_INTERVAL_SECONDS',1,int),
-        ENV.get_var('SAVE_FREQUENCY',1,int)
+        ENV.get_var('DUMP_INTERVAL_SECONDS',5,int),
+        ENV.get_var('SAVE_FREQUENCY',6,int)
     )
