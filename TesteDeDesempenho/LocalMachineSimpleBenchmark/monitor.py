@@ -1,8 +1,18 @@
-import psutil
-import json
-import time
-from class_EnvLoader import EnvLoader
-from win32gui import GetWindowText, GetForegroundWindow
+import subprocess
+import sys
+import os
+
+try:
+    import psutil
+    import json
+    import time
+    from class_EnvLoader import EnvLoader
+    from win32gui import GetWindowText, GetForegroundWindow
+except:
+    subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
+    os.system(f"python \"{__file__}\"")
+    quit()
+
 
 ENV = EnvLoader('.env')
 
