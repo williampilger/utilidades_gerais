@@ -49,7 +49,7 @@ def save_json(dados, outfile):
     with open(outfile, "w") as arquivo:
         json.dump(dados, arquivo, indent=4)
 
-def monitor(interval_seconds=1, save_freq=1):
+def monitor(interval_seconds=1, save_freq=1, print_data=False):
 
     outfile = ENV.get_var('OUTPUT_FILE','out.json',str)
     fv = 0
@@ -63,17 +63,32 @@ def monitor(interval_seconds=1, save_freq=1):
 
     data = []
     count = 0
+    print(f'\n\nMONITORAMENTO EM ANDAMENTO')
     while True:
         data.append(coletar_dados(data[0] if len(data)>0 else None, interval_seconds))
         count += 1
         if count > save_freq:
             count = 0
             save_json(data, outfile)
-        print(f"Dados salvos: {data}")
+        if print_data:
+            print(f"Dados coletados: {data}")
         time.sleep(interval_seconds)
 
 if __name__ == "__main__":
+    print(f'''
+
+        Monitor de recursos:
+            - CPU
+            - Memória Principal (RAM)
+            - Disco (leitura/gravação)
+            - Rede (download/upload)
+          * Também serão coletados os nomes das janelas em evidência
+
+    INICIANDO O MONITORAMENTO...
+          
+          ''')
     monitor(
         ENV.get_var('DUMP_INTERVAL_SECONDS',5,int),
-        ENV.get_var('SAVE_FREQUENCY',6,int)
+        ENV.get_var('SAVE_FREQUENCY',6,int),
+        ENV.get_var('PRINT_DATA',False,bool)
     )
