@@ -35,12 +35,12 @@ def coletar_dados( previousDump=None, interval=1 ):
 
     return {
         'cpu': {
-            'usage_percent': psutil.cpu_percent(interval)
+            'usage_percent': psutil.cpu_percent(1) #aqui eu usava "interval", mas para tentar deixar esta leitura mais parecida com a do gerenciador de tarefas, estou mudando pra 1, fixo
         },
         'memory': {
-            'available_GB': psutil.virtual_memory().total,
-            'inUse_GB': psutil.virtual_memory().used,
-            'free_GB': psutil.virtual_memory().available
+            'available_GB': psutil.virtual_memory().total/1000000000,
+            'inUse_GB': psutil.virtual_memory().used/1000000000,
+            'free_GB': psutil.virtual_memory().available/1000000000
         },
         'disc': {
             'read_B': psutil.disk_io_counters().read_bytes,
