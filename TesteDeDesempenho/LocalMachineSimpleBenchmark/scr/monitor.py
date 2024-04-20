@@ -1,33 +1,10 @@
-import subprocess
-import sys
 import os
+import psutil
+import json
+import time
+import pygetwindow as gw
 
 from class_EnvLoader import EnvLoader
-
-try:
-    import psutil
-    import json
-    import time
-    import pygetwindow as gw
-except Exception as e:
-    if not getattr(sys, 'frozen', False):
-        subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
-        os.system(f"python \"{__file__}\"")
-    else:
-        print(f'''
-            {e}
-***********************************************************************************************
-            Esta versão do aplicativo não funciona no seu computador.
-              
-              - Você está usando uma versão compilada deste aplicativo;
-              - Seus sistema operacional não encontrou uma ou mais bibliotecas necessárias;
-
-            Execução interrompida.
-***********************************************************************************************
-            ''')
-        input('Pressione enter para sair...')
-    quit()
-
 
 ENV = EnvLoader('.env')
 
