@@ -1,0 +1,184 @@
+[
+    {
+        "cpu": {
+            "usage_percent": 6.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3078414336,
+            "free_GB": 1129213952
+        },
+        "disc": {
+            "read_B": 12441395712,
+            "write_B": 5468507648,
+            "read_Bps": 0,
+            "write_Bps": 0
+        },
+        "network": {
+            "send_B": 75548211,
+            "recv_B": 579498893,
+            "send_Bps": 0,
+            "recv_Bps": 0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Abrir",
+            "timestamp": 1713794308.4559884
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 9.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3064127488,
+            "free_GB": 1143500800
+        },
+        "disc": {
+            "read_B": 12444981248,
+            "write_B": 5474840576,
+            "read_Bps": 717107.2,
+            "write_Bps": 1266585.6
+        },
+        "network": {
+            "send_B": 75564156,
+            "recv_B": 579635839,
+            "send_Bps": 3189.0,
+            "recv_Bps": 27389.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "2_export.json - Google Chrome",
+            "timestamp": 1713794318.4574707
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 20.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3016474624,
+            "free_GB": 1191153664
+        },
+        "disc": {
+            "read_B": 12445067264,
+            "write_B": 5477368832,
+            "read_Bps": 734310.4,
+            "write_Bps": 1772236.8
+        },
+        "network": {
+            "send_B": 75569082,
+            "recv_B": 579772253,
+            "send_Bps": 4174.2,
+            "recv_Bps": 54672.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713794328.486168
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 15.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3121827840,
+            "free_GB": 1085145088
+        },
+        "disc": {
+            "read_B": 12448876544,
+            "write_B": 5480511488,
+            "read_Bps": 1496166.4,
+            "write_Bps": 2400768.0
+        },
+        "network": {
+            "send_B": 75638004,
+            "recv_B": 580272903,
+            "send_Bps": 17958.6,
+            "recv_Bps": 154802.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Downloads",
+            "timestamp": 1713794338.501474
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2643615744,
+            "free_GB": 1564012544
+        },
+        "disc": {
+            "read_B": 12449523712,
+            "write_B": 5485065728,
+            "read_Bps": 1625600.0,
+            "write_Bps": 3311616.0
+        },
+        "network": {
+            "send_B": 75643291,
+            "recv_B": 580404402,
+            "send_Bps": 19016.0,
+            "recv_Bps": 181101.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Executar",
+            "timestamp": 1713794348.5029056
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 46.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2633555968,
+            "free_GB": 1574072320
+        },
+        "disc": {
+            "read_B": 12464006144,
+            "write_B": 5530660352,
+            "read_Bps": 4522086.4,
+            "write_Bps": 12430540.8
+        },
+        "network": {
+            "send_B": 75647678,
+            "recv_B": 580547464,
+            "send_Bps": 19893.4,
+            "recv_Bps": 209714.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "94% conclu\u00eddo",
+            "timestamp": 1713794358.5326297
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 26.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2639745024,
+            "free_GB": 1567883264
+        },
+        "disc": {
+            "read_B": 12468387328,
+            "write_B": 5543858688,
+            "read_Bps": 5398323.2,
+            "write_Bps": 15070208.0
+        },
+        "network": {
+            "send_B": 75649803,
+            "recv_B": 580625206,
+            "send_Bps": 20318.4,
+            "recv_Bps": 225262.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "9.046 itens reciclado",
+            "timestamp": 1713794368.5335593
+        }
+    }
+]

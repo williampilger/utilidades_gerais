@@ -1,0 +1,4916 @@
+[
+    {
+        "cpu": {
+            "usage_percent": 2.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3031728128,
+            "free_GB": 1175900160
+        },
+        "disc": {
+            "read_B": 48472700928,
+            "write_B": 62402864640,
+            "read_Bps": 0,
+            "write_Bps": 0
+        },
+        "network": {
+            "send_B": 66796840,
+            "recv_B": 567967905,
+            "send_Bps": 0,
+            "recv_Bps": 0
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\henrique.rosa\\Downloads\\SimpleBenchmark_windows10_v2\\monitor.exe",
+            "timestamp": 1713548250.4763913
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 8.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3022438400,
+            "free_GB": 1185185792
+        },
+        "disc": {
+            "read_B": 48473451520,
+            "write_B": 62409054720,
+            "read_Bps": 150118.4,
+            "write_Bps": 1238016.0
+        },
+        "network": {
+            "send_B": 66807794,
+            "recv_B": 568104241,
+            "send_Bps": 2190.8,
+            "recv_Bps": 27267.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "WhatsApp - Google Chrome",
+            "timestamp": 1713548260.4926207
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 16.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3107041280,
+            "free_GB": 1100587008
+        },
+        "disc": {
+            "read_B": 48494356992,
+            "write_B": 62440044032,
+            "read_Bps": 4331212.8,
+            "write_Bps": 7435878.4
+        },
+        "network": {
+            "send_B": 66812653,
+            "recv_B": 568238510,
+            "send_Bps": 3162.6,
+            "recv_Bps": 54121.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\henrique.rosa\\Downloads\\SimpleBenchmark_windows10_v2\\monitor.exe",
+            "timestamp": 1713548270.5065963
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 8.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3143094272,
+            "free_GB": 1064534016
+        },
+        "disc": {
+            "read_B": 48499863552,
+            "write_B": 62442585088,
+            "read_Bps": 5432524.8,
+            "write_Bps": 7944089.6
+        },
+        "network": {
+            "send_B": 67003923,
+            "recv_B": 568333036,
+            "send_Bps": 41416.6,
+            "recv_Bps": 73026.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Downloads",
+            "timestamp": 1713548280.5221748
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 9.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3094052864,
+            "free_GB": 1113575424
+        },
+        "disc": {
+            "read_B": 48500219904,
+            "write_B": 62445289984,
+            "read_Bps": 5503795.2,
+            "write_Bps": 8485068.8
+        },
+        "network": {
+            "send_B": 67023445,
+            "recv_B": 568481698,
+            "send_Bps": 45321.0,
+            "recv_Bps": 102758.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\henrique.rosa\\Downloads\\SimpleBenchmark_windows10_v2\\monitor.exe",
+            "timestamp": 1713548290.5355268
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 4.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3040854016,
+            "free_GB": 1166774272
+        },
+        "disc": {
+            "read_B": 48501149696,
+            "write_B": 62457336320,
+            "read_Bps": 5689753.6,
+            "write_Bps": 10894336.0
+        },
+        "network": {
+            "send_B": 67081668,
+            "recv_B": 574323072,
+            "send_Bps": 56965.6,
+            "recv_Bps": 1271033.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\henrique.rosa\\Downloads\\SimpleBenchmark_windows10_v2\\monitor.exe",
+            "timestamp": 1713548300.5498228
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 24.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3114229760,
+            "free_GB": 1093398528
+        },
+        "disc": {
+            "read_B": 48550712832,
+            "write_B": 62512129024,
+            "read_Bps": 15602380.8,
+            "write_Bps": 21852876.8
+        },
+        "network": {
+            "send_B": 67208165,
+            "recv_B": 575957672,
+            "send_Bps": 82265.0,
+            "recv_Bps": 1597953.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Gerenciador de Tarefas",
+            "timestamp": 1713548310.5646267
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 6.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3084922880,
+            "free_GB": 1122705408
+        },
+        "disc": {
+            "read_B": 48551090176,
+            "write_B": 62516286464,
+            "read_Bps": 15677849.6,
+            "write_Bps": 22684364.8
+        },
+        "network": {
+            "send_B": 67211337,
+            "recv_B": 576095664,
+            "send_Bps": 82899.4,
+            "recv_Bps": 1625551.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\henrique.rosa\\Downloads\\SimpleBenchmark_windows10_v2\\monitor.exe",
+            "timestamp": 1713548320.5789988
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 4.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3055685632,
+            "free_GB": 1151700992
+        },
+        "disc": {
+            "read_B": 48551151616,
+            "write_B": 62522436608,
+            "read_Bps": 15690137.6,
+            "write_Bps": 23914393.6
+        },
+        "network": {
+            "send_B": 67215418,
+            "recv_B": 576229400,
+            "send_Bps": 83715.6,
+            "recv_Bps": 1652299.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548330.5948017
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3053838336,
+            "free_GB": 1153789952
+        },
+        "disc": {
+            "read_B": 48551200768,
+            "write_B": 62543352832,
+            "read_Bps": 15699968.0,
+            "write_Bps": 28097638.4
+        },
+        "network": {
+            "send_B": 67219495,
+            "recv_B": 576365581,
+            "send_Bps": 84531.0,
+            "recv_Bps": 1679535.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548340.6085942
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3059539968,
+            "free_GB": 1148088320
+        },
+        "disc": {
+            "read_B": 48551294976,
+            "write_B": 62547765248,
+            "read_Bps": 15718809.6,
+            "write_Bps": 28980121.6
+        },
+        "network": {
+            "send_B": 67224746,
+            "recv_B": 576444806,
+            "send_Bps": 85581.2,
+            "recv_Bps": 1695380.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548350.6216168
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3043008512,
+            "free_GB": 1164619776
+        },
+        "disc": {
+            "read_B": 48551779840,
+            "write_B": 62570891776,
+            "read_Bps": 15815782.4,
+            "write_Bps": 33605427.2
+        },
+        "network": {
+            "send_B": 67228066,
+            "recv_B": 576581160,
+            "send_Bps": 86245.2,
+            "recv_Bps": 1722651.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548360.6344447
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3048456192,
+            "free_GB": 1159172096
+        },
+        "disc": {
+            "read_B": 48554767360,
+            "write_B": 62572511232,
+            "read_Bps": 16413286.4,
+            "write_Bps": 33929318.4
+        },
+        "network": {
+            "send_B": 67277951,
+            "recv_B": 576769840,
+            "send_Bps": 96222.2,
+            "recv_Bps": 1760387.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548370.6475537
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3038044160,
+            "free_GB": 1169584128
+        },
+        "disc": {
+            "read_B": 48554791936,
+            "write_B": 62573840384,
+            "read_Bps": 16418201.6,
+            "write_Bps": 34195148.8
+        },
+        "network": {
+            "send_B": 67279949,
+            "recv_B": 576895866,
+            "send_Bps": 96621.8,
+            "recv_Bps": 1785592.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548380.660485
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3031134208,
+            "free_GB": 1176494080
+        },
+        "disc": {
+            "read_B": 48554806784,
+            "write_B": 62577314304,
+            "read_Bps": 16421171.2,
+            "write_Bps": 34889932.8
+        },
+        "network": {
+            "send_B": 67283423,
+            "recv_B": 577034460,
+            "send_Bps": 97316.6,
+            "recv_Bps": 1813311.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548390.674078
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3025305600,
+            "free_GB": 1182322688
+        },
+        "disc": {
+            "read_B": 48554860032,
+            "write_B": 62602466816,
+            "read_Bps": 16431820.8,
+            "write_Bps": 39920435.2
+        },
+        "network": {
+            "send_B": 67285410,
+            "recv_B": 577164981,
+            "send_Bps": 97714.0,
+            "recv_Bps": 1839415.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548400.6888208
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3055960064,
+            "free_GB": 1151668224
+        },
+        "disc": {
+            "read_B": 48554937856,
+            "write_B": 62604218368,
+            "read_Bps": 16447385.6,
+            "write_Bps": 40270745.6
+        },
+        "network": {
+            "send_B": 67294907,
+            "recv_B": 577299241,
+            "send_Bps": 99613.4,
+            "recv_Bps": 1866267.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548410.7008383
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3047288832,
+            "free_GB": 1160339456
+        },
+        "disc": {
+            "read_B": 48554937856,
+            "write_B": 62605169152,
+            "read_Bps": 16447385.6,
+            "write_Bps": 40460902.4
+        },
+        "network": {
+            "send_B": 67299848,
+            "recv_B": 577432611,
+            "send_Bps": 100601.6,
+            "recv_Bps": 1892941.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548420.7137797
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3031064576,
+            "free_GB": 1176563712
+        },
+        "disc": {
+            "read_B": 48554937856,
+            "write_B": 62606394368,
+            "read_Bps": 16447385.6,
+            "write_Bps": 40705945.6
+        },
+        "network": {
+            "send_B": 67302705,
+            "recv_B": 577560654,
+            "send_Bps": 101173.0,
+            "recv_Bps": 1918549.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548430.726806
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 4.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3042660352,
+            "free_GB": 1164931072
+        },
+        "disc": {
+            "read_B": 48554937856,
+            "write_B": 62608752640,
+            "read_Bps": 16447385.6,
+            "write_Bps": 41177600.0
+        },
+        "network": {
+            "send_B": 67308204,
+            "recv_B": 577705551,
+            "send_Bps": 102272.8,
+            "recv_Bps": 1947529.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548440.7417753
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 6.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3027435520,
+            "free_GB": 1180192768
+        },
+        "disc": {
+            "read_B": 48555044352,
+            "write_B": 62653349376,
+            "read_Bps": 16468684.8,
+            "write_Bps": 50096947.2
+        },
+        "network": {
+            "send_B": 67311796,
+            "recv_B": 577837438,
+            "send_Bps": 102991.2,
+            "recv_Bps": 1973906.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548450.7542067
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 5.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3099193344,
+            "free_GB": 1108434944
+        },
+        "disc": {
+            "read_B": 48555216384,
+            "write_B": 62660639232,
+            "read_Bps": 16503091.2,
+            "write_Bps": 51554918.4
+        },
+        "network": {
+            "send_B": 67316879,
+            "recv_B": 577978441,
+            "send_Bps": 104007.8,
+            "recv_Bps": 2002107.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548460.77012
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3071586304,
+            "free_GB": 1136041984
+        },
+        "disc": {
+            "read_B": 48555220480,
+            "write_B": 62663636992,
+            "read_Bps": 16503910.4,
+            "write_Bps": 52154470.4
+        },
+        "network": {
+            "send_B": 67323012,
+            "recv_B": 578112287,
+            "send_Bps": 105234.4,
+            "recv_Bps": 2028876.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548470.783516
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3071414272,
+            "free_GB": 1136214016
+        },
+        "disc": {
+            "read_B": 48555220480,
+            "write_B": 62664751104,
+            "read_Bps": 16503910.4,
+            "write_Bps": 52377292.8
+        },
+        "network": {
+            "send_B": 67325190,
+            "recv_B": 578241370,
+            "send_Bps": 105670.0,
+            "recv_Bps": 2054693.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548480.7971718
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3032559616,
+            "free_GB": 1175089152
+        },
+        "disc": {
+            "read_B": 48555220480,
+            "write_B": 62668713472,
+            "read_Bps": 16503910.4,
+            "write_Bps": 53169766.4
+        },
+        "network": {
+            "send_B": 67329573,
+            "recv_B": 578382957,
+            "send_Bps": 106546.6,
+            "recv_Bps": 2083010.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548490.8114831
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 7.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3024629760,
+            "free_GB": 1182998528
+        },
+        "disc": {
+            "read_B": 48555380224,
+            "write_B": 62704386560,
+            "read_Bps": 16535859.2,
+            "write_Bps": 60304384.0
+        },
+        "network": {
+            "send_B": 67337168,
+            "recv_B": 578528203,
+            "send_Bps": 108065.6,
+            "recv_Bps": 2112059.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548500.8242702
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3042369536,
+            "free_GB": 1165258752
+        },
+        "disc": {
+            "read_B": 48555380224,
+            "write_B": 62718769664,
+            "read_Bps": 16535859.2,
+            "write_Bps": 63181004.8
+        },
+        "network": {
+            "send_B": 67339772,
+            "recv_B": 578660896,
+            "send_Bps": 108586.4,
+            "recv_Bps": 2138598.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548510.838154
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3036422144,
+            "free_GB": 1171206144
+        },
+        "disc": {
+            "read_B": 48555466240,
+            "write_B": 62719552512,
+            "read_Bps": 16553062.4,
+            "write_Bps": 63337574.4
+        },
+        "network": {
+            "send_B": 67342436,
+            "recv_B": 578794955,
+            "send_Bps": 109119.2,
+            "recv_Bps": 2165410.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548520.8516035
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3035447296,
+            "free_GB": 1172180992
+        },
+        "disc": {
+            "read_B": 48555503104,
+            "write_B": 62720260096,
+            "read_Bps": 16560435.2,
+            "write_Bps": 63479091.2
+        },
+        "network": {
+            "send_B": 67354914,
+            "recv_B": 578930585,
+            "send_Bps": 111614.8,
+            "recv_Bps": 2192536.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548530.868099
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 3.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3041439744,
+            "free_GB": 1166188544
+        },
+        "disc": {
+            "read_B": 48555503104,
+            "write_B": 62720837632,
+            "read_Bps": 16560435.2,
+            "write_Bps": 63594598.4
+        },
+        "network": {
+            "send_B": 67358484,
+            "recv_B": 579060335,
+            "send_Bps": 112328.8,
+            "recv_Bps": 2218486.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548540.8817024
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3011645440,
+            "free_GB": 1195982848
+        },
+        "disc": {
+            "read_B": 48555544064,
+            "write_B": 62721378304,
+            "read_Bps": 16568627.2,
+            "write_Bps": 63702732.8
+        },
+        "network": {
+            "send_B": 67364220,
+            "recv_B": 579141824,
+            "send_Bps": 113476.0,
+            "recv_Bps": 2234783.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548550.895584
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3005116416,
+            "free_GB": 1202511872
+        },
+        "disc": {
+            "read_B": 48555675136,
+            "write_B": 62722175488,
+            "read_Bps": 16594841.6,
+            "write_Bps": 63862169.6
+        },
+        "network": {
+            "send_B": 67366043,
+            "recv_B": 579273755,
+            "send_Bps": 113840.6,
+            "recv_Bps": 2261170.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548560.910096
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 11.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3041054720,
+            "free_GB": 1166573568
+        },
+        "disc": {
+            "read_B": 48568526848,
+            "write_B": 62727883776,
+            "read_Bps": 19165184.0,
+            "write_Bps": 65003827.2
+        },
+        "network": {
+            "send_B": 67370120,
+            "recv_B": 579403890,
+            "send_Bps": 114656.0,
+            "recv_Bps": 2287197.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548570.9229221
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3058839552,
+            "free_GB": 1148788736
+        },
+        "disc": {
+            "read_B": 48568825856,
+            "write_B": 62734318080,
+            "read_Bps": 19224985.6,
+            "write_Bps": 66290688.0
+        },
+        "network": {
+            "send_B": 67371985,
+            "recv_B": 579536877,
+            "send_Bps": 115029.0,
+            "recv_Bps": 2313794.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548580.9379063
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3048071168,
+            "free_GB": 1159557120
+        },
+        "disc": {
+            "read_B": 48569096192,
+            "write_B": 62735350272,
+            "read_Bps": 19279052.8,
+            "write_Bps": 66497126.4
+        },
+        "network": {
+            "send_B": 67377830,
+            "recv_B": 579673660,
+            "send_Bps": 116198.0,
+            "recv_Bps": 2341151.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548590.9507625
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3066064896,
+            "free_GB": 1141563392
+        },
+        "disc": {
+            "read_B": 48569339904,
+            "write_B": 62736326144,
+            "read_Bps": 19327795.2,
+            "write_Bps": 66692300.8
+        },
+        "network": {
+            "send_B": 67379335,
+            "recv_B": 579804093,
+            "send_Bps": 116499.0,
+            "recv_Bps": 2367237.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548600.9681416
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3033993216,
+            "free_GB": 1173635072
+        },
+        "disc": {
+            "read_B": 48569417728,
+            "write_B": 62736927744,
+            "read_Bps": 19343360.0,
+            "write_Bps": 66812620.8
+        },
+        "network": {
+            "send_B": 67382351,
+            "recv_B": 579939409,
+            "send_Bps": 117102.2,
+            "recv_Bps": 2394300.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548610.9820995
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3026952192,
+            "free_GB": 1180676096
+        },
+        "disc": {
+            "read_B": 48574503424,
+            "write_B": 62738038272,
+            "read_Bps": 20360499.2,
+            "write_Bps": 67034726.4
+        },
+        "network": {
+            "send_B": 67384716,
+            "recv_B": 580066803,
+            "send_Bps": 117575.2,
+            "recv_Bps": 2419779.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548620.9959342
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3026075648,
+            "free_GB": 1181552640
+        },
+        "disc": {
+            "read_B": 48574606848,
+            "write_B": 62738395136,
+            "read_Bps": 20381184.0,
+            "write_Bps": 67106099.2
+        },
+        "network": {
+            "send_B": 67387600,
+            "recv_B": 580212619,
+            "send_Bps": 118152.0,
+            "recv_Bps": 2448942.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548631.0099485
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3022585856,
+            "free_GB": 1185042432
+        },
+        "disc": {
+            "read_B": 48574606848,
+            "write_B": 62739218944,
+            "read_Bps": 20381184.0,
+            "write_Bps": 67270860.8
+        },
+        "network": {
+            "send_B": 67390742,
+            "recv_B": 580463780,
+            "send_Bps": 118780.4,
+            "recv_Bps": 2499175.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548641.025047
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3033534464,
+            "free_GB": 1174093824
+        },
+        "disc": {
+            "read_B": 48574606848,
+            "write_B": 62739719168,
+            "read_Bps": 20381184.0,
+            "write_Bps": 67370905.6
+        },
+        "network": {
+            "send_B": 67396295,
+            "recv_B": 580671773,
+            "send_Bps": 119891.0,
+            "recv_Bps": 2540773.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548651.0382493
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3030687744,
+            "free_GB": 1176940544
+        },
+        "disc": {
+            "read_B": 48574676480,
+            "write_B": 62741636608,
+            "read_Bps": 20395110.4,
+            "write_Bps": 67754393.6
+        },
+        "network": {
+            "send_B": 67398527,
+            "recv_B": 580866938,
+            "send_Bps": 120337.4,
+            "recv_Bps": 2579806.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548661.0525706
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3034398720,
+            "free_GB": 1173229568
+        },
+        "disc": {
+            "read_B": 48574676480,
+            "write_B": 62742255616,
+            "read_Bps": 20395110.4,
+            "write_Bps": 67878195.2
+        },
+        "network": {
+            "send_B": 67402421,
+            "recv_B": 581058986,
+            "send_Bps": 121116.2,
+            "recv_Bps": 2618216.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548671.0709167
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3026423808,
+            "free_GB": 1181204480
+        },
+        "disc": {
+            "read_B": 48574676480,
+            "write_B": 62742937600,
+            "read_Bps": 20395110.4,
+            "write_Bps": 68014592.0
+        },
+        "network": {
+            "send_B": 67404991,
+            "recv_B": 581254115,
+            "send_Bps": 121630.2,
+            "recv_Bps": 2657242.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548681.0857227
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3003076608,
+            "free_GB": 1204551680
+        },
+        "disc": {
+            "read_B": 48574828032,
+            "write_B": 62743729152,
+            "read_Bps": 20425420.8,
+            "write_Bps": 68172902.4
+        },
+        "network": {
+            "send_B": 67409283,
+            "recv_B": 581454660,
+            "send_Bps": 122488.6,
+            "recv_Bps": 2697394.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548691.100004
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2955792384,
+            "free_GB": 1251835904
+        },
+        "disc": {
+            "read_B": 48574905856,
+            "write_B": 62744267776,
+            "read_Bps": 20440985.6,
+            "write_Bps": 68280627.2
+        },
+        "network": {
+            "send_B": 67415930,
+            "recv_B": 581654543,
+            "send_Bps": 123818.0,
+            "recv_Bps": 2737327.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548701.1143885
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2960777216,
+            "free_GB": 1246781440
+        },
+        "disc": {
+            "read_B": 48574905856,
+            "write_B": 62745589760,
+            "read_Bps": 20440985.6,
+            "write_Bps": 68545024.0
+        },
+        "network": {
+            "send_B": 67424967,
+            "recv_B": 581828640,
+            "send_Bps": 125625.4,
+            "recv_Bps": 2772147.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548711.1287122
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2963611648,
+            "free_GB": 1244016640
+        },
+        "disc": {
+            "read_B": 48574905856,
+            "write_B": 62746105856,
+            "read_Bps": 20440985.6,
+            "write_Bps": 68648243.2
+        },
+        "network": {
+            "send_B": 67427918,
+            "recv_B": 581964545,
+            "send_Bps": 126215.6,
+            "recv_Bps": 2799328.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548721.144218
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2948542464,
+            "free_GB": 1259085824
+        },
+        "disc": {
+            "read_B": 48574905856,
+            "write_B": 62746800640,
+            "read_Bps": 20440985.6,
+            "write_Bps": 68787200.0
+        },
+        "network": {
+            "send_B": 67433518,
+            "recv_B": 582110114,
+            "send_Bps": 127335.6,
+            "recv_Bps": 2828441.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548731.1578283
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2955194368,
+            "free_GB": 1252433920
+        },
+        "disc": {
+            "read_B": 48574905856,
+            "write_B": 62747685888,
+            "read_Bps": 20440985.6,
+            "write_Bps": 68964249.6
+        },
+        "network": {
+            "send_B": 67435421,
+            "recv_B": 582195521,
+            "send_Bps": 127716.2,
+            "recv_Bps": 2845523.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548741.1775322
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2970832896,
+            "free_GB": 1236795392
+        },
+        "disc": {
+            "read_B": 48574987776,
+            "write_B": 62748002816,
+            "read_Bps": 20457369.6,
+            "write_Bps": 69027635.2
+        },
+        "network": {
+            "send_B": 67437911,
+            "recv_B": 582330919,
+            "send_Bps": 128214.2,
+            "recv_Bps": 2872602.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548751.192121
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2945531904,
+            "free_GB": 1262096384
+        },
+        "disc": {
+            "read_B": 48574987776,
+            "write_B": 62748579328,
+            "read_Bps": 20457369.6,
+            "write_Bps": 69142937.6
+        },
+        "network": {
+            "send_B": 67439524,
+            "recv_B": 582462635,
+            "send_Bps": 128536.8,
+            "recv_Bps": 2898946.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548761.2066743
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2962489344,
+            "free_GB": 1245138944
+        },
+        "disc": {
+            "read_B": 48574987776,
+            "write_B": 62749022208,
+            "read_Bps": 20457369.6,
+            "write_Bps": 69231513.6
+        },
+        "network": {
+            "send_B": 67445220,
+            "recv_B": 582602305,
+            "send_Bps": 129676.0,
+            "recv_Bps": 2926880.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548771.2213202
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2960777216,
+            "free_GB": 1246851072
+        },
+        "disc": {
+            "read_B": 48574991872,
+            "write_B": 62749559808,
+            "read_Bps": 20458188.8,
+            "write_Bps": 69339033.6
+        },
+        "network": {
+            "send_B": 67446997,
+            "recv_B": 582732858,
+            "send_Bps": 130031.4,
+            "recv_Bps": 2953002.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548781.2357621
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2950033408,
+            "free_GB": 1257594880
+        },
+        "disc": {
+            "read_B": 48575286784,
+            "write_B": 62750274560,
+            "read_Bps": 20517171.2,
+            "write_Bps": 69481984.0
+        },
+        "network": {
+            "send_B": 67451386,
+            "recv_B": 582865936,
+            "send_Bps": 130909.2,
+            "recv_Bps": 2979606.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548791.2513878
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2878410752,
+            "free_GB": 1329217536
+        },
+        "disc": {
+            "read_B": 48575389184,
+            "write_B": 62756660224,
+            "read_Bps": 20537651.2,
+            "write_Bps": 70759116.8
+        },
+        "network": {
+            "send_B": 67453024,
+            "recv_B": 583003563,
+            "send_Bps": 131236.8,
+            "recv_Bps": 3007175.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548801.2663815
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2889678848,
+            "free_GB": 1317949440
+        },
+        "disc": {
+            "read_B": 48575393280,
+            "write_B": 62757444608,
+            "read_Bps": 20538470.4,
+            "write_Bps": 70915993.6
+        },
+        "network": {
+            "send_B": 67456300,
+            "recv_B": 583138937,
+            "send_Bps": 131892.0,
+            "recv_Bps": 3034206.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548811.2854125
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2891292672,
+            "free_GB": 1316335616
+        },
+        "disc": {
+            "read_B": 48575450624,
+            "write_B": 62757847552,
+            "read_Bps": 20549939.2,
+            "write_Bps": 70996582.4
+        },
+        "network": {
+            "send_B": 67458854,
+            "recv_B": 583281621,
+            "send_Bps": 132402.8,
+            "recv_Bps": 3062743.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548821.3000526
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2912567296,
+            "free_GB": 1295060992
+        },
+        "disc": {
+            "read_B": 48575450624,
+            "write_B": 62758497280,
+            "read_Bps": 20549939.2,
+            "write_Bps": 71126528.0
+        },
+        "network": {
+            "send_B": 67467039,
+            "recv_B": 583419571,
+            "send_Bps": 134039.8,
+            "recv_Bps": 3090333.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548831.3146236
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2905329664,
+            "free_GB": 1302298624
+        },
+        "disc": {
+            "read_B": 48575450624,
+            "write_B": 62759112704,
+            "read_Bps": 20549939.2,
+            "write_Bps": 71249612.8
+        },
+        "network": {
+            "send_B": 67469362,
+            "recv_B": 583547652,
+            "send_Bps": 134504.4,
+            "recv_Bps": 3115992.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548841.3292067
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2892443648,
+            "free_GB": 1315184640
+        },
+        "disc": {
+            "read_B": 48575516160,
+            "write_B": 62759692288,
+            "read_Bps": 20563046.4,
+            "write_Bps": 71365529.6
+        },
+        "network": {
+            "send_B": 67474636,
+            "recv_B": 583687711,
+            "send_Bps": 135559.2,
+            "recv_Bps": 3143961.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548851.3450139
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2886131712,
+            "free_GB": 1321496576
+        },
+        "disc": {
+            "read_B": 48575647232,
+            "write_B": 62760473088,
+            "read_Bps": 20589260.8,
+            "write_Bps": 71521689.6
+        },
+        "network": {
+            "send_B": 67476354,
+            "recv_B": 583813977,
+            "send_Bps": 135902.8,
+            "recv_Bps": 3169214.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548861.3596406
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2881454080,
+            "free_GB": 1326174208
+        },
+        "disc": {
+            "read_B": 48575647232,
+            "write_B": 62761004032,
+            "read_Bps": 20589260.8,
+            "write_Bps": 71627878.4
+        },
+        "network": {
+            "send_B": 67479697,
+            "recv_B": 583950398,
+            "send_Bps": 136571.4,
+            "recv_Bps": 3196498.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548871.3743162
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2895839232,
+            "free_GB": 1311789056
+        },
+        "disc": {
+            "read_B": 48575659520,
+            "write_B": 62761481728,
+            "read_Bps": 20591718.4,
+            "write_Bps": 71723417.6
+        },
+        "network": {
+            "send_B": 67481529,
+            "recv_B": 584083340,
+            "send_Bps": 136937.8,
+            "recv_Bps": 3223087.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548881.394437
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2894675968,
+            "free_GB": 1312952320
+        },
+        "disc": {
+            "read_B": 48575659520,
+            "write_B": 62762014720,
+            "read_Bps": 20591718.4,
+            "write_Bps": 71830016.0
+        },
+        "network": {
+            "send_B": 67484301,
+            "recv_B": 584220030,
+            "send_Bps": 137492.2,
+            "recv_Bps": 3250425.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548891.4093645
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2914832384,
+            "free_GB": 1292795904
+        },
+        "disc": {
+            "read_B": 48575659520,
+            "write_B": 62762522624,
+            "read_Bps": 20591718.4,
+            "write_Bps": 71931596.8
+        },
+        "network": {
+            "send_B": 67489138,
+            "recv_B": 584348589,
+            "send_Bps": 138459.6,
+            "recv_Bps": 3276180.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548901.424309
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2897272832,
+            "free_GB": 1310355456
+        },
+        "disc": {
+            "read_B": 48575901184,
+            "write_B": 62763574784,
+            "read_Bps": 20640051.2,
+            "write_Bps": 72142028.8
+        },
+        "network": {
+            "send_B": 67493440,
+            "recv_B": 584477498,
+            "send_Bps": 139320.0,
+            "recv_Bps": 3301918.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548911.4390342
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2896683008,
+            "free_GB": 1310945280
+        },
+        "disc": {
+            "read_B": 48575946240,
+            "write_B": 62764569088,
+            "read_Bps": 20649062.4,
+            "write_Bps": 72340889.6
+        },
+        "network": {
+            "send_B": 67495902,
+            "recv_B": 584613995,
+            "send_Bps": 139812.4,
+            "recv_Bps": 3329218.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548921.455038
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2889814016,
+            "free_GB": 1317814272
+        },
+        "disc": {
+            "read_B": 48576052736,
+            "write_B": 62765210112,
+            "read_Bps": 20670361.6,
+            "write_Bps": 72469094.4
+        },
+        "network": {
+            "send_B": 67499336,
+            "recv_B": 584742692,
+            "send_Bps": 140499.2,
+            "recv_Bps": 3354957.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548931.4699862
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2886877184,
+            "free_GB": 1320751104
+        },
+        "disc": {
+            "read_B": 48576052736,
+            "write_B": 62765824000,
+            "read_Bps": 20670361.6,
+            "write_Bps": 72591872.0
+        },
+        "network": {
+            "send_B": 67502134,
+            "recv_B": 584822275,
+            "send_Bps": 141058.8,
+            "recv_Bps": 3370874.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713548941.4865215
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 9.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2904670208,
+            "free_GB": 1302958080
+        },
+        "disc": {
+            "read_B": 48576252416,
+            "write_B": 62773752832,
+            "read_Bps": 20710297.6,
+            "write_Bps": 74177638.4
+        },
+        "network": {
+            "send_B": 67503062,
+            "recv_B": 584958641,
+            "send_Bps": 141244.4,
+            "recv_Bps": 3398147.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective - AUTOTRAVI BORRACHAS EIRELI - HENRIQUERO - [An\u00e1lise de Amostras por Documento QCFRE201 Sexta-Feira   19/04/2024]",
+            "timestamp": 1713548951.508032
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 7.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2953682944,
+            "free_GB": 1253945344
+        },
+        "disc": {
+            "read_B": 48586641408,
+            "write_B": 62778717184,
+            "read_Bps": 22788096.0,
+            "write_Bps": 75170508.8
+        },
+        "network": {
+            "send_B": 67517891,
+            "recv_B": 585106117,
+            "send_Bps": 144210.2,
+            "recv_Bps": 3427642.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "SimpleBenchmark_windows10_v2",
+            "timestamp": 1713548961.5256803
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2934063104,
+            "free_GB": 1273565184
+        },
+        "disc": {
+            "read_B": 48586723328,
+            "write_B": 62781998080,
+            "read_Bps": 22804480.0,
+            "write_Bps": 75826688.0
+        },
+        "network": {
+            "send_B": 67521691,
+            "recv_B": 585245035,
+            "send_Bps": 144970.2,
+            "recv_Bps": 3455426.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "SimpleBenchmark_windows10_v2",
+            "timestamp": 1713548971.5439372
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2928082944,
+            "free_GB": 1279545344
+        },
+        "disc": {
+            "read_B": 48586756096,
+            "write_B": 62784309760,
+            "read_Bps": 22811033.6,
+            "write_Bps": 76289024.0
+        },
+        "network": {
+            "send_B": 67523731,
+            "recv_B": 585377216,
+            "send_Bps": 145378.2,
+            "recv_Bps": 3481862.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "SimpleBenchmark_windows10_v2",
+            "timestamp": 1713548981.5618436
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2928865280,
+            "free_GB": 1278763008
+        },
+        "disc": {
+            "read_B": 48586756096,
+            "write_B": 62785220608,
+            "read_Bps": 22811033.6,
+            "write_Bps": 76471193.6
+        },
+        "network": {
+            "send_B": 67526820,
+            "recv_B": 585515050,
+            "send_Bps": 145996.0,
+            "recv_Bps": 3509429.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "SimpleBenchmark_windows10_v2",
+            "timestamp": 1713548991.5795414
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 10.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3065036800,
+            "free_GB": 1142591488
+        },
+        "disc": {
+            "read_B": 48588307456,
+            "write_B": 62786062336,
+            "read_Bps": 23121305.6,
+            "write_Bps": 76639539.2
+        },
+        "network": {
+            "send_B": 67552327,
+            "recv_B": 585730468,
+            "send_Bps": 151097.4,
+            "recv_Bps": 3552512.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Nova guia - Google Chrome",
+            "timestamp": 1713549001.6023612
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 13.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3278876672,
+            "free_GB": 928751616
+        },
+        "disc": {
+            "read_B": 48714310144,
+            "write_B": 62792191488,
+            "read_Bps": 48321843.2,
+            "write_Bps": 77865369.6
+        },
+        "network": {
+            "send_B": 67779416,
+            "recv_B": 587700268,
+            "send_Bps": 196529.4,
+            "recv_Bps": 3946472.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "JSONView - Google Chrome",
+            "timestamp": 1713549011.6228986
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 5.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3164327936,
+            "free_GB": 1043308544
+        },
+        "disc": {
+            "read_B": 48873616896,
+            "write_B": 62800695296,
+            "read_Bps": 80183193.6,
+            "write_Bps": 79566131.2
+        },
+        "network": {
+            "send_B": 67875594,
+            "recv_B": 588788605,
+            "send_Bps": 215750.8,
+            "recv_Bps": 4164140.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Abrir",
+            "timestamp": 1713549021.847404
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 6.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3092549632,
+            "free_GB": 1115078656
+        },
+        "disc": {
+            "read_B": 48874509312,
+            "write_B": 62803511296,
+            "read_Bps": 80361676.8,
+            "write_Bps": 80129331.2
+        },
+        "network": {
+            "send_B": 67880838,
+            "recv_B": 588866986,
+            "send_Bps": 216799.6,
+            "recv_Bps": 4179816.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Abrir",
+            "timestamp": 1713549031.8649192
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3115958272,
+            "free_GB": 1091670016
+        },
+        "disc": {
+            "read_B": 48875601408,
+            "write_B": 62807101952,
+            "read_Bps": 80580096.0,
+            "write_Bps": 80847462.4
+        },
+        "network": {
+            "send_B": 67888404,
+            "recv_B": 589006848,
+            "send_Bps": 218312.8,
+            "recv_Bps": 4207788.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "export.json - Google Chrome",
+            "timestamp": 1713549041.881754
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3093479424,
+            "free_GB": 1114148864
+        },
+        "disc": {
+            "read_B": 48875601408,
+            "write_B": 62809015808,
+            "read_Bps": 80580096.0,
+            "write_Bps": 81230233.6
+        },
+        "network": {
+            "send_B": 67891619,
+            "recv_B": 589140154,
+            "send_Bps": 218955.8,
+            "recv_Bps": 4234449.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "export.json - Google Chrome",
+            "timestamp": 1713549051.899376
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3081461760,
+            "free_GB": 1126166528
+        },
+        "disc": {
+            "read_B": 48875884032,
+            "write_B": 62809674240,
+            "read_Bps": 80636620.8,
+            "write_Bps": 81361920.0
+        },
+        "network": {
+            "send_B": 67894777,
+            "recv_B": 589226845,
+            "send_Bps": 219587.4,
+            "recv_Bps": 4251788.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "export.json - Google Chrome",
+            "timestamp": 1713549061.9172952
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3093594112,
+            "free_GB": 1114034176
+        },
+        "disc": {
+            "read_B": 48875884032,
+            "write_B": 62812114944,
+            "read_Bps": 80636620.8,
+            "write_Bps": 81850060.8
+        },
+        "network": {
+            "send_B": 67897311,
+            "recv_B": 589360405,
+            "send_Bps": 220094.2,
+            "recv_Bps": 4278500.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "export.json - Google Chrome",
+            "timestamp": 1713549071.9347684
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3120398336,
+            "free_GB": 1087229952
+        },
+        "disc": {
+            "read_B": 48875904512,
+            "write_B": 62813608960,
+            "read_Bps": 80640716.8,
+            "write_Bps": 82148864.0
+        },
+        "network": {
+            "send_B": 67904206,
+            "recv_B": 589501013,
+            "send_Bps": 221473.2,
+            "recv_Bps": 4306621.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "export.json - Google Chrome",
+            "timestamp": 1713549081.9515097
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 12.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3153330176,
+            "free_GB": 1054298112
+        },
+        "disc": {
+            "read_B": 48877866496,
+            "write_B": 62815428608,
+            "read_Bps": 81033113.6,
+            "write_Bps": 82512793.6
+        },
+        "network": {
+            "send_B": 67910945,
+            "recv_B": 589595553,
+            "send_Bps": 222821.0,
+            "recv_Bps": 4325529.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Email \u2013 Henrique Alves Rosa \u2013 Outlook - Google Chrome",
+            "timestamp": 1713549091.9767995
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 16.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3117449216,
+            "free_GB": 1090179072
+        },
+        "disc": {
+            "read_B": 48884086272,
+            "write_B": 62817840128,
+            "read_Bps": 82277068.8,
+            "write_Bps": 82995097.6
+        },
+        "network": {
+            "send_B": 67959414,
+            "recv_B": 590610390,
+            "send_Bps": 232514.8,
+            "recv_Bps": 4528497.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Vivo Voz Neg\u00f3cio",
+            "timestamp": 1713549101.9959269
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 20.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3289321472,
+            "free_GB": 918306816
+        },
+        "disc": {
+            "read_B": 48903668224,
+            "write_B": 62821991936,
+            "read_Bps": 86193459.2,
+            "write_Bps": 83825459.2
+        },
+        "network": {
+            "send_B": 68376734,
+            "recv_B": 591835942,
+            "send_Bps": 315978.8,
+            "recv_Bps": 4773607.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Power BI - Google Chrome",
+            "timestamp": 1713549112.0146043
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 8.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3082465280,
+            "free_GB": 1124569088
+        },
+        "disc": {
+            "read_B": 48920359936,
+            "write_B": 62825326080,
+            "read_Bps": 89531801.6,
+            "write_Bps": 84492288.0
+        },
+        "network": {
+            "send_B": 68666133,
+            "recv_B": 592258553,
+            "send_Bps": 373858.6,
+            "recv_Bps": 4858129.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Dashboard Laborat\u00f3rio - Power BI - Google Chrome",
+            "timestamp": 1713549122.0345955
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 8.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3190587392,
+            "free_GB": 1017040896
+        },
+        "disc": {
+            "read_B": 48988392448,
+            "write_B": 62830070784,
+            "read_Bps": 103138304.0,
+            "write_Bps": 85441228.8
+        },
+        "network": {
+            "send_B": 69184653,
+            "recv_B": 595588241,
+            "send_Bps": 477562.6,
+            "recv_Bps": 5524067.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Dashboard Laborat\u00f3rio - Power BI - Google Chrome",
+            "timestamp": 1713549132.0540335
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 7.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3157880832,
+            "free_GB": 1049747456
+        },
+        "disc": {
+            "read_B": 48988689920,
+            "write_B": 62831974400,
+            "read_Bps": 103197798.4,
+            "write_Bps": 85821952.0
+        },
+        "network": {
+            "send_B": 69612503,
+            "recv_B": 595775587,
+            "send_Bps": 563132.6,
+            "recv_Bps": 5561536.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Dashboard Laborat\u00f3rio - Power BI - Google Chrome",
+            "timestamp": 1713549142.0738368
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 6.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3140751360,
+            "free_GB": 1066876928
+        },
+        "disc": {
+            "read_B": 49026428928,
+            "write_B": 62910251008,
+            "read_Bps": 110745600.0,
+            "write_Bps": 101477273.6
+        },
+        "network": {
+            "send_B": 69636030,
+            "recv_B": 595864269,
+            "send_Bps": 567838.0,
+            "recv_Bps": 5579272.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713549152.0923245
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 5.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3036184576,
+            "free_GB": 1171443712
+        },
+        "disc": {
+            "read_B": 49027129344,
+            "write_B": 62937145856,
+            "read_Bps": 110885683.2,
+            "write_Bps": 106856243.2
+        },
+        "network": {
+            "send_B": 69741354,
+            "recv_B": 596016534,
+            "send_Bps": 588902.8,
+            "recv_Bps": 5609725.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Dashboard Laborat\u00f3rio - Power BI - Google Chrome",
+            "timestamp": 1713549162.1179733
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 4.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3000623104,
+            "free_GB": 1207005184
+        },
+        "disc": {
+            "read_B": 49027235840,
+            "write_B": 62938137600,
+            "read_Bps": 110906982.4,
+            "write_Bps": 107054592.0
+        },
+        "network": {
+            "send_B": 69745519,
+            "recv_B": 596145395,
+            "send_Bps": 589735.8,
+            "recv_Bps": 5635498.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "C:\\Users\\henrique.rosa\\Downloads\\SimpleBenchmark_windows10_v2\\monitor.exe",
+            "timestamp": 1713549172.1363473
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 10.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2998333440,
+            "free_GB": 1209294848
+        },
+        "disc": {
+            "read_B": 49027714560,
+            "write_B": 62946046464,
+            "read_Bps": 111002726.4,
+            "write_Bps": 108636364.8
+        },
+        "network": {
+            "send_B": 69770527,
+            "recv_B": 596233224,
+            "send_Bps": 594737.4,
+            "recv_Bps": 5653063.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Gerenciador de Tarefas",
+            "timestamp": 1713549182.154617
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2984595456,
+            "free_GB": 1223032832
+        },
+        "disc": {
+            "read_B": 49027836928,
+            "write_B": 62946745344,
+            "read_Bps": 111027200.0,
+            "write_Bps": 108776140.8
+        },
+        "network": {
+            "send_B": 69774707,
+            "recv_B": 596370187,
+            "send_Bps": 595573.4,
+            "recv_Bps": 5680456.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Gerenciador de Tarefas",
+            "timestamp": 1713549192.1710343
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2985455616,
+            "free_GB": 1222172672
+        },
+        "disc": {
+            "read_B": 49027869696,
+            "write_B": 62947095552,
+            "read_Bps": 111033753.6,
+            "write_Bps": 108846182.4
+        },
+        "network": {
+            "send_B": 69798479,
+            "recv_B": 596510148,
+            "send_Bps": 600327.8,
+            "recv_Bps": 5708448.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective - AUTOTRAVI BORRACHAS EIRELI - HENRIQUERO - [Cons. Situa\u00e7\u00e3o SIFRA401 Sexta-Feira   19/04/2024]",
+            "timestamp": 1713549202.1880176
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2966818816,
+            "free_GB": 1240809472
+        },
+        "disc": {
+            "read_B": 49028197888,
+            "write_B": 62947799040,
+            "read_Bps": 111099392.0,
+            "write_Bps": 108986880.0
+        },
+        "network": {
+            "send_B": 69813156,
+            "recv_B": 596711022,
+            "send_Bps": 603263.2,
+            "recv_Bps": 5748647.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713549212.2045913
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 4.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3001991168,
+            "free_GB": 1205637120
+        },
+        "disc": {
+            "read_B": 49028785664,
+            "write_B": 62948909568,
+            "read_Bps": 111216947.2,
+            "write_Bps": 109208985.6
+        },
+        "network": {
+            "send_B": 69828382,
+            "recv_B": 596861491,
+            "send_Bps": 606308.4,
+            "recv_Bps": 5778717.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549222.2207737
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 5.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 3012304896,
+            "free_GB": 1195323392
+        },
+        "disc": {
+            "read_B": 49034991616,
+            "write_B": 62950327296,
+            "read_Bps": 112458137.6,
+            "write_Bps": 109492531.2
+        },
+        "network": {
+            "send_B": 69989826,
+            "recv_B": 598478552,
+            "send_Bps": 638597.2,
+            "recv_Bps": 6102129.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective - AUTOTRAVI BORRACHAS EIRELI - HENRIQUERO - [Funcion\u00e1rios TAFRA037 Sexta-Feira   19/04/2024]",
+            "timestamp": 1713549232.2444518
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2964295680,
+            "free_GB": 1243332608
+        },
+        "disc": {
+            "read_B": 49035552768,
+            "write_B": 62951296000,
+            "read_Bps": 112570368.0,
+            "write_Bps": 109686272.0
+        },
+        "network": {
+            "send_B": 70003580,
+            "recv_B": 598729995,
+            "send_Bps": 641348.0,
+            "recv_Bps": 6152442.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549242.2606754
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2961465344,
+            "free_GB": 1246162944
+        },
+        "disc": {
+            "read_B": 49036809216,
+            "write_B": 62952064512,
+            "read_Bps": 112821657.6,
+            "write_Bps": 109839974.4
+        },
+        "network": {
+            "send_B": 70011013,
+            "recv_B": 598937362,
+            "send_Bps": 642834.6,
+            "recv_Bps": 6193891.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549252.2773147
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2948497408,
+            "free_GB": 1259130880
+        },
+        "disc": {
+            "read_B": 49037130240,
+            "write_B": 62952829440,
+            "read_Bps": 112885862.4,
+            "write_Bps": 109992960.0
+        },
+        "network": {
+            "send_B": 70018794,
+            "recv_B": 599135919,
+            "send_Bps": 644390.8,
+            "recv_Bps": 6233650.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549262.2953346
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2945433600,
+            "free_GB": 1262194688
+        },
+        "disc": {
+            "read_B": 49037130240,
+            "write_B": 62953708544,
+            "read_Bps": 112885862.4,
+            "write_Bps": 110168780.8
+        },
+        "network": {
+            "send_B": 70021834,
+            "recv_B": 599325744,
+            "send_Bps": 644998.8,
+            "recv_Bps": 6271567.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549272.3034742
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2920505344,
+            "free_GB": 1287122944
+        },
+        "disc": {
+            "read_B": 49037154816,
+            "write_B": 62954296320,
+            "read_Bps": 112890777.6,
+            "write_Bps": 110286336.0
+        },
+        "network": {
+            "send_B": 70023837,
+            "recv_B": 599525418,
+            "send_Bps": 645399.4,
+            "recv_Bps": 6311502.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549282.3274527
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2923319296,
+            "free_GB": 1284308992
+        },
+        "disc": {
+            "read_B": 49037253120,
+            "write_B": 62955494912,
+            "read_Bps": 112910438.4,
+            "write_Bps": 110526054.4
+        },
+        "network": {
+            "send_B": 70030564,
+            "recv_B": 599724962,
+            "send_Bps": 646744.8,
+            "recv_Bps": 6351459.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549292.3438883
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2914832384,
+            "free_GB": 1292795904
+        },
+        "disc": {
+            "read_B": 49037355520,
+            "write_B": 62956249088,
+            "read_Bps": 112930918.4,
+            "write_Bps": 110676889.6
+        },
+        "network": {
+            "send_B": 70032447,
+            "recv_B": 599913837,
+            "send_Bps": 647121.4,
+            "recv_Bps": 6389186.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549302.3688831
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2915614720,
+            "free_GB": 1292013568
+        },
+        "disc": {
+            "read_B": 49037355520,
+            "write_B": 62956909056,
+            "read_Bps": 112930918.4,
+            "write_Bps": 110808883.2
+        },
+        "network": {
+            "send_B": 70035850,
+            "recv_B": 600053343,
+            "send_Bps": 647802.0,
+            "recv_Bps": 6417087.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549312.3850904
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2909536256,
+            "free_GB": 1298092032
+        },
+        "disc": {
+            "read_B": 49037355520,
+            "write_B": 62957425152,
+            "read_Bps": 112930918.4,
+            "write_Bps": 110912102.4
+        },
+        "network": {
+            "send_B": 70043895,
+            "recv_B": 600193204,
+            "send_Bps": 649411.0,
+            "recv_Bps": 6445059.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549322.401369
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2893266944,
+            "free_GB": 1314361344
+        },
+        "disc": {
+            "read_B": 49037388288,
+            "write_B": 62957949440,
+            "read_Bps": 112937472.0,
+            "write_Bps": 111016960.0
+        },
+        "network": {
+            "send_B": 70045407,
+            "recv_B": 600325503,
+            "send_Bps": 649713.4,
+            "recv_Bps": 6471519.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549332.4176712
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2890960896,
+            "free_GB": 1316667392
+        },
+        "disc": {
+            "read_B": 49037580800,
+            "write_B": 62958457344,
+            "read_Bps": 112975974.4,
+            "write_Bps": 111118540.8
+        },
+        "network": {
+            "send_B": 70048054,
+            "recv_B": 600457381,
+            "send_Bps": 650242.8,
+            "recv_Bps": 6497895.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549342.4339955
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2883698688,
+            "free_GB": 1323929600
+        },
+        "disc": {
+            "read_B": 49037580800,
+            "write_B": 62959469568,
+            "read_Bps": 112975974.4,
+            "write_Bps": 111320985.6
+        },
+        "network": {
+            "send_B": 70053508,
+            "recv_B": 600600934,
+            "send_Bps": 651333.6,
+            "recv_Bps": 6526605.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549352.4509633
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2879348736,
+            "free_GB": 1328279552
+        },
+        "disc": {
+            "read_B": 49037613568,
+            "write_B": 62960412672,
+            "read_Bps": 112982528.0,
+            "write_Bps": 111509606.4
+        },
+        "network": {
+            "send_B": 70055012,
+            "recv_B": 600734864,
+            "send_Bps": 651634.4,
+            "recv_Bps": 6553391.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549362.4681873
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2879344640,
+            "free_GB": 1328283648
+        },
+        "disc": {
+            "read_B": 49037617664,
+            "write_B": 62961256960,
+            "read_Bps": 112983347.2,
+            "write_Bps": 111678464.0
+        },
+        "network": {
+            "send_B": 70058514,
+            "recv_B": 600821152,
+            "send_Bps": 652334.8,
+            "recv_Bps": 6570649.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549372.4938948
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2882011136,
+            "free_GB": 1325617152
+        },
+        "disc": {
+            "read_B": 49037661184,
+            "write_B": 62961709568,
+            "read_Bps": 112992051.2,
+            "write_Bps": 111768985.6
+        },
+        "network": {
+            "send_B": 70063443,
+            "recv_B": 600954435,
+            "send_Bps": 653320.6,
+            "recv_Bps": 6597424.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549382.5103805
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2878021632,
+            "free_GB": 1329606656
+        },
+        "disc": {
+            "read_B": 49037661184,
+            "write_B": 62962652160,
+            "read_Bps": 112992051.2,
+            "write_Bps": 111957504.0
+        },
+        "network": {
+            "send_B": 70065682,
+            "recv_B": 601084705,
+            "send_Bps": 653768.4,
+            "recv_Bps": 6623360.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549392.5269833
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2791424000,
+            "free_GB": 1416204288
+        },
+        "disc": {
+            "read_B": 49037661184,
+            "write_B": 62963030528,
+            "read_Bps": 112992051.2,
+            "write_Bps": 112033177.6
+        },
+        "network": {
+            "send_B": 70067228,
+            "recv_B": 601222548,
+            "send_Bps": 654077.6,
+            "recv_Bps": 6650928.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549402.5450227
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2784903168,
+            "free_GB": 1422725120
+        },
+        "disc": {
+            "read_B": 49037661184,
+            "write_B": 62963793920,
+            "read_Bps": 112992051.2,
+            "write_Bps": 112185856.0
+        },
+        "network": {
+            "send_B": 70070137,
+            "recv_B": 601355709,
+            "send_Bps": 654659.4,
+            "recv_Bps": 6677560.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549412.5610173
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2785390592,
+            "free_GB": 1422237696
+        },
+        "disc": {
+            "read_B": 49037693952,
+            "write_B": 62964536320,
+            "read_Bps": 112998604.8,
+            "write_Bps": 112334336.0
+        },
+        "network": {
+            "send_B": 70072515,
+            "recv_B": 601491482,
+            "send_Bps": 655135.0,
+            "recv_Bps": 6704715.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549422.5772982
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2789896192,
+            "free_GB": 1417732096
+        },
+        "disc": {
+            "read_B": 49037804544,
+            "write_B": 62964962304,
+            "read_Bps": 113020723.2,
+            "write_Bps": 112419532.8
+        },
+        "network": {
+            "send_B": 70082346,
+            "recv_B": 601641929,
+            "send_Bps": 657101.2,
+            "recv_Bps": 6734804.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549432.5948248
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2783145984,
+            "free_GB": 1424482304
+        },
+        "disc": {
+            "read_B": 49037804544,
+            "write_B": 62965729280,
+            "read_Bps": 113020723.2,
+            "write_Bps": 112572928.0
+        },
+        "network": {
+            "send_B": 70090077,
+            "recv_B": 601774391,
+            "send_Bps": 658647.4,
+            "recv_Bps": 6761297.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549442.621333
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2790244352,
+            "free_GB": 1417383936
+        },
+        "disc": {
+            "read_B": 49038046208,
+            "write_B": 62966935040,
+            "read_Bps": 113069056.0,
+            "write_Bps": 112814080.0
+        },
+        "network": {
+            "send_B": 70093537,
+            "recv_B": 601908521,
+            "send_Bps": 659339.4,
+            "recv_Bps": 6788123.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549452.638169
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2775633920,
+            "free_GB": 1431994368
+        },
+        "disc": {
+            "read_B": 49038046208,
+            "write_B": 62967566336,
+            "read_Bps": 113069056.0,
+            "write_Bps": 112940339.2
+        },
+        "network": {
+            "send_B": 70095486,
+            "recv_B": 602033910,
+            "send_Bps": 659729.2,
+            "recv_Bps": 6813201.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549462.655025
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2780061696,
+            "free_GB": 1427566592
+        },
+        "disc": {
+            "read_B": 49038078976,
+            "write_B": 62968196608,
+            "read_Bps": 113075609.6,
+            "write_Bps": 113066393.6
+        },
+        "network": {
+            "send_B": 70101461,
+            "recv_B": 602174017,
+            "send_Bps": 660924.2,
+            "recv_Bps": 6841222.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549472.6717203
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 11.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2820780032,
+            "free_GB": 1386848256
+        },
+        "disc": {
+            "read_B": 49050543104,
+            "write_B": 62975933440,
+            "read_Bps": 115568435.2,
+            "write_Bps": 114613760.0
+        },
+        "network": {
+            "send_B": 70103007,
+            "recv_B": 602310471,
+            "send_Bps": 661233.4,
+            "recv_Bps": 6868513.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549482.6885898
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2827411456,
+            "free_GB": 1380216832
+        },
+        "disc": {
+            "read_B": 49050543104,
+            "write_B": 62980929024,
+            "read_Bps": 115568435.2,
+            "write_Bps": 115612876.8
+        },
+        "network": {
+            "send_B": 70109898,
+            "recv_B": 602453500,
+            "send_Bps": 662611.6,
+            "recv_Bps": 6897119.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549492.7061448
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2826137600,
+            "free_GB": 1381490688
+        },
+        "disc": {
+            "read_B": 49050612736,
+            "write_B": 62982068736,
+            "read_Bps": 115582361.6,
+            "write_Bps": 115840819.2
+        },
+        "network": {
+            "send_B": 70111360,
+            "recv_B": 602579524,
+            "send_Bps": 662904.0,
+            "recv_Bps": 6922323.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549502.723549
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2827444224,
+            "free_GB": 1380184064
+        },
+        "disc": {
+            "read_B": 49050752000,
+            "write_B": 62983063552,
+            "read_Bps": 115610214.4,
+            "write_Bps": 116039782.4
+        },
+        "network": {
+            "send_B": 70116538,
+            "recv_B": 602714837,
+            "send_Bps": 663939.6,
+            "recv_Bps": 6949386.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549512.75133
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2826174464,
+            "free_GB": 1381453824
+        },
+        "disc": {
+            "read_B": 49051100160,
+            "write_B": 62983853056,
+            "read_Bps": 115679846.4,
+            "write_Bps": 116197683.2
+        },
+        "network": {
+            "send_B": 70118979,
+            "recv_B": 602848699,
+            "send_Bps": 664427.8,
+            "recv_Bps": 6976158.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549522.7688668
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2825711616,
+            "free_GB": 1381916672
+        },
+        "disc": {
+            "read_B": 49051100160,
+            "write_B": 62984922112,
+            "read_Bps": 115679846.4,
+            "write_Bps": 116411494.4
+        },
+        "network": {
+            "send_B": 70121516,
+            "recv_B": 602975942,
+            "send_Bps": 664935.2,
+            "recv_Bps": 7001607.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549532.7869015
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2816057344,
+            "free_GB": 1391570944
+        },
+        "disc": {
+            "read_B": 49051322368,
+            "write_B": 62985543168,
+            "read_Bps": 115724288.0,
+            "write_Bps": 116535705.6
+        },
+        "network": {
+            "send_B": 70124071,
+            "recv_B": 603110480,
+            "send_Bps": 665446.2,
+            "recv_Bps": 7028515.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549542.8046994
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2817118208,
+            "free_GB": 1390510080
+        },
+        "disc": {
+            "read_B": 49051527168,
+            "write_B": 62986259968,
+            "read_Bps": 115765248.0,
+            "write_Bps": 116679065.6
+        },
+        "network": {
+            "send_B": 70130154,
+            "recv_B": 603253045,
+            "send_Bps": 666662.8,
+            "recv_Bps": 7057028.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549552.8224924
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2823839744,
+            "free_GB": 1383788544
+        },
+        "disc": {
+            "read_B": 49051764736,
+            "write_B": 62986836480,
+            "read_Bps": 115812761.6,
+            "write_Bps": 116794368.0
+        },
+        "network": {
+            "send_B": 70132124,
+            "recv_B": 603331697,
+            "send_Bps": 667056.8,
+            "recv_Bps": 7072758.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549562.8403141
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2816008192,
+            "free_GB": 1391620096
+        },
+        "disc": {
+            "read_B": 49051764736,
+            "write_B": 62987594240,
+            "read_Bps": 115812761.6,
+            "write_Bps": 116945920.0
+        },
+        "network": {
+            "send_B": 70137393,
+            "recv_B": 603467818,
+            "send_Bps": 668110.6,
+            "recv_Bps": 7099982.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549572.8584056
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2828570624,
+            "free_GB": 1379057664
+        },
+        "disc": {
+            "read_B": 49051834368,
+            "write_B": 62988694528,
+            "read_Bps": 115826688.0,
+            "write_Bps": 117165977.6
+        },
+        "network": {
+            "send_B": 70139113,
+            "recv_B": 603593235,
+            "send_Bps": 668454.6,
+            "recv_Bps": 7125066.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549582.8869984
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2824175616,
+            "free_GB": 1383452672
+        },
+        "disc": {
+            "read_B": 49051834368,
+            "write_B": 62989228032,
+            "read_Bps": 115826688.0,
+            "write_Bps": 117272678.4
+        },
+        "network": {
+            "send_B": 70141429,
+            "recv_B": 603728449,
+            "send_Bps": 668917.8,
+            "recv_Bps": 7152108.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549592.9046764
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2760196096,
+            "free_GB": 1447432192
+        },
+        "disc": {
+            "read_B": 49051834368,
+            "write_B": 62990168064,
+            "read_Bps": 115826688.0,
+            "write_Bps": 117460684.8
+        },
+        "network": {
+            "send_B": 70147698,
+            "recv_B": 603863504,
+            "send_Bps": 670171.6,
+            "recv_Bps": 7179119.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549602.9224796
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2758299648,
+            "free_GB": 1449328640
+        },
+        "disc": {
+            "read_B": 49051834368,
+            "write_B": 62990619648,
+            "read_Bps": 115826688.0,
+            "write_Bps": 117551001.6
+        },
+        "network": {
+            "send_B": 70157540,
+            "recv_B": 604007149,
+            "send_Bps": 672140.0,
+            "recv_Bps": 7207848.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549612.9403598
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2775134208,
+            "free_GB": 1432494080
+        },
+        "disc": {
+            "read_B": 49052035072,
+            "write_B": 62991420928,
+            "read_Bps": 115866828.8,
+            "write_Bps": 117711257.6
+        },
+        "network": {
+            "send_B": 70163368,
+            "recv_B": 604143105,
+            "send_Bps": 673305.6,
+            "recv_Bps": 7235040.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549622.9582565
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2772418560,
+            "free_GB": 1435209728
+        },
+        "disc": {
+            "read_B": 49052096512,
+            "write_B": 62992108544,
+            "read_Bps": 115879116.8,
+            "write_Bps": 117848780.8
+        },
+        "network": {
+            "send_B": 70168208,
+            "recv_B": 604271989,
+            "send_Bps": 674273.6,
+            "recv_Bps": 7260816.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549632.975938
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2770272256,
+            "free_GB": 1437356032
+        },
+        "disc": {
+            "read_B": 49052096512,
+            "write_B": 62992928768,
+            "read_Bps": 115879116.8,
+            "write_Bps": 118012825.6
+        },
+        "network": {
+            "send_B": 70170628,
+            "recv_B": 604409567,
+            "send_Bps": 674757.6,
+            "recv_Bps": 7288332.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549642.9940763
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2762878976,
+            "free_GB": 1444749312
+        },
+        "disc": {
+            "read_B": 49052442112,
+            "write_B": 62993651200,
+            "read_Bps": 115948236.8,
+            "write_Bps": 118157312.0
+        },
+        "network": {
+            "send_B": 70173005,
+            "recv_B": 604536692,
+            "send_Bps": 675233.0,
+            "recv_Bps": 7313757.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549653.0235288
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2762895360,
+            "free_GB": 1444732928
+        },
+        "disc": {
+            "read_B": 49052589568,
+            "write_B": 62993976832,
+            "read_Bps": 115977728.0,
+            "write_Bps": 118222438.4
+        },
+        "network": {
+            "send_B": 70176527,
+            "recv_B": 604674825,
+            "send_Bps": 675937.4,
+            "recv_Bps": 7341384.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549663.0426064
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2760880128,
+            "free_GB": 1446748160
+        },
+        "disc": {
+            "read_B": 49053318656,
+            "write_B": 62994884608,
+            "read_Bps": 116123545.6,
+            "write_Bps": 118403993.6
+        },
+        "network": {
+            "send_B": 70183435,
+            "recv_B": 604820066,
+            "send_Bps": 677319.0,
+            "recv_Bps": 7370432.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549673.0602071
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2763448320,
+            "free_GB": 1444179968
+        },
+        "disc": {
+            "read_B": 49053355520,
+            "write_B": 62995709440,
+            "read_Bps": 116130918.4,
+            "write_Bps": 118568960.0
+        },
+        "network": {
+            "send_B": 70185548,
+            "recv_B": 604948264,
+            "send_Bps": 677741.6,
+            "recv_Bps": 7396071.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549683.0784194
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2772660224,
+            "free_GB": 1434968064
+        },
+        "disc": {
+            "read_B": 49053494784,
+            "write_B": 62996247040,
+            "read_Bps": 116158771.2,
+            "write_Bps": 118676480.0
+        },
+        "network": {
+            "send_B": 70191333,
+            "recv_B": 605081923,
+            "send_Bps": 678898.6,
+            "recv_Bps": 7422803.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549693.0970514
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2768117760,
+            "free_GB": 1439510528
+        },
+        "disc": {
+            "read_B": 49053502976,
+            "write_B": 62996918784,
+            "read_Bps": 116160409.6,
+            "write_Bps": 118810828.8
+        },
+        "network": {
+            "send_B": 70192969,
+            "recv_B": 605208192,
+            "send_Bps": 679225.8,
+            "recv_Bps": 7448057.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549703.1154618
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2764107776,
+            "free_GB": 1443520512
+        },
+        "disc": {
+            "read_B": 49053502976,
+            "write_B": 62997381120,
+            "read_Bps": 116160409.6,
+            "write_Bps": 118903296.0
+        },
+        "network": {
+            "send_B": 70194424,
+            "recv_B": 605341282,
+            "send_Bps": 679516.8,
+            "recv_Bps": 7474675.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549713.1336515
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2751188992,
+            "free_GB": 1456439296
+        },
+        "disc": {
+            "read_B": 49053502976,
+            "write_B": 62998222848,
+            "read_Bps": 116160409.6,
+            "write_Bps": 119071641.6
+        },
+        "network": {
+            "send_B": 70197003,
+            "recv_B": 605482038,
+            "send_Bps": 680032.6,
+            "recv_Bps": 7502826.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549723.1637168
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2751270912,
+            "free_GB": 1456357376
+        },
+        "disc": {
+            "read_B": 49053634048,
+            "write_B": 62998881792,
+            "read_Bps": 116186624.0,
+            "write_Bps": 119203430.4
+        },
+        "network": {
+            "send_B": 70205975,
+            "recv_B": 605626121,
+            "send_Bps": 681827.0,
+            "recv_Bps": 7531643.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549733.1821766
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2750619648,
+            "free_GB": 1457008640
+        },
+        "disc": {
+            "read_B": 49053638144,
+            "write_B": 62999286272,
+            "read_Bps": 116187443.2,
+            "write_Bps": 119284326.4
+        },
+        "network": {
+            "send_B": 70208943,
+            "recv_B": 605756017,
+            "send_Bps": 682420.6,
+            "recv_Bps": 7557622.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549743.20048
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2767585280,
+            "free_GB": 1440043008
+        },
+        "disc": {
+            "read_B": 49053736448,
+            "write_B": 63000160768,
+            "read_Bps": 116207104.0,
+            "write_Bps": 119459225.6
+        },
+        "network": {
+            "send_B": 70215794,
+            "recv_B": 605885001,
+            "send_Bps": 683790.8,
+            "recv_Bps": 7583419.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549753.2188654
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2762076160,
+            "free_GB": 1445552128
+        },
+        "disc": {
+            "read_B": 49053736448,
+            "write_B": 63001224704,
+            "read_Bps": 116207104.0,
+            "write_Bps": 119672012.8
+        },
+        "network": {
+            "send_B": 70217392,
+            "recv_B": 605967768,
+            "send_Bps": 684110.4,
+            "recv_Bps": 7599972.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549763.2372541
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2762055680,
+            "free_GB": 1445572608
+        },
+        "disc": {
+            "read_B": 49053736448,
+            "write_B": 63001573888,
+            "read_Bps": 116207104.0,
+            "write_Bps": 119741849.6
+        },
+        "network": {
+            "send_B": 70220418,
+            "recv_B": 606099577,
+            "send_Bps": 684715.6,
+            "recv_Bps": 7626334.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549773.25657
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2755829760,
+            "free_GB": 1451798528
+        },
+        "disc": {
+            "read_B": 49054170624,
+            "write_B": 63002488832,
+            "read_Bps": 116293939.2,
+            "write_Bps": 119924838.4
+        },
+        "network": {
+            "send_B": 70222389,
+            "recv_B": 606230293,
+            "send_Bps": 685109.8,
+            "recv_Bps": 7652477.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549783.2750056
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2757844992,
+            "free_GB": 1449783296
+        },
+        "disc": {
+            "read_B": 49054207488,
+            "write_B": 63003051520,
+            "read_Bps": 116301312.0,
+            "write_Bps": 120037376.0
+        },
+        "network": {
+            "send_B": 70228881,
+            "recv_B": 606377868,
+            "send_Bps": 686408.2,
+            "recv_Bps": 7681992.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549793.305971
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2756509696,
+            "free_GB": 1451118592
+        },
+        "disc": {
+            "read_B": 49054285312,
+            "write_B": 63003705856,
+            "read_Bps": 116316876.8,
+            "write_Bps": 120168243.2
+        },
+        "network": {
+            "send_B": 70230994,
+            "recv_B": 606505695,
+            "send_Bps": 686830.8,
+            "recv_Bps": 7707558.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549803.3247755
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2769866752,
+            "free_GB": 1437761536
+        },
+        "disc": {
+            "read_B": 49054285312,
+            "write_B": 63004680704,
+            "read_Bps": 116316876.8,
+            "write_Bps": 120363212.8
+        },
+        "network": {
+            "send_B": 70237878,
+            "recv_B": 606639078,
+            "send_Bps": 688207.6,
+            "recv_Bps": 7734234.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549813.3434114
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2769010688,
+            "free_GB": 1438617600
+        },
+        "disc": {
+            "read_B": 49054285312,
+            "write_B": 63005265408,
+            "read_Bps": 116316876.8,
+            "write_Bps": 120480153.6
+        },
+        "network": {
+            "send_B": 70240340,
+            "recv_B": 606770006,
+            "send_Bps": 688700.0,
+            "recv_Bps": 7760420.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549823.3635108
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2764627968,
+            "free_GB": 1443000320
+        },
+        "disc": {
+            "read_B": 49054285312,
+            "write_B": 63005607424,
+            "read_Bps": 116316876.8,
+            "write_Bps": 120548556.8
+        },
+        "network": {
+            "send_B": 70242339,
+            "recv_B": 606902617,
+            "send_Bps": 689099.8,
+            "recv_Bps": 7786942.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549833.382671
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2756993024,
+            "free_GB": 1450635264
+        },
+        "disc": {
+            "read_B": 49054383616,
+            "write_B": 63006469120,
+            "read_Bps": 116336537.6,
+            "write_Bps": 120720896.0
+        },
+        "network": {
+            "send_B": 70244759,
+            "recv_B": 607040101,
+            "send_Bps": 689583.8,
+            "recv_Bps": 7814439.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549843.4015627
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2759663616,
+            "free_GB": 1447964672
+        },
+        "disc": {
+            "read_B": 49054383616,
+            "write_B": 63006864384,
+            "read_Bps": 116336537.6,
+            "write_Bps": 120799948.8
+        },
+        "network": {
+            "send_B": 70250202,
+            "recv_B": 607183941,
+            "send_Bps": 690672.4,
+            "recv_Bps": 7843207.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549853.420743
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2755248128,
+            "free_GB": 1452380160
+        },
+        "disc": {
+            "read_B": 49058790400,
+            "write_B": 63007662592,
+            "read_Bps": 117217894.4,
+            "write_Bps": 120959590.4
+        },
+        "network": {
+            "send_B": 70252447,
+            "recv_B": 607310961,
+            "send_Bps": 691121.4,
+            "recv_Bps": 7868611.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549863.4527757
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2758520832,
+            "free_GB": 1449107456
+        },
+        "disc": {
+            "read_B": 49058790400,
+            "write_B": 63008131072,
+            "read_Bps": 117217894.4,
+            "write_Bps": 121053286.4
+        },
+        "network": {
+            "send_B": 70258637,
+            "recv_B": 607443867,
+            "send_Bps": 692359.4,
+            "recv_Bps": 7895192.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Effective ERP - Henrique Rosa - Google Chrome",
+            "timestamp": 1713549873.4718568
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 11.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2879148032,
+            "free_GB": 1328480256
+        },
+        "disc": {
+            "read_B": 49059438592,
+            "write_B": 63014383104,
+            "read_Bps": 117347532.8,
+            "write_Bps": 122303692.8
+        },
+        "network": {
+            "send_B": 70263529,
+            "recv_B": 607579738,
+            "send_Bps": 693337.8,
+            "recv_Bps": 7922366.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Email \u2013 Henrique Alves Rosa \u2013 Outlook - Google Chrome",
+            "timestamp": 1713549883.4925902
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2863689728,
+            "free_GB": 1343938560
+        },
+        "disc": {
+            "read_B": 49060057088,
+            "write_B": 63021080576,
+            "read_Bps": 117471232.0,
+            "write_Bps": 123643187.2
+        },
+        "network": {
+            "send_B": 70280135,
+            "recv_B": 607728379,
+            "send_Bps": 696659.0,
+            "recv_Bps": 7952094.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "Email \u2013 Henrique Alves Rosa \u2013 Outlook - Google Chrome",
+            "timestamp": 1713549893.5122802
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2826919936,
+            "free_GB": 1380708352
+        },
+        "disc": {
+            "read_B": 49060192256,
+            "write_B": 63021981184,
+            "read_Bps": 117498265.6,
+            "write_Bps": 123823308.8
+        },
+        "network": {
+            "send_B": 70282471,
+            "recv_B": 607816188,
+            "send_Bps": 697126.2,
+            "recv_Bps": 7969656.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "Email \u2013 Henrique Alves Rosa \u2013 Outlook - Google Chrome",
+            "timestamp": 1713549903.530576
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2826039296,
+            "free_GB": 1381588992
+        },
+        "disc": {
+            "read_B": 49060196352,
+            "write_B": 63022548480,
+            "read_Bps": 117499084.8,
+            "write_Bps": 123936768.0
+        },
+        "network": {
+            "send_B": 70288525,
+            "recv_B": 607967457,
+            "send_Bps": 698337.0,
+            "recv_Bps": 7999910.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Email \u2013 Henrique Alves Rosa \u2013 Outlook - Google Chrome",
+            "timestamp": 1713549913.5484324
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2813743104,
+            "free_GB": 1393885184
+        },
+        "disc": {
+            "read_B": 49060196352,
+            "write_B": 63023823872,
+            "read_Bps": 117499084.8,
+            "write_Bps": 124191846.4
+        },
+        "network": {
+            "send_B": 70294247,
+            "recv_B": 608110136,
+            "send_Bps": 699481.4,
+            "recv_Bps": 8028446.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Email \u2013 Henrique Alves Rosa \u2013 Outlook - Google Chrome",
+            "timestamp": 1713549923.5661483
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2812956672,
+            "free_GB": 1394671616
+        },
+        "disc": {
+            "read_B": 49063524864,
+            "write_B": 63030048256,
+            "read_Bps": 118164787.2,
+            "write_Bps": 125436723.2
+        },
+        "network": {
+            "send_B": 70295638,
+            "recv_B": 608187801,
+            "send_Bps": 699759.6,
+            "recv_Bps": 8043979.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "Email \u2013 Henrique Alves Rosa \u2013 Outlook - Google Chrome",
+            "timestamp": 1713549933.5975838
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 2.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2807353344,
+            "free_GB": 1400274944
+        },
+        "disc": {
+            "read_B": 49063980544,
+            "write_B": 63035987456,
+            "read_Bps": 118255923.2,
+            "write_Bps": 126624563.2
+        },
+        "network": {
+            "send_B": 70300327,
+            "recv_B": 608331297,
+            "send_Bps": 700697.4,
+            "recv_Bps": 8072678.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "Email \u2013 Henrique Alves Rosa \u2013 Outlook - Google Chrome",
+            "timestamp": 1713549943.6154358
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 1.0
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2843426816,
+            "free_GB": 1364201472
+        },
+        "disc": {
+            "read_B": 49064720384,
+            "write_B": 63037541888,
+            "read_Bps": 118403891.2,
+            "write_Bps": 126935449.6
+        },
+        "network": {
+            "send_B": 70332941,
+            "recv_B": 608528177,
+            "send_Bps": 707220.2,
+            "recv_Bps": 8112054.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713549953.6345742
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2819481600,
+            "free_GB": 1388146688
+        },
+        "disc": {
+            "read_B": 49064724480,
+            "write_B": 63038080000,
+            "read_Bps": 118404710.4,
+            "write_Bps": 127043072.0
+        },
+        "network": {
+            "send_B": 70334061,
+            "recv_B": 608609017,
+            "send_Bps": 707444.2,
+            "recv_Bps": 8128222.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713549963.6524913
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2796097536,
+            "free_GB": 1411530752
+        },
+        "disc": {
+            "read_B": 49064794112,
+            "write_B": 63038896640,
+            "read_Bps": 118418636.8,
+            "write_Bps": 127206400.0
+        },
+        "network": {
+            "send_B": 70340425,
+            "recv_B": 608754768,
+            "send_Bps": 708717.0,
+            "recv_Bps": 8157372.6
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713549973.670454
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2790813696,
+            "free_GB": 1416814592
+        },
+        "disc": {
+            "read_B": 49064916992,
+            "write_B": 63039839744,
+            "read_Bps": 118443212.8,
+            "write_Bps": 127395020.8
+        },
+        "network": {
+            "send_B": 70342019,
+            "recv_B": 608880522,
+            "send_Bps": 709035.8,
+            "recv_Bps": 8182523.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713549983.6882677
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2776076288,
+            "free_GB": 1431552000
+        },
+        "disc": {
+            "read_B": 49064916992,
+            "write_B": 63040329728,
+            "read_Bps": 118443212.8,
+            "write_Bps": 127493017.6
+        },
+        "network": {
+            "send_B": 70344528,
+            "recv_B": 608960937,
+            "send_Bps": 709537.6,
+            "recv_Bps": 8198606.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713549993.7062807
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.8
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2787180544,
+            "free_GB": 1420447744
+        },
+        "disc": {
+            "read_B": 49065093120,
+            "write_B": 63041103360,
+            "read_Bps": 118478438.4,
+            "write_Bps": 127647744.0
+        },
+        "network": {
+            "send_B": 70346298,
+            "recv_B": 609097120,
+            "send_Bps": 709891.6,
+            "recv_Bps": 8225843.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550003.7379577
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.3
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2796048384,
+            "free_GB": 1411579904
+        },
+        "disc": {
+            "read_B": 49065142272,
+            "write_B": 63041650176,
+            "read_Bps": 118488268.8,
+            "write_Bps": 127757107.2
+        },
+        "network": {
+            "send_B": 70354739,
+            "recv_B": 609234213,
+            "send_Bps": 711579.8,
+            "recv_Bps": 8253380.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550013.7570424
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2791743488,
+            "free_GB": 1415884800
+        },
+        "disc": {
+            "read_B": 49065158656,
+            "write_B": 63042944000,
+            "read_Bps": 118491545.6,
+            "write_Bps": 128015872.0
+        },
+        "network": {
+            "send_B": 70357772,
+            "recv_B": 609317289,
+            "send_Bps": 712186.4,
+            "recv_Bps": 8269876.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550023.7748127
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2797834240,
+            "free_GB": 1409794048
+        },
+        "disc": {
+            "read_B": 49065158656,
+            "write_B": 63043597824,
+            "read_Bps": 118491545.6,
+            "write_Bps": 128146636.8
+        },
+        "network": {
+            "send_B": 70367909,
+            "recv_B": 609464317,
+            "send_Bps": 714213.8,
+            "recv_Bps": 8299282.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550033.7932675
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2792329216,
+            "free_GB": 1415299072
+        },
+        "disc": {
+            "read_B": 49065158656,
+            "write_B": 63044410880,
+            "read_Bps": 118491545.6,
+            "write_Bps": 128309248.0
+        },
+        "network": {
+            "send_B": 70370245,
+            "recv_B": 609597440,
+            "send_Bps": 714681.0,
+            "recv_Bps": 8325907.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550043.8114192
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.9
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2776576000,
+            "free_GB": 1431052288
+        },
+        "disc": {
+            "read_B": 49065288704,
+            "write_B": 63044917760,
+            "read_Bps": 118517555.2,
+            "write_Bps": 128410624.0
+        },
+        "network": {
+            "send_B": 70372821,
+            "recv_B": 609678071,
+            "send_Bps": 715196.2,
+            "recv_Bps": 8342033.2
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550053.829525
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.1
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2789105664,
+            "free_GB": 1418522624
+        },
+        "disc": {
+            "read_B": 49065288704,
+            "write_B": 63045472768,
+            "read_Bps": 118517555.2,
+            "write_Bps": 128521625.6
+        },
+        "network": {
+            "send_B": 70374499,
+            "recv_B": 609804014,
+            "send_Bps": 715531.8,
+            "recv_Bps": 8367221.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550063.8481367
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2800812032,
+            "free_GB": 1406816256
+        },
+        "disc": {
+            "read_B": 49065321472,
+            "write_B": 63046145024,
+            "read_Bps": 118524108.8,
+            "write_Bps": 128656076.8
+        },
+        "network": {
+            "send_B": 70380997,
+            "recv_B": 609942642,
+            "send_Bps": 716831.4,
+            "recv_Bps": 8394947.4
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550073.8806937
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.2
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2799616000,
+            "free_GB": 1408012288
+        },
+        "disc": {
+            "read_B": 49065363968,
+            "write_B": 63046853120,
+            "read_Bps": 118532608.0,
+            "write_Bps": 128797696.0
+        },
+        "network": {
+            "send_B": 70381686,
+            "recv_B": 610021730,
+            "send_Bps": 716969.2,
+            "recv_Bps": 8410765.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550083.8996098
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2795433984,
+            "free_GB": 1412194304
+        },
+        "disc": {
+            "read_B": 49065363968,
+            "write_B": 63047273472,
+            "read_Bps": 118532608.0,
+            "write_Bps": 128881766.4
+        },
+        "network": {
+            "send_B": 70389585,
+            "recv_B": 610163804,
+            "send_Bps": 718549.0,
+            "recv_Bps": 8439179.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550093.9183137
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.5
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2788630528,
+            "free_GB": 1418997760
+        },
+        "disc": {
+            "read_B": 49065363968,
+            "write_B": 63048187392,
+            "read_Bps": 118532608.0,
+            "write_Bps": 129064550.4
+        },
+        "network": {
+            "send_B": 70391101,
+            "recv_B": 610289645,
+            "send_Bps": 718852.2,
+            "recv_Bps": 8464348.0
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550103.936988
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.6
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2783043584,
+            "free_GB": 1424584704
+        },
+        "disc": {
+            "read_B": 49065363968,
+            "write_B": 63048784384,
+            "read_Bps": 118532608.0,
+            "write_Bps": 129183948.8
+        },
+        "network": {
+            "send_B": 70394021,
+            "recv_B": 610366909,
+            "send_Bps": 719436.2,
+            "recv_Bps": 8479800.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550113.955601
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.4
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2781089792,
+            "free_GB": 1426538496
+        },
+        "disc": {
+            "read_B": 49065363968,
+            "write_B": 63049143296,
+            "read_Bps": 118532608.0,
+            "write_Bps": 129255731.2
+        },
+        "network": {
+            "send_B": 70396710,
+            "recv_B": 610502404,
+            "send_Bps": 719974.0,
+            "recv_Bps": 8506899.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550123.9745765
+        }
+    },
+    {
+        "cpu": {
+            "usage_percent": 0.7
+        },
+        "memory": {
+            "available_GB": 4207628288,
+            "inUse_GB": 2776842240,
+            "free_GB": 1430786048
+        },
+        "disc": {
+            "read_B": 49065363968,
+            "write_B": 63049734656,
+            "read_Bps": 118532608.0,
+            "write_Bps": 129374003.2
+        },
+        "network": {
+            "send_B": 70402891,
+            "recv_B": 610635289,
+            "send_Bps": 721210.2,
+            "recv_Bps": 8533476.8
+        },
+        "other": {
+            "ForegroundWindowTitle": "",
+            "timestamp": 1713550133.9935384
+        }
+    }
+]

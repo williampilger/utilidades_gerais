@@ -7,7 +7,7 @@ from datetime import datetime
 import json
 
 # Carregar dados JSON de um arquivo
-with open('export.json', 'r') as file:
+with open('ReportSamples\export.json', 'r') as file:
     data = json.load(file)
 
 # Preparar listas para os dados
