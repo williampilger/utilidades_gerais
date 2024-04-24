@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from datetime import datetime
 
-with open('export.json', 'r') as file:
+with open('ReportSamples/5_export.json', 'r') as file:
     data = json.load(file)
 
 # Preparar listas para os dados
@@ -47,7 +47,7 @@ for ax, (data, label, color) in zip(axs, metrics):
     for i, title in enumerate(titles):
         if i > 0 and title != titles[i-1]:
             ax.axvline(x=timestamps[i], color='grey', linestyle='--', linewidth=0.5)
-            ax.annotate(titles[i-1][:15], xy=(timestamps[i], data[i]), xytext=(5, -5),
+            ax.annotate(titles[i-1][:30], xy=(timestamps[i], data[i]), xytext=(5, -5),
                         textcoords='offset points', va='bottom', ha='right', fontsize=6,
                         rotation=90, bbox=dict(boxstyle="round,pad=0.3", edgecolor='none', facecolor='yellow', alpha=0.5))
 

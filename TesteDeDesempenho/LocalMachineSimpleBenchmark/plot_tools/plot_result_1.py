@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import json
 
 
-with open('export.json', 'r') as file:
+with open('ReportSamples/4_export.json', 'r') as file:
     # Carregar JSON em um DataFrame
     data = json.load(file)
     df = pd.json_normalize(data)
@@ -21,7 +21,7 @@ with open('export.json', 'r') as file:
     # Configurar os eixos e legenda
     ax.set_xlabel('Time')
     ax.set_ylabel('CPU Usage (%)')
-    ax.legend()
+    # ax.legend()
     ax.set_title('CPU Usage Over Time by Window Title')
 
     # Mostrar o gráfico

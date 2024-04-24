@@ -25,15 +25,15 @@ De mesmo modo, em versões mais antigas ainda, os valores de bytes enviados e re
 ```python
 import json
 
-filename = 'export.json'
+filename = '5_export.json'
 
 with open(filename, 'r') as file:
     data = json.load(file)
 
 anterior = data[0]
 for item in data:
-    item['network']['send_Bps'] = item['network']['send_Bps'] - anterior['network']['send_Bps']
-    item['network']['send_Bps'] = item['network']['recv_Bps'] - anterior['network']['recv_Bps']
+    item['network']['send_Bps'] = item['network']['send_B'] - anterior['network']['send_B']
+    item['network']['recv_Bps'] = item['network']['recv_B'] - anterior['network']['recv_B']
     anterior = item
 
 with open(filename, "w") as arquivo:

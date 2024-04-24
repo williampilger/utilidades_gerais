@@ -7,7 +7,7 @@ from datetime import datetime
 import json
 
 # Carregar dados JSON de um arquivo
-with open('ReportSamples\export.json', 'r') as file:
+with open('ReportSamples/5_export.json', 'r') as file:
     data = json.load(file)
 
 # Preparar listas para os dados
@@ -44,13 +44,13 @@ for ax, (data, label, color) in zip(axs, metrics):
     ax.set_ylabel(label)
     ax.xaxis.set_major_locator(mdates.MinuteLocator())
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M'))
-    ax.grid(True)
+    # ax.grid(True)
 
     # Adicionar linhas de mudança de software
-    last_title = None
-    for i, title in enumerate(titles):
-        if i > 0 and title != titles[i-1]:
-            ax.axvline(x=timestamps[i], color='grey', linestyle='--', linewidth=0.5)
+    # last_title = None
+    # for i, title in enumerate(titles):
+    #     if i > 0 and title != titles[i-1]:
+    #         ax.axvline(x=timestamps[i], color='grey', linestyle='--', linewidth=0.5)
 
 # Configurar layout e salvar o gráfico
 plt.xticks(rotation=45)
