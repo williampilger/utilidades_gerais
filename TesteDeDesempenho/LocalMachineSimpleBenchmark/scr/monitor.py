@@ -4,7 +4,7 @@ import json
 import time
 import pygetwindow as gw
 
-from class_EnvLoader import EnvLoader
+from class_EnvLoader import EnvLoader #para leitura do .env
 
 ENV = EnvLoader('.env')
 
@@ -12,7 +12,7 @@ def coletar_dados( previousDump=None, interval=1 ):
 
     return {
         'cpu': {
-            'usage_percent': psutil.cpu_percent(1) #aqui eu usava "interval", mas para tentar deixar esta leitura mais parecida com a do gerenciador de tarefas, estou mudando pra 1, fixo
+            'usage_percent': psutil.cpu_percent(1) #usaria "interval", para ficar semelhando ao gerenciador de tarefas, 1 fixo
         },
         'memory': {
             'available_GB': psutil.virtual_memory().total/1000000000,
