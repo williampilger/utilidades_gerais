@@ -1,6 +1,6 @@
-# By ChatGPT 4o -> 2024/05/2023
+# Versão inicial By ChatGPT 4o -> 2024/05/2023
 # Prompt: crie um timer pomodoro com tempos ajustáveis em Python, e com uma interface gráfica bonita, capaz de rodar em Windows e Linux.
-# will.i.am | github.com/williampilger
+# Adequação: will.i.am | github.com/williampilger
 import tkinter as tk
 from tkinter import messagebox
 
