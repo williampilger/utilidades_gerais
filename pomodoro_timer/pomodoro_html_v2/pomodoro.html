@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        #timer {
+            font-size: 72px;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 24px;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+    </style>
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <script>
+        let backend;
+
+        new QWebChannel(qt.webChannelTransport, function(channel) {
+            backend = channel.objects.backend;
+        });
+
+        let workTime = 25 * 60;
+        let shortBreakTime = 5 * 60;
+        let longBreakTime = 15 * 60;
+        let timeLeft = workTime;
+        let timerRunning = false;
+        let currentPhase = 'Work';
+        let timerInterval;
+
+        function updateTimerDisplay() {
+            let minutes = Math.floor(timeLeft / 60);
+            let seconds = timeLeft % 60;
+            document.getElementById('timer').innerText = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        function startTimer() {
+            if (!timerRunning) {
+                timerRunning = true;
+                timerInterval = setInterval(runTimer, 1000);
+            }
+        }
+
+        function resetTimer() {
+            clearInterval(timerInterval);
+            timerRunning = false;
+            currentPhase = 'Work';
+            timeLeft = workTime;
+            updateTimerDisplay();
+        }
+
+        function runTimer() {
+            if (timeLeft > 0) {
+                timeLeft -= 1;
+                updateTimerDisplay();
+            } else {
+                timerRunning = false;
+                clearInterval(timerInterval);
+                switchPhase();
+            }
+        }
+
+        function switchPhase() {
+            if (currentPhase === 'Work') {
+                alert('Work session complete! Start a short break?');
+                currentPhase = 'Short Break';
+                timeLeft = shortBreakTime;
+            } else if (currentPhase === 'Short Break') {
+                alert('Short break complete! Start another work session?');
+                currentPhase = 'Work';
+                timeLeft = workTime;
+            }
+            startTimer();
+        }
+
+        function openSettings() {
+            let newWorkTime = prompt('Work time (minutes):', workTime / 60);
+            let newShortBreakTime = prompt('Short break time (minutes):', shortBreakTime / 60);
+            let newLongBreakTime = prompt('Long break time (minutes):', longBreakTime / 60);
+
+            backend.updateTimes(newWorkTime * 60, newShortBreakTime * 60, newLongBreakTime * 60);
+        }
+
+        document.addEventListener('DOMContentLoaded', updateTimerDisplay);
+    </script>
+</head>
+<body>
+    <h1>Pomodoro Timer</h1>
+    <div id="timer">25:00</div>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+    <button onclick="openSettings()">Settings</button>
+</body>
+</html>
