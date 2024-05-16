@@ -34,6 +34,9 @@ class PomodoroTimer:
         self.time_display = tk.Label(self.master, text="", font=("Helvetica", 48))
         self.time_display.pack(pady=10)
 
+        self.phase_display = tk.Label(self.master, text="Foco", font=("Helvetica", 14))
+        self.phase_display.pack(pady=10)
+
         self.start_button = tk.Button(self.master, text="Iniciar", command=self.start_timer, font=("Helvetica", 14))
         self.start_button.pack(pady=5)
 
@@ -47,13 +50,18 @@ class PomodoroTimer:
         self.settings_button.pack(pady=5)
 
     def start_timer(self):
-        if not self.timer_running:
+        if self.timer_running:
+            self.start_button.config(text="Retomar")
+            self.timer_running = False
+        else:
+            self.start_button.config(text="Pausar")
             self.timer_running = True
             self.run_timer()
 
     def reset_timer(self):
         self.timer_running = False
         self.time_left = self.work_time if self.current_phase == "Work" else self.short_break_time
+        self.start_button.config(text="Iniciar")
         self.update_timer_display()
 
     def run_timer(self):
@@ -74,6 +82,7 @@ class PomodoroTimer:
         elif self.current_phase == "Short Break":
             self.current_phase = "Work"
             self.time_left = self.work_time
+        self.start_button.config(text="Iniciar")
         self.update_timer_display()
         
     def switch_phase(self):
@@ -93,6 +102,7 @@ class PomodoroTimer:
         minutes = self.time_left // 60
         seconds = self.time_left % 60
         self.time_display.config(text=f"{minutes:02}:{seconds:02}")
+        self.phase_display.config(text=self.current_phase)
 
     def open_settings(self):
         self.settings_window = tk.Toplevel(self.master)
