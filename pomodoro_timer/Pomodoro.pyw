@@ -4,6 +4,7 @@
 
 import os
 import sys
+import time
 import platform
 import tkinter as tk
 from tkinter import messagebox
@@ -33,13 +34,16 @@ class PomodoroTimer:
         self.time_display = tk.Label(self.master, text="", font=("Helvetica", 48))
         self.time_display.pack(pady=10)
 
-        self.start_button = tk.Button(self.master, text="Start", command=self.start_timer, font=("Helvetica", 14))
+        self.start_button = tk.Button(self.master, text="Iniciar", command=self.start_timer, font=("Helvetica", 14))
         self.start_button.pack(pady=5)
 
-        self.reset_button = tk.Button(self.master, text="Reset", command=self.reset_timer, font=("Helvetica", 14))
+        self.reset_button = tk.Button(self.master, text="Zerar", command=self.reset_timer, font=("Helvetica", 14))
         self.reset_button.pack(pady=5)
 
-        self.settings_button = tk.Button(self.master, text="Settings", command=self.open_settings, font=("Helvetica", 14))
+        self.next_button = tk.Button(self.master, text="Próximo", command=self.next_timer, font=("Helvetica", 14))
+        self.next_button.pack(pady=5)
+
+        self.settings_button = tk.Button(self.master, text="Ajustes", command=self.open_settings, font=("Helvetica", 14))
         self.settings_button.pack(pady=5)
 
     def start_timer(self):
@@ -49,8 +53,7 @@ class PomodoroTimer:
 
     def reset_timer(self):
         self.timer_running = False
-        self.current_phase = "Work"
-        self.time_left = self.work_time
+        self.time_left = self.work_time if self.current_phase == "Work" else self.short_break_time
         self.update_timer_display()
 
     def run_timer(self):
@@ -63,20 +66,25 @@ class PomodoroTimer:
                 self.timer_running = False
                 self.switch_phase()
 
+    def next_timer(self):
+        self.timer_running = False
+        if self.current_phase == "Work":
+            self.current_phase = "Short Break"
+            self.time_left = self.short_break_time
+        elif self.current_phase == "Short Break":
+            self.current_phase = "Work"
+            self.time_left = self.work_time
+        self.update_timer_display()
+        
     def switch_phase(self):
         self.playAlarm()
         if self.current_phase == "Work":
-            if messagebox.askyesno("Pomodoro Timer", "Work session complete! Start a short break?"):
+            if messagebox.askyesno("Pomodoro Timer", "Tempo de concentração acabou! Iniciar uma pausa?"):
                 self.current_phase = "Short Break"
                 self.time_left = self.short_break_time
                 self.start_timer()
         elif self.current_phase == "Short Break":
-            if messagebox.askyesno("Pomodoro Timer", "Short break complete! Start another work session?"):
-                self.current_phase = "Work"
-                self.time_left = self.work_time
-                self.start_timer()
-        elif self.current_phase == "Long Break":
-            if messagebox.askyesno("Pomodoro Timer", "Long break complete! Start another work session?"):
+            if messagebox.askyesno("Pomodoro Timer", "Tempo de pausa acabou! Iniciar novo ciclo de concentração?"):
                 self.current_phase = "Work"
                 self.time_left = self.work_time
                 self.start_timer()
@@ -90,27 +98,21 @@ class PomodoroTimer:
         self.settings_window = tk.Toplevel(self.master)
         self.settings_window.title("Settings")
 
-        tk.Label(self.settings_window, text="Work time (minutes):", font=("Helvetica", 14)).pack(pady=5)
+        tk.Label(self.settings_window, text="Duração do Foco (minutos):", font=("Helvetica", 14)).pack(pady=5)
         self.work_time_entry = tk.Entry(self.settings_window, font=("Helvetica", 14))
         self.work_time_entry.pack(pady=5)
         self.work_time_entry.insert(0, str(self.work_time // 60))
 
-        tk.Label(self.settings_window, text="Short break time (minutes):", font=("Helvetica", 14)).pack(pady=5)
+        tk.Label(self.settings_window, text="Duração da Pausa (minutos):", font=("Helvetica", 14)).pack(pady=5)
         self.short_break_time_entry = tk.Entry(self.settings_window, font=("Helvetica", 14))
         self.short_break_time_entry.pack(pady=5)
         self.short_break_time_entry.insert(0, str(self.short_break_time // 60))
-
-        tk.Label(self.settings_window, text="Long break time (minutes):", font=("Helvetica", 14)).pack(pady=5)
-        self.long_break_time_entry = tk.Entry(self.settings_window, font=("Helvetica", 14))
-        self.long_break_time_entry.pack(pady=5)
-        self.long_break_time_entry.insert(0, str(self.long_break_time // 60))
 
         tk.Button(self.settings_window, text="Save", command=self.save_settings, font=("Helvetica", 14)).pack(pady=10)
 
     def save_settings(self):
         self.work_time = int(self.work_time_entry.get()) * 60
         self.short_break_time = int(self.short_break_time_entry.get()) * 60
-        self.long_break_time = int(self.long_break_time_entry.get()) * 60
         self.time_left = self.work_time
         self.current_phase = "Work"
         self.update_timer_display()
@@ -119,9 +121,11 @@ class PomodoroTimer:
     def playAlarm(self):
         if platform.system() == "Windows":
             import winsound
-            winsound.Beep(1000, 500)  # Beep at 1000 Hz for 500 
-            winsound.Beep(500, 1000)
-            winsound.Beep(1000, 500)
+            winsound.Beep(1000, 250)  # Beep at 1000 Hz for 250ms 
+            time.sleep(0.15)
+            winsound.Beep(1000, 250)
+            time.sleep(0.15)
+            winsound.Beep(1000, 250)
         elif platform.system() == "Linux":
             os.system('beep')  # Requires beep utility installed
         else:
