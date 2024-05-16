@@ -129,18 +129,66 @@ class PomodoroTimer:
         self.settings_window.destroy()
 
     def playAlarm(self):
-        if platform.system() == "Windows":
-            import winsound
-            winsound.Beep(1000, 250)  # Beep at 1000 Hz for 250ms 
-            time.sleep(0.15)
-            winsound.Beep(1000, 250)
-            time.sleep(0.15)
-            winsound.Beep(1000, 250)
-        elif platform.system() == "Linux":
-            os.system('beep')  # Requires beep utility installed
-        else:
-            print("Beep not supported on this OS")
-        print("Playing alarm sound")
+        
+        melody = [
+            ('C4', 0.10),
+            ('D4', 0.10),
+            ('E4', 0.10),
+            ('F4', 0.10),
+            ('G4', 0.10),
+            ('A4', 0.10),
+            ('B4', 0.10),
+            ('C5', 0.10)
+        ]
+        my_melody = Musiquinha(melody)
+        my_melody.play()
+
+
+import simpleaudio as sa
+import numpy as np
+class Musiquinha:
+    
+    notes = {
+        'C4': 261.63,
+        'C#4': 277.18,
+        'D4': 293.66,
+        'D#4': 311.13,
+        'E4': 329.63,
+        'F4': 349.23,
+        'F#4': 369.99,
+        'G4': 392.00,
+        'G#4': 415.30,
+        'A4': 440.00,
+        'A#4': 466.16,
+        'B4': 493.88,
+        'C5': 523.25,
+        'C#5': 554.37,
+        'D5': 587.33,
+        'D#5': 622.25,
+        'E5': 659.25,
+        'F5': 698.46,
+        'F#5': 739.99,
+        'G5': 783.99,
+        'G#5': 830.61,
+        'A5': 880.00,
+        'A#5': 932.33,
+        'B5': 987.77,
+        'C6': 1046.50
+    }
+
+    def __init__(self, melody):
+        self.melody = melody
+
+    def generate_sine_wave(self, frequency, duration, sample_rate=44100, amplitude=0.5):
+        t = np.linspace(0, duration, int(sample_rate * duration), False)
+        wave = amplitude * np.sin(2 * np.pi * frequency * t)
+        return wave
+
+    def play(self):
+        melody_wave = np.concatenate([self.generate_sine_wave(self.notes[note], duration) for note, duration in self.melody])
+        play_obj = sa.play_buffer(np.int16(melody_wave * 32767), 1, 2, 44100)
+        play_obj.wait_done()
+    
 
 if __name__ == "__main__":
     root = tk.Tk()
