@@ -131,14 +131,11 @@ class PomodoroTimer:
     def playAlarm(self):
         
         melody = [
-            ('C4', 0.10),
-            ('D4', 0.10),
-            ('E4', 0.10),
-            ('F4', 0.10),
-            ('G4', 0.10),
-            ('A4', 0.10),
-            ('B4', 0.10),
-            ('C5', 0.10)
+            ('C5', 0.1),
+            (' ', 0.1),
+            ('C5', 0.1),
+            (' ', 0.1),
+            ('C5', 0.1)
         ]
         my_melody = Musiquinha(melody)
         my_melody.play()
@@ -149,6 +146,7 @@ import numpy as np
 class Musiquinha:
     
     notes = {
+        ' ' : 0,
         'C4': 261.63,
         'C#4': 277.18,
         'D4': 293.66,
