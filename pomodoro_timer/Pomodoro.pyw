@@ -17,7 +17,6 @@ class PomodoroTimer:
         # Configuração inicial dos tempos
         self.work_time = 25 * 60  # 25 minutos
         self.short_break_time = 5 * 60  # 5 minutos
-        self.long_break_time = 15 * 60  # 15 minutos
 
         # Estado inicial
         self.time_left = self.work_time
@@ -56,6 +55,7 @@ class PomodoroTimer:
         else:
             self.start_button.config(text="Pausar")
             self.timer_running = True
+            self.start_time = time.perf_counter()
             self.run_timer()
 
     def reset_timer(self):
@@ -66,8 +66,11 @@ class PomodoroTimer:
 
     def run_timer(self):
         if self.timer_running:
+            current_time = time.perf_counter()
+            elapsed_time = int(current_time - self.start_time)
+            self.time_left -= elapsed_time
+            self.start_time = current_time
             if self.time_left > 0:
-                self.time_left -= 1
                 self.update_timer_display()
                 self.master.after(1000, self.run_timer)
             else:
