@@ -1,4 +1,3 @@
-# Versão inicial By ChatGPT 4o -> 2024/05/2023
 # Prompt: crie um timer pomodoro com tempos ajustáveis em Python, e com uma interface gráfica bonita, capaz de rodar em Windows e Linux.
 # Adequação: will.i.am | github.com/williampilger
 
@@ -36,17 +35,20 @@ class PomodoroTimer:
         self.phase_display = tk.Label(self.master, text="Foco", font=("Helvetica", 14))
         self.phase_display.pack(pady=10)
 
-        self.start_button = tk.Button(self.master, text="Iniciar", command=self.start_timer, font=("Helvetica", 14))
-        self.start_button.pack(pady=5)
+        self.button_frame = tk.Frame(self.master)
+        self.button_frame.pack(pady=10)
 
-        self.reset_button = tk.Button(self.master, text="Zerar", command=self.reset_timer, font=("Helvetica", 14))
-        self.reset_button.pack(pady=5)
+        self.start_button = tk.Button(self.button_frame, text="Iniciar", command=self.start_timer, font=("Helvetica", 14))
+        self.start_button.grid(row=0, column=0, pady=5, padx=5)
 
-        self.next_button = tk.Button(self.master, text="Próximo", command=self.next_timer, font=("Helvetica", 14))
-        self.next_button.pack(pady=5)
+        self.reset_button = tk.Button(self.button_frame, text="Zerar", command=self.reset_timer, font=("Helvetica", 14))
+        self.reset_button.grid(row=0, column=1, pady=5, padx=5)
 
-        self.settings_button = tk.Button(self.master, text="Ajustes", command=self.open_settings, font=("Helvetica", 14))
-        self.settings_button.pack(pady=5)
+        self.next_button = tk.Button(self.button_frame, text="Próximo", command=self.next_timer, font=("Helvetica", 14))
+        self.next_button.grid(row=1, column=0, pady=5, padx=5)
+
+        self.settings_button = tk.Button(self.button_frame, text="Ajustes", command=self.open_settings, font=("Helvetica", 14))
+        self.settings_button.grid(row=1, column=1, pady=5, padx=5)
 
     def start_timer(self):
         if self.timer_running:
