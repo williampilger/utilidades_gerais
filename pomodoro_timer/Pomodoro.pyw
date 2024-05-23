@@ -28,16 +28,16 @@ class PomodoroTimer:
 
     def create_widgets(self):
         self.timer_label = tk.Label(self.master, text="Pomodoro Timer", font=("Helvetica", 24))
-        self.timer_label.pack(pady=10)
+        self.timer_label.pack(pady=1)
 
         self.time_display = tk.Label(self.master, text="", font=("Helvetica", 48))
         self.time_display.pack(pady=10)
 
         self.phase_display = tk.Label(self.master, text="Foco", font=("Helvetica", 14))
-        self.phase_display.pack(pady=10)
+        self.phase_display.pack(pady=1)
 
         style = ttk.Style()
-        style.configure('TButton', font=('Helvetica', 14), borderwidth='4')
+        style.configure('TButton', font=('Helvetica', 14), borderwidth='2')
         style.configure('TButton', background='#d3d3d3', foreground='#262626')
 
         self.button_frame = tk.Frame(self.master)
@@ -54,6 +54,9 @@ class PomodoroTimer:
 
         self.settings_button = ttk.Button(self.button_frame, text="Ajustes", command=self.open_settings, style='TButton')
         self.settings_button.grid(row=1, column=1, pady=5, padx=5)
+
+        self.ny_label = tk.Label(self.master, text="By: William Pilger", font=("Helvetica", 8))
+        self.ny_label.pack(pady=1)
 
     def start_timer(self):
         if self.timer_running:
