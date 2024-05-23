@@ -4,6 +4,7 @@
 import time
 import tkinter as tk
 from tkinter import messagebox
+from tkinter import ttk
 
 class PomodoroTimer:
     def __init__(self, master):
@@ -35,19 +36,23 @@ class PomodoroTimer:
         self.phase_display = tk.Label(self.master, text="Foco", font=("Helvetica", 14))
         self.phase_display.pack(pady=10)
 
+        style = ttk.Style()
+        style.configure('TButton', font=('Helvetica', 14), borderwidth='4')
+        style.configure('TButton', background='#d3d3d3', foreground='#262626')
+
         self.button_frame = tk.Frame(self.master)
         self.button_frame.pack(pady=10)
 
-        self.start_button = tk.Button(self.button_frame, text="Iniciar", command=self.start_timer, font=("Helvetica", 14))
+        self.start_button = ttk.Button(self.button_frame, text="Iniciar", command=self.start_timer, style='TButton')
         self.start_button.grid(row=0, column=0, pady=5, padx=5)
 
-        self.reset_button = tk.Button(self.button_frame, text="Zerar", command=self.reset_timer, font=("Helvetica", 14))
+        self.reset_button = ttk.Button(self.button_frame, text="Zerar", command=self.reset_timer, style='TButton')
         self.reset_button.grid(row=0, column=1, pady=5, padx=5)
 
-        self.next_button = tk.Button(self.button_frame, text="Próximo", command=self.next_timer, font=("Helvetica", 14))
+        self.next_button = ttk.Button(self.button_frame, text="Próximo", command=self.next_timer, style='TButton')
         self.next_button.grid(row=1, column=0, pady=5, padx=5)
 
-        self.settings_button = tk.Button(self.button_frame, text="Ajustes", command=self.open_settings, font=("Helvetica", 14))
+        self.settings_button = ttk.Button(self.button_frame, text="Ajustes", command=self.open_settings, style='TButton')
         self.settings_button.grid(row=1, column=1, pady=5, padx=5)
 
     def start_timer(self):
