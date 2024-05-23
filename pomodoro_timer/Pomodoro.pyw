@@ -37,7 +37,7 @@ class PomodoroTimer:
         self.phase_display.pack(pady=1)
 
         style = ttk.Style()
-        style.configure('TButton', font=('Helvetica', 14), borderwidth='2')
+        style.configure('TButton', font=('Helvetica', 10), borderwidth='2')
         style.configure('TButton', background='#d3d3d3', foreground='#262626')
 
         self.button_frame = tk.Frame(self.master)
