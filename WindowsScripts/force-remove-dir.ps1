@@ -2,7 +2,7 @@
 ## 202407260830 - William Pilger
 ##
 ## Para executar sem baixar use:
-##    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/williampilger/utilidades_gerais/master/WindowsScripts/force-remove-dir-powershell.md" -OutFile "$env:temp\force-remove-dir.ps1"; & "$env:temp\force-remove-dir.ps1"
+##    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/williampilger/utilidades_gerais/master/WindowsScripts/force-remove-dir.ps1" -OutFile "$env:temp\force-remove-dir.ps1"; & "$env:temp\force-remove-dir.ps1"
 
 
 # Solicitar o nome do diretório a ser excluído
