@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Iframes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        input, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #iframes-container {
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            align-items: center;
+            gap: 50px;
+            width: 100%;
+        }
+        .iframe-wrapper {
+            display: flex;
+            /* width: 100%; */
+            justify-content: space-around;
+            margin: 10px 0;
+            position: relative;
+        }
+        iframe {
+            border: 1px solid #ccc;
+            overflow: auto;
+        }
+        .dimensions {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 2px 5px;
+            font-size: 12px;
+        }
+        .dimensions.top-left {
+            top: 0;
+            left: 0;
+        }
+        .dimensions.top-right {
+            top: 0;
+            right: 0;
+        }
+        .dimensions.bottom-left {
+            bottom: 0;
+            left: 0;
+        }
+        .dimensions.bottom-right {
+            bottom: 0;
+            right: 0;
+        }
+        .control-panel {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .control-panel input {
+            width: 80px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Iframes Viewer</h1>
+    <div>
+        <input type="text" id="url-input" placeholder="Enter URL" />
+        <button onclick="loadIframes()">Load Iframes</button>
+    </div>
+    <div class="control-panel" id="control-panel"></div>
+    <div id="iframes-container"></div>
+
+    <script>
+        const config = {
+            "url": "http://localhost:3000",
+            "iframes": [
+                {
+                    "name": "Desktop",
+                    "width": 2100,
+                    "height": 1200
+                },
+                {
+                    "name": "Tablet",
+                    "width": 768,
+                    "height": 1024
+                },
+                {
+                    "name": "Mobile",
+                    "width": 375,
+                    "height": 667
+                }
+            ]
+        };
+
+        function loadIframes() {
+            const url = document.getElementById('url-input').value || config.url;
+            const iframesContainer = document.getElementById('iframes-container');
+            const controlPanel = document.getElementById('control-panel');
+
+            iframesContainer.innerHTML = '';
+            controlPanel.innerHTML = '';
+
+            config.iframes.forEach((iframeConfig, index) => {
+                const iframeWrapper = document.createElement('div');
+                iframeWrapper.className = 'iframe-wrapper';
+
+                const iframe = document.createElement('iframe');
+                iframe.id = `${iframeConfig.name.toLowerCase()}-iframe`;
+                iframe.title = `${iframeConfig.name} View`;
+                iframe.style.width = `${iframeConfig.width}px`;
+                iframe.style.height = `${iframeConfig.height}px`;
+                iframe.src = url;
+
+                const dimensions = document.createElement('div');
+                dimensions.className = 'dimensions top-left';
+                dimensions.textContent = iframeConfig.name;
+
+                const sizeInfo = document.createElement('div');
+                sizeInfo.className = 'dimensions top-right';
+                sizeInfo.id = `${iframeConfig.name.toLowerCase()}-dimensions`;
+                sizeInfo.textContent = `${iframeConfig.width} x ${iframeConfig.height}`;
+
+                iframeWrapper.appendChild(iframe);
+                iframeWrapper.appendChild(dimensions);
+                iframeWrapper.appendChild(sizeInfo);
+                iframesContainer.appendChild(iframeWrapper);
+
+                const controlGroup = document.createElement('div');
+                controlGroup.innerHTML = `
+                    <label for="${iframeConfig.name.toLowerCase()}-width">${iframeConfig.name} Width:</label>
+                    <input type="number" id="${iframeConfig.name.toLowerCase()}-width" value="${iframeConfig.width}">
+                    <label for="${iframeConfig.name.toLowerCase()}-height">${iframeConfig.name} Height:</label>
+                    <input type="number" id="${iframeConfig.name.toLowerCase()}-height" value="${iframeConfig.height}">
+                    <button onclick="resizeIframe('${iframeConfig.name.toLowerCase()}')">Resize</button>
+                `;
+                controlPanel.appendChild(controlGroup);
+            });
+
+            updateDimensions();
+        }
+
+        function resizeIframe(type) {
+            const width = document.getElementById(`${type}-width`).value;
+            const height = document.getElementById(`${type}-height`).value;
+            const iframe = document.getElementById(`${type}-iframe`);
+            iframe.style.width = `${width}px`;
+            iframe.style.height = `${height}px`;
+            updateDimensions();
+        }
+
+        function updateDimensions() {
+            config.iframes.forEach(iframeConfig => {
+                const dimensions = document.getElementById(`${iframeConfig.name.toLowerCase()}-dimensions`);
+                const iframe = document.getElementById(`${iframeConfig.name.toLowerCase()}-iframe`);
+                dimensions.textContent = `${iframe.clientWidth} x ${iframe.clientHeight}`;
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', loadIframes);
+    </script>
+</body>
+</html>
