@@ -16,6 +16,9 @@
      curl -O https://raw.githubusercontent.com/williampilger/utilidades_gerais/refs/heads/master/web_terminal.py
    Windows:
      Invoke-WebRequest -Uri "https://raw.githubusercontent.com/williampilger/utilidades_gerais/refs/heads/master/web_terminal.py" -OutFile "web_terminal.py"
+     ou
+     curl -o web_terminal.py "https://raw.githubusercontent.com/williampilger/utilidades_gerais/refs/heads/master/web_terminal.py"
+
 
  Para executá-lo sem interface gráfica (oculto) no windows, basta alterar a extensão para `.pyw`
 """
