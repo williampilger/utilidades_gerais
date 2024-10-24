@@ -44,6 +44,7 @@ html_template = """
 </head>
 <body>
     <h1>Terminal Web</h1>
+    <p>Este treco serve para enviar comandos individualmente, um a um, não é um terminal altamente interativo. Para isso, use SSH.</p>
     <div id="output"></div>
     <input type="text" id="command" placeholder="Digite o comando aqui..."/>
     <button id="send">Enviar</button>
