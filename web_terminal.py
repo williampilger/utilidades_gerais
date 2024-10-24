@@ -9,11 +9,11 @@
 
  Você pode executar este script diretamente usando:
    Linux:
-     bash -c "$(curl -fsSL https://raw.githubusercontent.com/williampilger/utilidades_gerais/main/web_terminal.py)"
+     bash -c "$(curl -fsSL https://raw.githubusercontent.com/williampilger/utilidades_gerais/refs/heads/master/web_terminal.py)"
 
  Faça o Download diretamente:
    Windows/Linux:
-     curl -O https://raw.githubusercontent.com/williampilger/utilidades_gerais/main/web_terminal.py
+     curl -O https://raw.githubusercontent.com/williampilger/utilidades_gerais/refs/heads/master/web_terminal.py
 
  Para executá-lo sem interface gráfica (oculto) no windows, basta alterar a extensão para `.pyw`
 """
