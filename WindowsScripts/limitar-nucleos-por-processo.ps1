@@ -1,4 +1,7 @@
 # Este script está explicado aqui: https://github.com/williampilger/tutoriais/blob/master/windows/limitar-uso-cpu-por-processo.md
+#
+# Isso serve para Alterar a AFINIDADE DE CPUS POR PROCESSOS
+# Não limita efetivamente o uso da CPU, mas limitando os núcleos, se obtém um resusltado bem parecido.
 
 $TotalCores = (Get-CimInstance Win32_Processor).NumberOfLogicalProcessors # obtem o numero total de nucleos disponiveis no sistema
 
