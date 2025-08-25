@@ -6,7 +6,6 @@ param(
 $ErrorActionPreference = 'SilentlyContinue'
 
 function Get-SystemThreads {
-  # Threads do processo System (PID 4) com maior uso de CPU
   Get-CimInstance Win32_PerfFormattedData_PerfProc_Thread |
     Where-Object { $_.IDProcess -eq 4 } |
     Sort-Object PercentProcessorTime -Descending |
@@ -18,7 +17,6 @@ function Get-SystemThreads {
 }
 
 function Get-CpuHealth {
-  # Metricas globais: CPU total, DPC e Interrupcoes
   $c = Get-Counter -ErrorAction SilentlyContinue -SampleInterval 1 -MaxSamples 1 `
     -Counter '\Processor(_Total)\% Processor Time',
              '\Processor(_Total)\% DPC Time',
@@ -42,7 +40,6 @@ function Get-CpuHealth {
 }
 
 function Get-KernelTop {
-  # Top processos por tempo de kernel
   Get-Process |
     Select-Object Id, ProcessName,
       @{n='Kernel_s';e={$_.PrivilegedProcessorTime.TotalSeconds}},
@@ -53,7 +50,7 @@ function Get-KernelTop {
 
 while ($true) {
   Clear-Host
-  Write-Host "=== Monitor System (PID 4) — $(Get-Date -Format 'HH:mm:ss') ===`n"
+  Write-Host "=== Monitor System (PID 4) — $(Get-Date -Format 'HH:mm:ss') ===n"
 
   $cpu = Get-CpuHealth
   $cpu | Format-Table -AutoSize
@@ -64,10 +61,10 @@ while ($true) {
   Write-Host ""
 
   if ($cpu.DPC_Percent -ge 5 -or $cpu.Interrupt_Percent -ge 5) {
-    Write-Host "ALERTA: DPC/Interrupt altos sugerem driver (rede, disco, audio, video etc.)."
+    Write-Host "ALERTA: DPC/Interrupt altos sugerem driver (rede disco audio video etc.)."
   }
 
-  Write-Host "`nTop processos por tempo de KERNEL (s):"
+  Write-Host "nTop processos por tempo de KERNEL (s):"
   Get-KernelTop | Format-Table -AutoSize
 
   Start-Sleep -Seconds $Interval
