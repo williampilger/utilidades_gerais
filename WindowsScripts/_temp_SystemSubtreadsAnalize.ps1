@@ -14,17 +14,23 @@ function Get-SystemThreads {
     Sort-Object PercentProcessorTime -Descending |
     Select-Object -First $TopN IDThread, PercentProcessorTime, ContextSwitchesPersec, PriorityBase
 
-  $tids = $top.IDThread
-  $map = @{}
-  (Get-Process -Id 4).Threads | ForEach-Object { $map[$_.Id] = $_ }
+  $getStart = {
+    param([int]$Tid)
+    try {
+      $t = Get-CimInstance Win32_Thread -Filter "Handle='$Tid' AND ProcessHandle='4'" -ErrorAction Stop
+      if ($t -and $t.PSObject.Properties['StartAddress'] -and $t.StartAddress) {
+        return ('0x{0:X}' -f ([uint64]$t.StartAddress))
+      } else { return 'N/A' }
+    } catch { return 'N/A' }
+  }
 
-  $top | ForEach-Object {
+  foreach ($row in $top) {
     [pscustomobject]@{
-      ThreadId     = $_.IDThread
-      CPU_Percent  = [int]$_.PercentProcessorTime
-      CtxSw_per_sec= [int]$_.ContextSwitchesPersec
-      PriorityBase = $_.PriorityBase
-      StartAddress = if ($map.ContainsKey($_.IDThread)) { $map[$_.IDThread].StartAddress } else { $null }
+      ThreadId       = $row.IDThread
+      CPU_Percent    = [int]$row.PercentProcessorTime
+      CtxSw_per_sec  = [int]$row.ContextSwitchesPersec
+      PriorityBase   = $row.PriorityBase
+      StartAddress   = & $getStart $row.IDThread
     }
   }
 }
