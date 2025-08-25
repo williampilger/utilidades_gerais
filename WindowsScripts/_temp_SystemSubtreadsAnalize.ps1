@@ -1,5 +1,5 @@
 param(
-  [int]$Interval = 2,   # segundos entre leituras
+  [int]$Interval = 10,   # segundos entre leituras
   [int]$TopN = 12       # quantas threads do PID 4 mostrar
 )
 
