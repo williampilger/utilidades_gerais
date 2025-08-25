@@ -62,6 +62,9 @@ while ($true) {
   
   $cpu = Get-CpuHealth
   $sysThr = Get-SystemThreads
+
+  Clear-Host
+  Write-Host ("Analizando...")
   
   Write-Host ("=== Monitor System (PID 4) : {0} ===" -f (Get-Date -Format 'HH:mm:ss'))
   Write-Host
@@ -82,7 +85,4 @@ while ($true) {
   Get-KernelTop | Format-Table -AutoSize
 
   Start-Sleep -Seconds $Interval
-  Clear-Host
-  Write-Host ("Analizando...")
-  
 }
