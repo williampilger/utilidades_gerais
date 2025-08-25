@@ -55,17 +55,22 @@ function Get-KernelTop {
     Select-Object -First 10
 }
 
+Clear-Host
+Write-Host ("Analizando...")
+
 while ($true) {
-  Clear-Host
+  
+  $cpu = Get-CpuHealth
+  $sysThr = Get-SystemThreads
+  
   Write-Host ("=== Monitor System (PID 4) : {0} ===" -f (Get-Date -Format 'HH:mm:ss'))
   Write-Host
 
-  $cpu = Get-CpuHealth
   $cpu | Format-Table -AutoSize
   Write-Host
 
   Write-Host ("Top {0} threads do PID 4 por CPU_%" -f $TopN)
-  Get-SystemThreads | Format-Table -AutoSize
+  $sysThr | Format-Table -AutoSize
   Write-Host
 
   if ($cpu.DPC_Percent -ge 5 -or $cpu.Interrupt_Percent -ge 5) {
@@ -77,4 +82,7 @@ while ($true) {
   Get-KernelTop | Format-Table -AutoSize
 
   Start-Sleep -Seconds $Interval
+  Clear-Host
+  Write-Host ("Analizando...")
+  
 }
