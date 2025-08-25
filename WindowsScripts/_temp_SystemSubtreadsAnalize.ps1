@@ -1,3 +1,6 @@
+# Rodar com:
+#    powershell -NoProfile -ExecutionPolicy Bypass -File .\script_name.ps1 -Interval 2 -TopN 12
+
 param(
   [int]$Interval = 10,   # segundos entre leituras
   [int]$TopN = 12       # quantas threads do PID 4 mostrar
