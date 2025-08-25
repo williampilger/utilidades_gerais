@@ -56,15 +56,17 @@ function Get-KernelTop {
 }
 
 Clear-Host
-Write-Host ("Analizando...")
 
 while ($true) {
+
+  Write-Host
+  Write-Host ("Analizando...")
+  Write-Host
   
   $cpu = Get-CpuHealth
   $sysThr = Get-SystemThreads
 
   Clear-Host
-  Write-Host ("Analizando...")
   
   Write-Host ("=== Monitor System (PID 4) : {0} ===" -f (Get-Date -Format 'HH:mm:ss'))
   Write-Host
