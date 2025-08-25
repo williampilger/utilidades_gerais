@@ -6,28 +6,31 @@ param(
 $ErrorActionPreference = 'SilentlyContinue'
 
 function Get-SystemThreads {
-  Get-CimInstance Win32_PerfFormattedData_PerfProc_Thread |
+  # Threads do processo System (PID 4) com maior uso de CPU
+  Get-CimInstance -ClassName Win32_PerfFormattedData_PerfProc_Thread |
     Where-Object { $_.IDProcess -eq 4 } |
     Sort-Object PercentProcessorTime -Descending |
     Select-Object -First $TopN `
-      @{n='ThreadId';e={$_.IDThread}},
-      @{n='CPU_%';e={[int]$_.PercentProcessorTime}},
-      @{n='CtxSw_s';e={[int]$_.ContextSwitchesPersec}},
-      @{n='Priority';e={$_.PriorityBase}}
+      @{Name='ThreadId'; Expression = { $_.IDThread }},
+      @{Name='CPU_Percent'; Expression = { [int]$_.PercentProcessorTime }},
+      @{Name='CtxSw_per_sec'; Expression = { [int]$_.ContextSwitchesPersec }},
+      @{Name='PriorityBase'; Expression = { $_.PriorityBase }}
 }
 
 function Get-CpuHealth {
-  $c = Get-Counter -ErrorAction SilentlyContinue -SampleInterval 1 -MaxSamples 1 `
-    -Counter '\Processor(_Total)\% Processor Time',
-             '\Processor(_Total)\% DPC Time',
-             '\Processor(_Total)\% Interrupt Time',
-             '\Processor(_Total)\DPCs Queued/sec',
-             '\Processor(_Total)\Interrupts/sec'
+  # Metricas globais: CPU total, DPC e Interrupcoes
+  $paths = '\Processor(_Total)\% Processor Time',
+           '\Processor(_Total)\% DPC Time',
+           '\Processor(_Total)\% Interrupt Time',
+           '\Processor(_Total)\DPCs Queued/sec',
+           '\Processor(_Total)\Interrupts/sec'
+
+  $c = Get-Counter -Counter $paths -SampleInterval 1 -MaxSamples 1 -ErrorAction SilentlyContinue
 
   $vals = @{}
-  for ($i=0; $i -lt $c.CounterSamples.Count; $i++) {
-    $name = $c.CounterSamples[$i].Path.Split('\')[-1]
-    $vals[$name] = [math]::Round($c.CounterSamples[$i].CookedValue, 2)
+  foreach ($s in $c.CounterSamples) {
+    $name = ($s.Path -split '\\')[-1]
+    $vals[$name] = [math]::Round($s.CookedValue, 2)
   }
 
   [pscustomobject]@{
@@ -40,31 +43,34 @@ function Get-CpuHealth {
 }
 
 function Get-KernelTop {
+  # Top processos por tempo de kernel (privileged)
   Get-Process |
     Select-Object Id, ProcessName,
-      @{n='Kernel_s';e={$_.PrivilegedProcessorTime.TotalSeconds}},
-      @{n='User_s';e={$_.UserProcessorTime.TotalSeconds}} |
+      @{Name='Kernel_s'; Expression = { $_.PrivilegedProcessorTime.TotalSeconds }},
+      @{Name='User_s';   Expression = { $_.UserProcessorTime.TotalSeconds }} |
     Sort-Object Kernel_s -Descending |
     Select-Object -First 10
 }
 
 while ($true) {
   Clear-Host
-  Write-Host "=== Monitor System (PID 4) — $(Get-Date -Format 'HH:mm:ss') ===n"
+  Write-Host ("=== Monitor System (PID 4) : {0} ===" -f (Get-Date -Format 'HH:mm:ss'))
+  Write-Host
 
   $cpu = Get-CpuHealth
   $cpu | Format-Table -AutoSize
-  Write-Host ""
+  Write-Host
 
   Write-Host ("Top {0} threads do PID 4 por CPU_%" -f $TopN)
   Get-SystemThreads | Format-Table -AutoSize
-  Write-Host ""
+  Write-Host
 
   if ($cpu.DPC_Percent -ge 5 -or $cpu.Interrupt_Percent -ge 5) {
-    Write-Host "ALERTA: DPC/Interrupt altos sugerem driver (rede disco audio video etc.)."
+    Write-Host "ALERTA: DPC/Interrupt altos sugerem driver (rede, disco, audio, video)."
   }
 
-  Write-Host "nTop processos por tempo de KERNEL (s):"
+  Write-Host
+  Write-Host "Top processos por tempo de KERNEL (s):"
   Get-KernelTop | Format-Table -AutoSize
 
   Start-Sleep -Seconds $Interval
