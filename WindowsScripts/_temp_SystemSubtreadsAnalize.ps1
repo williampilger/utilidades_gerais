@@ -9,15 +9,24 @@ param(
 $ErrorActionPreference = 'SilentlyContinue'
 
 function Get-SystemThreads {
-  # Threads do processo System (PID 4) com maior uso de CPU
-  Get-CimInstance -ClassName Win32_PerfFormattedData_PerfProc_Thread |
+  $top = Get-CimInstance Win32_PerfFormattedData_PerfProc_Thread |
     Where-Object { $_.IDProcess -eq 4 } |
     Sort-Object PercentProcessorTime -Descending |
-    Select-Object -First $TopN `
-      @{Name='ThreadId'; Expression = { $_.IDThread }},
-      @{Name='CPU_Percent'; Expression = { [int]$_.PercentProcessorTime }},
-      @{Name='CtxSw_per_sec'; Expression = { [int]$_.ContextSwitchesPersec }},
-      @{Name='PriorityBase'; Expression = { $_.PriorityBase }}
+    Select-Object -First $TopN IDThread, PercentProcessorTime, ContextSwitchesPersec, PriorityBase
+
+  $tids = $top.IDThread
+  $map = @{}
+  (Get-Process -Id 4).Threads | ForEach-Object { $map[$_.Id] = $_ }
+
+  $top | ForEach-Object {
+    [pscustomobject]@{
+      ThreadId     = $_.IDThread
+      CPU_Percent  = [int]$_.PercentProcessorTime
+      CtxSw_per_sec= [int]$_.ContextSwitchesPersec
+      PriorityBase = $_.PriorityBase
+      StartAddress = if ($map.ContainsKey($_.IDThread)) { $map[$_.IDThread].StartAddress } else { $null }
+    }
+  }
 }
 
 function Get-CpuHealth {
