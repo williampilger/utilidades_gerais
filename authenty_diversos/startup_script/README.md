@@ -13,7 +13,7 @@ winget install --id Python.Python.3 --scope machine --source winget --silent --a
 
 ## Instalando o Script
 
-### Método 1: "Manual"
+### Método 1: Deixando o script diretamente no startup
 
 Para instalar no Startup Global (todos usuários) use:
 ```ps1
@@ -25,7 +25,7 @@ Invoke-WebRequest -Uri $url -OutFile $destFile -UseBasicParsing
 
 Caso a ideia seja instalar apenas para um usuário, se deve usar o diretório `C:\Users\<usuario>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
 
-### Método 2: NÃO TESTADO! (usando um atalho, segundo o chat, é mais garantido)
+### Método 2: NÃO TESTADO ⚠️ (usando um atalho, segundo alguns, é melhor prática)
 
 ```ps1
 # === Executar no PowerShell como Administrador ===
