@@ -23,7 +23,7 @@ $destFile = Join-Path $startupPath "clear_temp.pyw"
 Invoke-WebRequest -Uri $url -OutFile $destFile -UseBasicParsing
 ```
 
-Caso a ideia seja instalar apenas para um usuário, se deve usar o diretório `C:\Users\<usuario>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
+Caso a ideia seja instalar apenas para um usuário, se deve usar o diretório `C:\Users\<usuario>\AppData\Roaming\Microsoft\Windows\'Start Menu'\Programs\Startup`.
 
 ### Método 2: NÃO TESTADO ⚠️ (usando um atalho, segundo alguns, é melhor prática)
 
