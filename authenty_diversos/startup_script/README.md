@@ -30,50 +30,28 @@ Caso a ideia seja instalar apenas para um usuário, se deve usar o diretório `C
 ```ps1
 # === Executar no PowerShell como Administrador ===
 
-# 1) Definições
 $Url = "https://raw.githubusercontent.com/williampilger/utilidades_gerais/master/authenty_diversos/startup_script/clear_temp.pyw"
+$ScriptFolder = "C:\scripts"
+New-Item -Path $ScriptFolder -ItemType Directory -Force | Out-Null
+$ScriptPath = Join-Path $ScriptFolder "clear_temp.pyw"
 $StartupGlobal = "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
-$ScriptPath = Join-Path $StartupGlobal "clear_temp.pyw"
 $ShortcutPath = Join-Path $StartupGlobal "ClearTemp.lnk"
-
-# Ajuste o caminho do pythonw.exe se a versão for diferente
-$PythonwCandidates = @(
+$Pythonw = @(
   "C:\Program Files\Python313\pythonw.exe",
   "C:\Program Files\Python312\pythonw.exe",
   "C:\Program Files\Python311\pythonw.exe",
   "C:\Users\$env:USERNAME\AppData\Local\Programs\Python\Python312\pythonw.exe"
-) | Where-Object { Test-Path $_ }
-
-if (-not $PythonwCandidates) {
-  Write-Host "pythonw.exe não encontrado. Instale o Python (ex.: winget install --id Python.Python.3.12 --scope machine) e rode este script novamente." -ForegroundColor Yellow
-  return
-}
-$Pythonw = $PythonwCandidates[0]
-
-# 2) Baixar (com Marca da Web) e em seguida tirar a marca (Unblock-File)
-try {
-  Invoke-WebRequest -Uri $Url -OutFile $ScriptPath -UseBasicParsing
-} catch {
-  Write-Error "Falha ao baixar o script: $($_.Exception.Message)"
-  return
-}
-
-# Remove a 'Mark-of-the-Web' que pode bloquear execução no Startup
-try { Unblock-File -Path $ScriptPath } catch {}
-
-# 4) Criar atalho (forma mais confiável de inicialização)
+) | Where-Object { Test-Path $_ } | Select-Object -First 1
+Invoke-WebRequest -Uri $Url -OutFile $ScriptPath
+Unblock-File -Path $ScriptPath
 $WshShell = New-Object -ComObject WScript.Shell
 $Shortcut = $WshShell.CreateShortcut($ShortcutPath)
 $Shortcut.TargetPath = $Pythonw
-$Shortcut.Arguments  = $ScriptPath
-$Shortcut.WorkingDirectory = Split-Path $ScriptPath
+$Shortcut.Arguments = "`"$ScriptPath`""
+$Shortcut.WorkingDirectory = $ScriptFolder
 $Shortcut.Description = "Executa clear_temp.pyw no logon (todos os usuários)"
 $Shortcut.WindowStyle = 7
 $Shortcut.Save()
-
-Write-Host "Script salvo em: $ScriptPath"
-Write-Host "Atalho criado em: $ShortcutPath"
-Write-Host "Pronto. Faça logoff/logon e depois confira (se existir) o log: $LogFile"
 
 ```
 
