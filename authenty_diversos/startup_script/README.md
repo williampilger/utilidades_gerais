@@ -8,7 +8,6 @@ $startupPath = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 $url = "https://raw.githubusercontent.com/williampilger/utilidades_gerais/master/authenty_diversos/startup_script/clear_temp.pyw"
 $destFile = Join-Path $startupPath "clear_temp.pyw"
 Invoke-WebRequest -Uri $url -OutFile $destFile -UseBasicParsing
-Write-Output "Arquivo salvo em: $destFile"
 ```
 
 Para BAIXAR o arquivo pelo PowerShell use:
