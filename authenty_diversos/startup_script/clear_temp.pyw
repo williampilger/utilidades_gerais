@@ -1,39 +1,63 @@
+# By: William Pilger
+# Documentado automaticamente pelo @Copilot (Cloude Sonnet 4)
+
 from tkinter import messagebox
 import os
 import shutil
 
 def search_directories():
     # Diretórios para buscar
-    directories = [os.path.join(os.path.expanduser('~'), 'Downloads'), os.path.join(os.path.expanduser('~'), 'Desktop')]
+    home_dir = os.path.expanduser('~')
+    directories = [
+        os.path.join(home_dir, 'Downloads'), 
+        os.path.join(home_dir, 'Desktop')
+    ]
     
     # Lista para armazenar os arquivos e pastas encontrados
     found_items = []
 
-    # Lista de extensões e nomes de pastas permitidos (!!! LOWERCASE !!!)
-    allowed_items = ['.ini', '.lnk', '.tmp.driveupload']
+    # Lista de extensões e nomes permitidos (!!! LOWERCASE !!!)
+    allowed_extensions = ['.ini', '.lnk', '.tmp.driveupload']
+    allowed_folders = ['desktop.ini']  # Nomes de pastas permitidas
 
-    # Procurar por arquivos e pastas
+    # Procurar por arquivos e pastas apenas no nível raiz dos diretórios
     for directory in directories:
-        for root, dirs, files in os.walk(directory):
-            for name in files:
-                filename = os.path.splitext(name)[1].lower()
-                if filename in allowed_items:
-                    print(f'O arquivo {filename} foi ignorado (whitelist)')
-                    continue  # Ignorar arquivos com extensões permitidas
-                print(f'O arquivo {filename} precisa ser removido')
-                found_items.append(os.path.join(root, name))
-            for name in dirs:
-                if name.lower() in allowed_items:
-                    print(f'A pasta {name} foi ignorada (whitelist)')
-                    continue  # Ignorar pastas com nomes permitidos
-                print(f'A pasta {name} precisa ser removida')
-                found_items.append(os.path.join(root, name))
+        if not os.path.exists(directory):
+            print(f'O diretório {directory} não existe')
+            continue
+            
+        try:
+            # Listar apenas o conteúdo direto do diretório (não recursivo)
+            for item in os.listdir(directory):
+                item_path = os.path.join(directory, item)
+                
+                if os.path.isfile(item_path):
+                    # Verificar extensão do arquivo
+                    file_extension = os.path.splitext(item)[1].lower()
+                    if file_extension in allowed_extensions:
+                        print(f'O arquivo {item} foi ignorado (whitelist - extensão)')
+                        continue
+                    print(f'O arquivo {item} precisa ser removido')
+                    found_items.append(item_path)
+                    
+                elif os.path.isdir(item_path):
+                    # Verificar nome da pasta
+                    if item.lower() in allowed_folders:
+                        print(f'A pasta {item} foi ignorada (whitelist - nome)')
+                        continue
+                    print(f'A pasta {item} precisa ser removida')
+                    found_items.append(item_path)
+                    
+        except PermissionError:
+            print(f'Sem permissão para acessar {directory}')
+        except Exception as e:
+            print(f'Erro ao acessar {directory}: {e}')
     
     return found_items
 
 def search_and_warn():
     found_items = search_directories()
-    while found_items != []:
+    while found_items != []:  # Loop proposital até que todos os arquivos sejam removidos
         # Criar mensagem com os primeiros 4 itens
         message = "Foram encontrados arquivos e pastas nas pastas Downloads e Desktop:\n\n"
         
@@ -51,7 +75,7 @@ def search_and_warn():
         
         message += "\nPor favor, salve-os manualmente em local apropriado."
         
-        messagebox.showinfo("Aviso", message)
+        messagebox.showwarning("Atenção - Arquivos encontrados", message)
         
         # Atualizar a lista para verificar se ainda há itens
         found_items = search_directories()
@@ -60,23 +84,43 @@ def search_and_warn():
 def limpa_diretorio(diretorio):
     if os.path.exists(diretorio):
         print(f'Limpando o diretório {diretorio}')
-        for item in os.listdir(diretorio):
-            item_path = os.path.join(diretorio, item)
-            if os.path.isdir(item_path):
-                shutil.rmtree(item_path)
-            else:
-                os.remove(item_path)
+        try:
+            for item in os.listdir(diretorio):
+                item_path = os.path.join(diretorio, item)
+                try:
+                    if os.path.isdir(item_path):
+                        shutil.rmtree(item_path)
+                        print(f'Pasta removida: {item}')
+                    else:
+                        os.remove(item_path)
+                        print(f'Arquivo removido: {item}')
+                except PermissionError:
+                    print(f'Sem permissão para remover: {item}')
+                except Exception as e:
+                    print(f'Erro ao remover {item}: {e}')
+        except Exception as e:
+            print(f'Erro ao acessar o diretório {diretorio}: {e}')
     else:
         print(f'O diretório {diretorio} não existe')
 
 
 def main():
-
+    print("Iniciando limpeza de arquivos temporários...")
+    
+    # Limpar diretórios específicos do Windows/ESA22.1
     limpa_diretorio(os.path.expandvars(r'%userprofile%\ESA22.1\Temp'))
     limpa_diretorio(os.path.expandvars(r'%userprofile%\Documents\ESA22.1\Autosave'))
     
+    # Verificar Downloads e Desktop (com loop até que sejam removidos)
+    print("Verificando Downloads e Desktop...")
     search_and_warn()
+    
+    print("Processo de limpeza concluído.")
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"Erro durante execução: {e}")
+        messagebox.showerror("Erro", f"Ocorreu um erro durante a execução:\n{e}")
