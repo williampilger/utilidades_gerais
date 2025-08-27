@@ -13,13 +13,24 @@ def load_ignore_list():
     
     if os.path.exists(ignore_file):
         # Lista de codificações para tentar, em ordem de preferência
-        encodings = ['utf-8-sig', 'utf-8', 'latin-1', 'cp1252', 'iso-8859-1']
+        encodings = ['utf-16', 'utf-8-sig', 'utf-8', 'latin-1', 'cp1252', 'iso-8859-1']
         
         for encoding in encodings:
             try:
                 with open(ignore_file, 'r', encoding=encoding) as f:
                     for line in f:
-                        line = line.strip()  # Remove espaços mas mantém case original
+                        line = line.strip()  # Remove espaços e quebras de linha
+                        
+                        # Remover BOM manualmente se ainda existir
+                        if line.startswith('\ufeff'):  # UTF-8 BOM
+                            line = line[1:]
+                        if line.startswith('\uffff\ufffe') or line.startswith('\ufffe\uffff'):  # UTF-16 BOM
+                            line = line[2:]
+                        if line.startswith('ÿþ') or line.startswith('þÿ'):  # BOM visível
+                            line = line[2:]
+                            
+                        line = line.strip()  # Strip novamente após remover BOM
+                        
                         if line and not line.startswith('#'):  # Ignora linhas vazias e comentários
                             ignore_patterns.append(line)
                 print(f'Carregados {len(ignore_patterns)} patterns do arquivo clear_temp.ignore (codificação: {encoding})')
@@ -40,20 +51,20 @@ def load_ignore_list():
 def should_ignore_item(item_name, ignore_patterns):
     """Verifica se um item deve ser ignorado baseado nos patterns (como gitignore)"""
     for pattern in ignore_patterns:
-        # Tentar matching exato e com wildcards, case-insensitive
-        pattern_lower = pattern.lower().strip()
-        item_lower = item_name.lower().strip()
+        # Limpar completamente ambos os strings
+        pattern_clean = ''.join(c for c in pattern if ord(c) >= 32).strip().lower()
+        item_clean = ''.join(c for c in item_name if ord(c) >= 32).strip().lower()
         
-        # Debug: mostrar comparação
-        print(f'Comparando "{item_name}" com pattern "{pattern}"')
+        # Debug: mostrar comparação limpa
+        print(f'Comparando "{item_name}" com pattern "{pattern_clean}"')
         
         # 1. Matching exato (case-insensitive)
-        if item_lower == pattern_lower:
+        if item_clean == pattern_clean:
             print(f'  -> Match exato!')
             return True
             
         # 2. Matching com wildcards
-        if fnmatch.fnmatch(item_lower, pattern_lower):
+        if fnmatch.fnmatch(item_clean, pattern_clean):
             print(f'  -> Match com wildcard!')
             return True
             
