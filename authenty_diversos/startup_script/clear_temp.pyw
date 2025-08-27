@@ -1,5 +1,5 @@
 # By: William Pilger
-# Documentado automaticamente pelo @Copilot (Cloude Sonnet 4)
+# Documentado automaticamente pelo @Copilot (Claude Sonnet 4)
 
 from tkinter import messagebox
 import os
@@ -11,15 +11,26 @@ def load_ignore_list():
     ignore_items = []
     
     if os.path.exists(ignore_file):
-        try:
-            with open(ignore_file, 'r', encoding='utf-8') as f:
-                for line in f:
-                    line = line.strip().lower()  # Remove espaços e converte para minúsculo
-                    if line and not line.startswith('#'):  # Ignora linhas vazias e comentários
-                        ignore_items.append(line)
-            print(f'Carregados {len(ignore_items)} itens do arquivo clear_temp.ignore')
-        except Exception as e:
-            print(f'Erro ao ler clear_temp.ignore: {e}')
+        # Lista de codificações para tentar, em ordem de preferência
+        encodings = ['utf-8-sig', 'utf-8', 'latin-1', 'cp1252', 'iso-8859-1']
+        
+        for encoding in encodings:
+            try:
+                with open(ignore_file, 'r', encoding=encoding) as f:
+                    for line in f:
+                        line = line.strip().lower()  # Remove espaços e converte para minúsculo
+                        if line and not line.startswith('#'):  # Ignora linhas vazias e comentários
+                            ignore_items.append(line)
+                print(f'Carregados {len(ignore_items)} itens do arquivo clear_temp.ignore (codificação: {encoding})')
+                break  # Se conseguiu ler, sai do loop
+            except UnicodeDecodeError:
+                continue  # Tenta a próxima codificação
+            except Exception as e:
+                print(f'Erro ao ler clear_temp.ignore com codificação {encoding}: {e}')
+                break
+        else:
+            # Se chegou aqui, nenhuma codificação funcionou
+            print('Erro: Não foi possível ler clear_temp.ignore com nenhuma codificação testada')
     else:
         print('Arquivo clear_temp.ignore não encontrado, usando apenas whitelist padrão')
     
