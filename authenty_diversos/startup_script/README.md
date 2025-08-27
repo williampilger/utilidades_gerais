@@ -55,6 +55,9 @@ $Shortcut.Save()
 
 ```
 
+**Whitelist**: Você pode ignorar alguns arquivos e/ou pastas, adicionando-as ao arquivo `clear_temp.ignore` junto a ele.
+
+
 ---
 
 ## Apenas Baixar

@@ -5,6 +5,26 @@ from tkinter import messagebox
 import os
 import shutil
 
+def load_ignore_list():
+    """Carrega a lista de itens a serem ignorados do arquivo clear_temp.ignore"""
+    ignore_file = os.path.join(os.path.dirname(__file__), 'clear_temp.ignore')
+    ignore_items = []
+    
+    if os.path.exists(ignore_file):
+        try:
+            with open(ignore_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip().lower()  # Remove espaços e converte para minúsculo
+                    if line and not line.startswith('#'):  # Ignora linhas vazias e comentários
+                        ignore_items.append(line)
+            print(f'Carregados {len(ignore_items)} itens do arquivo clear_temp.ignore')
+        except Exception as e:
+            print(f'Erro ao ler clear_temp.ignore: {e}')
+    else:
+        print('Arquivo clear_temp.ignore não encontrado, usando apenas whitelist padrão')
+    
+    return ignore_items
+
 def search_directories():
     # Diretórios para buscar
     home_dir = os.path.expanduser('~')
@@ -19,6 +39,13 @@ def search_directories():
     # Lista de extensões e nomes permitidos (!!! LOWERCASE !!!)
     allowed_extensions = ['.ini', '.lnk', '.tmp.driveupload']
     allowed_folders = ['desktop.ini']  # Nomes de pastas permitidas
+    
+    # Carregar itens adicionais do arquivo clear_temp.ignore
+    ignore_items = load_ignore_list()
+    
+    # Combinar listas: extensões padrão + itens do arquivo ignore
+    all_allowed_extensions = allowed_extensions + [item for item in ignore_items if item.startswith('.')]
+    all_allowed_folders = allowed_folders + [item for item in ignore_items if not item.startswith('.')]
 
     # Procurar por arquivos e pastas apenas no nível raiz dos diretórios
     for directory in directories:
@@ -34,16 +61,20 @@ def search_directories():
                 if os.path.isfile(item_path):
                     # Verificar extensão do arquivo
                     file_extension = os.path.splitext(item)[1].lower()
-                    if file_extension in allowed_extensions:
-                        print(f'O arquivo {item} foi ignorado (whitelist - extensão)')
+                    item_name_lower = item.lower()
+                    
+                    if file_extension in all_allowed_extensions or item_name_lower in ignore_items:
+                        print(f'O arquivo {item} foi ignorado (whitelist)')
                         continue
                     print(f'O arquivo {item} precisa ser removido')
                     found_items.append(item_path)
                     
                 elif os.path.isdir(item_path):
                     # Verificar nome da pasta
-                    if item.lower() in allowed_folders:
-                        print(f'A pasta {item} foi ignorada (whitelist - nome)')
+                    item_name_lower = item.lower()
+                    
+                    if item_name_lower in all_allowed_folders or item_name_lower in ignore_items:
+                        print(f'A pasta {item} foi ignorada (whitelist)')
                         continue
                     print(f'A pasta {item} precisa ser removida')
                     found_items.append(item_path)
