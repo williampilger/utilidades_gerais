@@ -9,19 +9,24 @@ def search_directories():
     # Lista para armazenar os arquivos e pastas encontrados
     found_items = []
 
-    # Lista de extensões e nomes de pastas permitidos
+    # Lista de extensões e nomes de pastas permitidos (!!! LOWERCASE !!!)
     allowed_items = ['.ini', '.lnk', '.tmp.driveupload']
 
     # Procurar por arquivos e pastas
     for directory in directories:
         for root, dirs, files in os.walk(directory):
             for name in files:
-                if os.path.splitext(name)[1].lower() in allowed_items:
+                filename = os.path.splitext(name)[1].lower()
+                if filename in allowed_items:
+                    print(f'O arquivo {filename} foi ignorado (whitelist)')
                     continue  # Ignorar arquivos com extensões permitidas
+                print(f'O arquivo {filename} precisa ser removido')
                 found_items.append(os.path.join(root, name))
             for name in dirs:
                 if name.lower() in allowed_items:
+                    print(f'A pasta {name} foi ignorada (whitelist)')
                     continue  # Ignorar pastas com nomes permitidos
+                print(f'A pasta {name} precisa ser removida')
                 found_items.append(os.path.join(root, name))
     
     return found_items
