@@ -32,8 +32,29 @@ def search_directories():
     return found_items
 
 def search_and_warn():
-    while search_directories()!=[]:
-        messagebox.showinfo("Aviso", "Foram encontrados arquivos e pastas nas pastas Downloads e Desktop.\nPor favor, exclua-os manualmente.")
+    found_items = search_directories()
+    while found_items != []:
+        # Criar mensagem com os primeiros 4 itens
+        message = "Foram encontrados arquivos e pastas nas pastas Downloads e Desktop:\n\n"
+        
+        # Mostrar apenas os primeiros 4 itens
+        items_to_show = found_items[:4]
+        for item in items_to_show:
+            # Mostrar apenas o nome do arquivo/pasta, não o caminho completo
+            item_name = os.path.basename(item)
+            message += f"• {item_name}\n"
+        
+        # Adicionar reticências se houver mais itens
+        if len(found_items) > 4:
+            remaining_count = len(found_items) - 4
+            message += f"... e mais {remaining_count} item(s)\n"
+        
+        message += "\nPor favor, exclua-os manualmente."
+        
+        messagebox.showinfo("Aviso", message)
+        
+        # Atualizar a lista para verificar se ainda há itens
+        found_items = search_directories()
 
 
 def limpa_diretorio(diretorio):
