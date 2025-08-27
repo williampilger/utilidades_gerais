@@ -4,11 +4,12 @@
 from tkinter import messagebox
 import os
 import shutil
+import fnmatch
 
 def load_ignore_list():
-    """Carrega a lista de itens a serem ignorados do arquivo clear_temp.ignore"""
+    """Carrega a lista de patterns a serem ignorados do arquivo clear_temp.ignore"""
     ignore_file = os.path.join(os.path.dirname(__file__), 'clear_temp.ignore')
-    ignore_items = []
+    ignore_patterns = []
     
     if os.path.exists(ignore_file):
         # Lista de codificações para tentar, em ordem de preferência
@@ -18,10 +19,10 @@ def load_ignore_list():
             try:
                 with open(ignore_file, 'r', encoding=encoding) as f:
                     for line in f:
-                        line = line.strip().lower()  # Remove espaços e converte para minúsculo
+                        line = line.strip()  # Remove espaços mas mantém case original
                         if line and not line.startswith('#'):  # Ignora linhas vazias e comentários
-                            ignore_items.append(line)
-                print(f'Carregados {len(ignore_items)} itens do arquivo clear_temp.ignore (codificação: {encoding})')
+                            ignore_patterns.append(line)
+                print(f'Carregados {len(ignore_patterns)} patterns do arquivo clear_temp.ignore (codificação: {encoding})')
                 break  # Se conseguiu ler, sai do loop
             except UnicodeDecodeError:
                 continue  # Tenta a próxima codificação
@@ -34,7 +35,16 @@ def load_ignore_list():
     else:
         print('Arquivo clear_temp.ignore não encontrado, usando apenas whitelist padrão')
     
-    return ignore_items
+    return ignore_patterns
+
+def should_ignore_item(item_name, ignore_patterns):
+    """Verifica se um item deve ser ignorado baseado nos patterns (como gitignore)"""
+    for pattern in ignore_patterns:
+        # fnmatch faz matching case-insensitive no Windows, case-sensitive no Unix
+        # Vamos forçar case-insensitive para consistência
+        if fnmatch.fnmatch(item_name.lower(), pattern.lower()):
+            return True
+    return False
 
 def search_directories():
     # Diretórios para buscar
@@ -47,16 +57,14 @@ def search_directories():
     # Lista para armazenar os arquivos e pastas encontrados
     found_items = []
 
-    # Lista de extensões e nomes permitidos (!!! LOWERCASE !!!)
-    allowed_extensions = ['.ini', '.lnk', '.tmp.driveupload']
-    allowed_folders = ['desktop.ini']  # Nomes de pastas permitidas
+    # Whitelist padrão (agora como patterns)
+    default_patterns = ['*.ini', '*.lnk', '*.tmp.driveupload', 'desktop.ini']
     
-    # Carregar itens adicionais do arquivo clear_temp.ignore
-    ignore_items = load_ignore_list()
+    # Carregar patterns adicionais do arquivo clear_temp.ignore
+    file_patterns = load_ignore_list()
     
-    # Combinar listas: extensões padrão + itens do arquivo ignore
-    all_allowed_extensions = allowed_extensions + [item for item in ignore_items if item.startswith('.')]
-    all_allowed_folders = allowed_folders + [item for item in ignore_items if not item.startswith('.')]
+    # Combinar patterns padrão com os do arquivo
+    all_patterns = default_patterns + file_patterns
 
     # Procurar por arquivos e pastas apenas no nível raiz dos diretórios
     for directory in directories:
@@ -69,25 +77,14 @@ def search_directories():
             for item in os.listdir(directory):
                 item_path = os.path.join(directory, item)
                 
-                if os.path.isfile(item_path):
-                    # Verificar extensão do arquivo
-                    file_extension = os.path.splitext(item)[1].lower()
-                    item_name_lower = item.lower()
-                    
-                    if file_extension in all_allowed_extensions or item_name_lower in ignore_items:
-                        print(f'O arquivo {item} foi ignorado (whitelist)')
-                        continue
-                    print(f'O arquivo {item} precisa ser removido')
-                    found_items.append(item_path)
-                    
-                elif os.path.isdir(item_path):
-                    # Verificar nome da pasta
-                    item_name_lower = item.lower()
-                    
-                    if item_name_lower in all_allowed_folders or item_name_lower in ignore_items:
-                        print(f'A pasta {item} foi ignorada (whitelist)')
-                        continue
-                    print(f'A pasta {item} precisa ser removida')
+                # Verificar se o item deve ser ignorado
+                if should_ignore_item(item, all_patterns):
+                    print(f'O item "{item}" foi ignorado (whitelist)')
+                else:
+                    if os.path.isfile(item_path):
+                        print(f'O arquivo "{item}" precisa ser removido')
+                    else:
+                        print(f'A pasta "{item}" precisa ser removida')
                     found_items.append(item_path)
                     
         except PermissionError:
