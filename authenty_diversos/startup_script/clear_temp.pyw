@@ -40,10 +40,23 @@ def load_ignore_list():
 def should_ignore_item(item_name, ignore_patterns):
     """Verifica se um item deve ser ignorado baseado nos patterns (como gitignore)"""
     for pattern in ignore_patterns:
-        # fnmatch faz matching case-insensitive no Windows, case-sensitive no Unix
-        # Vamos forçar case-insensitive para consistência
-        if fnmatch.fnmatch(item_name.lower(), pattern.lower()):
+        # Tentar matching exato e com wildcards, case-insensitive
+        pattern_lower = pattern.lower().strip()
+        item_lower = item_name.lower().strip()
+        
+        # Debug: mostrar comparação
+        print(f'Comparando "{item_name}" com pattern "{pattern}"')
+        
+        # 1. Matching exato (case-insensitive)
+        if item_lower == pattern_lower:
+            print(f'  -> Match exato!')
             return True
+            
+        # 2. Matching com wildcards
+        if fnmatch.fnmatch(item_lower, pattern_lower):
+            print(f'  -> Match com wildcard!')
+            return True
+            
     return False
 
 def search_directories():
