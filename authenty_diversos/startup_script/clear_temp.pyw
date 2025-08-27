@@ -49,7 +49,7 @@ def search_and_warn():
             remaining_count = len(found_items) - 4
             message += f"... e mais {remaining_count} item(s)\n"
         
-        message += "\nPor favor, exclua-os manualmente."
+        message += "\nPor favor, salve-os manualmente em local apropriado."
         
         messagebox.showinfo("Aviso", message)
         
