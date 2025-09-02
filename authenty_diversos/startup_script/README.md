@@ -13,19 +13,9 @@ winget install --id Python.Python.3 --scope machine --source winget --silent --a
 
 ## Instalando o Script
 
-### Método 1: Deixando o script diretamente no startup
+**Whitelist**: Você pode ignorar alguns arquivos e/ou pastas, adicionando-as ao arquivo `clear_temp.ignore` junto a ele.
 
-Para instalar no Startup Global (todos usuários) use:
-```ps1
-$startupPath = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
-$url = "https://raw.githubusercontent.com/williampilger/utilidades_gerais/master/authenty_diversos/startup_script/clear_temp.pyw"
-$destFile = Join-Path $startupPath "clear_temp.pyw"
-Invoke-WebRequest -Uri $url -OutFile $destFile -UseBasicParsing
-```
-
-Caso a ideia seja instalar apenas para um usuário, se deve usar o diretório `C:\Users\<usuario>\AppData\Roaming\Microsoft\Windows\'Start Menu'\Programs\Startup`.
-
-### Método 2: NÃO TESTADO ⚠️ (usando um atalho, segundo alguns, é melhor prática)
+### Método 1: Usando um atalho, melhor prática
 
 ```ps1
 # === Executar no PowerShell como Administrador ===
@@ -55,7 +45,17 @@ $Shortcut.Save()
 
 ```
 
-**Whitelist**: Você pode ignorar alguns arquivos e/ou pastas, adicionando-as ao arquivo `clear_temp.ignore` junto a ele.
+### Método 2: Deixando o script diretamente no startup
+
+Para instalar no Startup Global (todos usuários) use:
+```ps1
+$startupPath = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
+$url = "https://raw.githubusercontent.com/williampilger/utilidades_gerais/master/authenty_diversos/startup_script/clear_temp.pyw"
+$destFile = Join-Path $startupPath "clear_temp.pyw"
+Invoke-WebRequest -Uri $url -OutFile $destFile -UseBasicParsing
+```
+
+Caso a ideia seja instalar apenas para um usuário, se deve usar o diretório `C:\Users\<usuario>\AppData\Roaming\Microsoft\Windows\'Start Menu'\Programs\Startup`.
 
 
 ---
