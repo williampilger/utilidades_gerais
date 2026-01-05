@@ -233,16 +233,16 @@ class AnalisadorFinanceiro:
         else:
             print("⚠ Nenhum dado de extrato bancário encontrado.\n")
         
-        # Analisa NFSe
-        if self.dados_nfse:
-            df_nfse = pd.DataFrame(self.dados_nfse)
-            self._relatorio_nfse(df_nfse)
-        else:
-            print("⚠ Nenhuma nota fiscal encontrada.\n")
+        # # Analisa NFSe
+        # if self.dados_nfse:
+        #     df_nfse = pd.DataFrame(self.dados_nfse)
+        #     self._relatorio_nfse(df_nfse)
+        # else:
+        #     print("⚠ Nenhuma nota fiscal encontrada.\n")
         
-        # Resumo geral
-        self._relatorio_resumo(df_extratos if self.dados_extratos else None, 
-                              df_nfse if self.dados_nfse else None)
+        # # Resumo geral
+        # self._relatorio_resumo(df_extratos if self.dados_extratos else None, 
+        #                       df_nfse if self.dados_nfse else None)
     
     def _identificar_transferencias(self, df):
         """Identifica transações de transferência entre contas"""
