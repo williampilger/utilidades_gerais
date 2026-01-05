@@ -6,13 +6,25 @@ Geração automática de relatório mensal (balanço mensal geral simplificado) 
 
 ## Como usar
 
-### 1. Instalar dependências
+### 1. Criar e ativar ambiente virtual (venv)
+
+```bash
+# No Linux/Mac
+python3 -m venv venv
+source venv/bin/activate
+
+# ou
+python -m venv venv
+venv\Scripts\activate  # No Windows
+```
+
+### 2. Instalar dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Executar
+### 3. Executar
 
 ```bash
 python gerar_relatorio.py Arquivos_2025_11.zip

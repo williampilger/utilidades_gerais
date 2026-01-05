@@ -315,8 +315,8 @@ class AnalisadorFinanceiro:
         total_despesas = abs(df[df[col_valor] < 0][col_valor].sum())
         saldo = total_receitas - total_despesas
         
-        print(f"  Total de Receitas:  R$ {total_receitas:>12,.2f}")
-        print(f"  Total de Despesas:  R$ {total_despesas:>12,.2f}")
+        # print(f"  Total de Receitas:  R$ {total_receitas:>12,.2f}")
+        # print(f"  Total de Despesas:  R$ {total_despesas:>12,.2f}")
         print(f"  Saldo:              R$ {saldo:>12,.2f}")
         print()
         
