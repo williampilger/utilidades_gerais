@@ -1,5 +1,8 @@
 #!/bin/bash
 #
+## Execute diretamente usando (trocando o nome do usuário, obviamente):
+## sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/williampilger/utilidades_gerais/refs/heads/master/LinuxScripts/take-screenshot-via-ssh.sh) aluno /tmp/shot.png"
+#
 # print_sessao_aluno.sh
 # Tira um print da sessão gráfica de um usuário fisicamente logado (X11 ou Wayland).
 # Uso:
